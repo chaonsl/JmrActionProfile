@@ -7217,22 +7217,22 @@ TellMeWhenDB = {
 							{
 								["Type"] = "UNITSPEC",
 								["BitFlags"] = {
-									[105] = true,
+									[62] = true,
 									[63] = true,
 									[262] = true,
-									[256] = true,
+									[102] = true,
 									[65] = true,
-									[265] = true,
+									[253] = true,
 									[266] = true,
-									[267] = true,
-									[62] = true,
+									[254] = true,
+									[105] = true,
 									[64] = true,
 									[270] = true,
-									[102] = true,
+									[256] = true,
 									[257] = true,
 									[258] = true,
-									[254] = true,
-									[253] = true,
+									[267] = true,
+									[265] = true,
 								},
 								["PrtsBefore"] = 1,
 								["AndOr"] = "OR",
@@ -22670,10 +22670,8 @@ TellMeWhenDB = {
 				}, -- [3]
 				{
 					["GUID"] = "TMW:group:1TMvhh5X05mC",
-					["Point"] = {
-						["y"] = -60,
-					},
 					["Name"] = "Visible APL Layout",
+					["Columns"] = 1,
 					["Conditions"] = {
 						{
 							["Name"] = "return not GetToggle(1, \"DisableRotationDisplay\") and not GetToggle(1, \"DisableRotationModes\")",
@@ -24480,7 +24478,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1401] = {
+						[957] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24590,7 +24588,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[833] = {
+						[417] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24601,7 +24599,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1409] = {
+						[481] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24634,7 +24632,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[353] = {
+						[705] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24645,7 +24643,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[417] = {
+						[1153] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24656,7 +24654,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[481] = {
+						[1409] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24810,7 +24808,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[89] = {
+						[709] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24832,7 +24830,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[121] = {
+						[965] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24953,7 +24951,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1169] = {
+						[841] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24997,7 +24995,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[841] = {
+						[1169] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25074,7 +25072,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[973] = {
+						[1433] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25173,7 +25171,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[845] = {
+						[1177] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25184,7 +25182,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1433] = {
+						[973] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25283,62 +25281,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[593] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[849] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[489] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[1481] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
 						[297] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[361] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25361,6 +25304,61 @@ TellMeWhenDB = {
 							},
 						},
 						[1441] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[1481] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[593] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[721] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[849] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[977] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25481,7 +25479,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1193] = {
+						[853] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25492,7 +25490,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1449] = {
+						[981] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25525,7 +25523,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[853] = {
+						[1193] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25536,7 +25534,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[981] = {
+						[1449] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25580,7 +25578,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[429] = {
+						[1201] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25591,7 +25589,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1473] = {
+						[993] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25635,7 +25633,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1201] = {
+						[429] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25657,7 +25655,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[433] = {
+						[1217] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25668,7 +25666,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[993] = {
+						[1473] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25679,7 +25677,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[301] = {
+						[601] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25712,7 +25710,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1457] = {
+						[493] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25723,7 +25721,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[865] = {
+						[433] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25844,7 +25842,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1209] = {
+						[861] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25877,7 +25875,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[861] = {
+						[1209] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26053,7 +26051,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1217] = {
+						[865] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26119,7 +26117,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[601] = {
+						[301] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26130,7 +26128,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[493] = {
+						[1457] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26229,28 +26227,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[109] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[125] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
 						[869] = {
 							["States"] = {
 								{
@@ -26262,29 +26238,51 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[977] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[721] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
 						[997] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[109] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[489] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[361] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[125] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26350,7 +26348,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1177] = {
+						[845] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26526,7 +26524,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[965] = {
+						[121] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26537,7 +26535,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[709] = {
+						[89] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26603,7 +26601,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1153] = {
+						[833] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26614,7 +26612,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[705] = {
+						[353] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26702,7 +26700,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[957] = {
+						[1401] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26956,7 +26954,9 @@ TellMeWhenDB = {
 							},
 						},
 					},
-					["Columns"] = 1,
+					["Point"] = {
+						["y"] = -60,
+					},
 				}, -- [4]
 				{
 					["Icons"] = {
@@ -37354,7 +37354,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[957] = {
+						[1401] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37398,7 +37398,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1401] = {
+						[957] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37464,7 +37464,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1153] = {
+						[417] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37487,61 +37487,6 @@ TellMeWhenDB = {
 							},
 						},
 						[1405] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[705] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[417] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[481] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[1497] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[577] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37575,6 +37520,61 @@ TellMeWhenDB = {
 							},
 						},
 						[961] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[1497] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[577] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[705] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[1153] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[1409] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37684,50 +37684,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[709] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[837] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[965] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[73] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
 						[89] = {
 							["States"] = {
 								{
@@ -37751,6 +37707,50 @@ TellMeWhenDB = {
 							},
 						},
 						[121] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[73] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[709] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[837] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[965] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37871,7 +37871,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[969] = {
+						[1425] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37926,7 +37926,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1425] = {
+						[969] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37992,7 +37992,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1433] = {
+						[973] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38091,7 +38091,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[845] = {
+						[1177] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38102,7 +38102,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[973] = {
+						[1433] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38168,7 +38168,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[297] = {
+						[593] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38191,61 +38191,6 @@ TellMeWhenDB = {
 							},
 						},
 						[1437] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[361] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[425] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[977] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[1481] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[593] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38279,6 +38224,61 @@ TellMeWhenDB = {
 							},
 						},
 						[489] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[1481] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[297] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[361] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[425] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[1441] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38399,7 +38399,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1193] = {
+						[853] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38410,7 +38410,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[981] = {
+						[1449] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38443,7 +38443,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[853] = {
+						[1193] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38454,7 +38454,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1449] = {
+						[981] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38498,7 +38498,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[429] = {
+						[1201] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38509,7 +38509,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1473] = {
+						[993] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38553,7 +38553,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1201] = {
+						[429] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38575,7 +38575,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[433] = {
+						[1217] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38586,7 +38586,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[993] = {
+						[1473] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38597,7 +38597,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[301] = {
+						[601] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38630,7 +38630,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1457] = {
+						[493] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38641,7 +38641,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[865] = {
+						[433] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38762,7 +38762,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1209] = {
+						[861] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38795,7 +38795,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[861] = {
+						[1209] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38971,7 +38971,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1217] = {
+						[865] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39037,7 +39037,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[601] = {
+						[301] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39048,7 +39048,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[493] = {
+						[1457] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39147,28 +39147,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[109] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[125] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
 						[869] = {
 							["States"] = {
 								{
@@ -39180,7 +39158,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1441] = {
+						[997] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39191,7 +39169,29 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[997] = {
+						[109] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[977] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[125] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39268,7 +39268,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1177] = {
+						[845] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39521,7 +39521,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1409] = {
+						[481] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -41210,12 +41210,12 @@ TellMeWhenDB = {
 			["CodeSnippets"] = {
 				{
 					["Name"] = "ProfileUI",
-					["Code"] = "local TMW                                            = TMW \nlocal CNDT                                            = TMW.CNDT\nlocal Env                                            = CNDT.Env\n\nlocal A                                                = Action\nlocal GetToggle                                        = A.GetToggle\nlocal InterruptIsValid                                = A.InterruptIsValid\n\nlocal UnitCooldown                                    = A.UnitCooldown\nlocal Unit                                            = A.Unit \nlocal Player                                        = A.Player \nlocal Pet                                            = A.Pet\nlocal LoC                                            = A.LossOfControl\nlocal MultiUnits                                    = A.MultiUnits\nlocal EnemyTeam                                        = A.EnemyTeam\nlocal FriendlyTeam                                    = A.FriendlyTeam\nlocal TeamCache                                        = A.TeamCache\nlocal InstanceInfo                                    = A.InstanceInfo\n\nlocal select, setmetatable                            = select, setmetatable\n\nA.Data.ProfileEnabled[TMW.db:GetCurrentProfile()]     = true\nA.Data.ProfileUI                                     = {    \n    DateTime = \"JMR BM/MM v1.10 (13JAN2021)\",\n    [2] = {\n        [ACTION_CONST_HUNTER_BEASTMASTERY] = { \n            { -- [1]                            \n                {\n                    E = \"Checkbox\", \n                    DB = \"mouseover\",\n                    DBV = true,\n                    L = { \n                        ANY = \"Use @mouseover\", \n                    }, \n                    TT = { \n                        ANY = \"Will unlock use actions for @mouseover units\\nExample: Resuscitate, Healing\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"BSCS\",\n                    DBV = true,\n                    L = { \n                        ANY = \"Use Bursting/Concussive Shot\",  \n                    }, \n                    TT = { \n                        ANY = \"Bursting Shot if enemy player/mob is close. Concussive Shot if enemy player is moving, or if mob is close to you and you are low hp.\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"AoE\",\n                    DBV = true,\n                    L = { \n                        ANY = \"Use AoE\",  \n                    }, \n                    TT = { \n                        ANY = \"Enable multiunits actions\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"SOULFORGE\",\n                    DBV = false,\n                    L = { \n                        ANY = \"SFE\",  \n                    }, \n                    TT = { \n                        ANY = \"Soulforge Embers legendary is equipped\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"FCOMBAT\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Force Combat\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation out of combat\", \n                    }, \n                    M = {},\n                },\n            },\n            { -- [6]\n                {\n                    E = \"Slider\",                                                     \n                    MIN = 1, \n                    MAX = 6,                            \n                    DB = \"WSmin\",\n                    DBV = 1,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(328231) .. \" Minimum Units to Cast\",\n                    }, \n                    TT = { \n                        ANY = \"Uncheck will Volley/Resonating Arrow ONLY if cursor is over your Target.\", \n                    },\n                    M = {},\n                },\n            },\n            {\n                {\n                    E        = \"Slider\",                                                     \n                    MIN        = 0, \n                    MAX        = 50,                            \n                    DB        = \"BurstTTDMobs\",\n                    DBV        = 20,\n                    ONOFF    = false,\n                    L        = { \n                        ANY =  \"Burst Mob \\ntime to die (sec) >=\",\n                    }, \n                    M         = {},\n                },                \n                {\n                    E        = \"Slider\",                                                     \n                    MIN        = 0, \n                    MAX        = 50,                            \n                    DB        = \"BurstTTDBoss\",\n                    DBV        = 20,\n                    ONOFF    = false,\n                    L        = { \n                        ANY =  \"Burst Boss \\ntime to die (sec) >=\",\n                    }, \n                    M         = {},\n                },\n            },\n            {\n                {\n                    E = \"Dropdown\",                                                         \n                    OT = {\n                        { text = \"Burst\",            value = \"BURST\" },\n                        { text = \"Everyone\",        value = \"EVERYONE\" },\n                    },\n                    DB = \"TrinketUsage\",\n                    DBV = \"BURST\",\n                    L = { \n                        ANY = \"Trinkets \\nusage\",\n                    },\n                    M = {},\n                },\n                \n            },\n            { -- [2]\n                {\n                    E = \"Header\",\n                    L = {\n                        ANY = \" -- Offensive -- \",\n                    },\n                },\n            },\n            \n            {\n                {\n                    E = \"Checkbox\", \n                    DB = \"forceAoE\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Force AoE\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation to AoE even if Action AoE is Off.\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"CovCDs\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Covenant on Burst\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation to use Covenant even if Burst Mode is Off.\", \n                    }, \n                    M = {},\n                },\n            },\n            { -- [6]\n                {\n                    E = \"Checkbox\", \n                    DB = \"MOVRA\",\n                    DBV = false,\n                    L = { \n                        ANY = \"RA/WS usage (Checked)Always or (Unchecked)Only if you Mouseover your Target\",  \n                    }, \n                    TT = { \n                        ANY = \"Uncheck will Resonating Arrow/Wild Spirit ONLY if cursor is over your Target.\", \n                    }, \n                    M = {},\n                },\n            },\n            {\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"ExhilarationHP\",\n                    DBV = 100,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(109304) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n            },\n            {\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"SpiritMendHP\",\n                    DBV = 100,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(90361) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n            },\n            {\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"Turtle\",\n                    DBV = 100,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(186265) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"MendPet\",\n                    DBV = 100, -- Set healthpercentage @99% life. \n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(136) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n            },        \n        },    \n        [ACTION_CONST_HUNTER_MARKSMANSHIP] = { \n            { -- [1]                            \n                {\n                    E = \"Checkbox\", \n                    DB = \"mouseover\",\n                    DBV = true,\n                    L = { \n                        ANY = \"Use @mouseover\", \n                    }, \n                    TT = { \n                        ANY = \"Will unlock use actions for @mouseover units\\nExample: Resuscitate, Healing\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"AoE\",\n                    DBV = true,\n                    L = { \n                        ANY = \"Use AoE\",  \n                    }, \n                    TT = { \n                        ANY = \"Enable multiunits actions\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"BSCS\",\n                    DBV = true,\n                    L = { \n                        ANY = \"Use Bursting/Concussive Shot\",  \n                    }, \n                    TT = { \n                        ANY = \"Bursting Shot if enemy player/mob is close. Concussive Shot if enemy player is moving, or if mob is close to you and you are low hp.\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"SOULFORGE\",\n                    DBV = false,\n                    L = { \n                        ANY = \"SFE\",  \n                    }, \n                    TT = { \n                        ANY = \"Soulforge Embers legendary is equipped\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"SSHOTS\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Surg\",  \n                    }, \n                    TT = { \n                        ANY = \"Surging Shots legendary is equipped\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"FCOMBAT\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Force Combat\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation out of combat\", \n                    }, \n                    M = {},\n                },\n            },\n            { -- [6]\n                {\n                    E = \"Slider\",                                                     \n                    MIN = 1, \n                    MAX = 6,                            \n                    DB = \"WSmin\",\n                    DBV = 1,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(328231) .. \" Minimum Units to Cast\",\n                    }, \n                    TT = { \n                        ANY = \"Uncheck will Volley/Resonating Arrow ONLY if cursor is over your Target.\", \n                    },\n                    M = {},\n                },\n            },\n            {\n                {\n                    E        = \"Slider\",                                                     \n                    MIN        = 0, \n                    MAX        = 50,                            \n                    DB        = \"BurstTTDMobs\",\n                    DBV        = 20,\n                    ONOFF    = false,\n                    L        = { \n                        ANY =  \"Burst Mob \\ntime to die (sec) >=\",\n                    }, \n                    M         = {},\n                },                \n                {\n                    E        = \"Slider\",                                                     \n                    MIN        = 0, \n                    MAX        = 50,                            \n                    DB        = \"BurstTTDBoss\",\n                    DBV        = 20,\n                    ONOFF    = false,\n                    L        = { \n                        ANY =  \"Burst Boss \\ntime to die (sec) >=\",\n                    }, \n                    M         = {},\n                },\n            },\n            {\n                {\n                    E = \"Dropdown\",                                                         \n                    OT = {\n                        { text = \"Burst\",            value = \"BURST\" },\n                        { text = \"Everyone\",        value = \"EVERYONE\" },\n                    },\n                    DB = \"TrinketUsage\",\n                    DBV = \"BURST\",\n                    L = { \n                        ANY = \"Trinkets \\nusage\",\n                    },\n                    M = {},\n                },\n                \n            },\n            { -- [2]\n                {\n                    E = \"Header\",\n                    L = {\n                        ANY = \" -- Offensive -- \",\n                    },\n                },\n            },\n            \n            {\n                {\n                    E = \"Checkbox\", \n                    DB = \"forceAoE\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Force AoE\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation to AoE even if Action AoE is Off.\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"CovCDs\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Covenant on Burst\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation to use Covenant even if Burst Mode is Off.\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"VolleyCDs\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Volley on Burst\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation to use Volley even if Burst Mode is Off.\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"DTCDs\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Double Tap on Burst\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation to use Double Tap even if Burst Mode is Off.\", \n                    }, \n                    M = {},\n                },\n            },\n            { -- [6]\n                {\n                    E = \"Checkbox\", \n                    DB = \"MOVRA\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Volley/RA/WS usage (Checked)Always or (Unchecked)Only if you Mouseover your Target\",  \n                    }, \n                    TT = { \n                        ANY = \"Uncheck will Volley/Resonating Arrow/Wild Spirit ONLY if cursor is over your Target.\", \n                    }, \n                    M = {},\n                },\n            },\n            {\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"ExhilarationHP\",\n                    DBV = 100,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(109304) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n            },\n            \n            {\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"Turtle\",\n                    DBV = 100,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(186265) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"MendPet\",\n                    DBV = 100, -- Set healthpercentage @99% life. \n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(136) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n            },        \n        },\n    },\n    \n}\n\nfunction A.Main_CastBars(unit, list)\n    if not A.IsInitialized or (A.Zone ~= \"arena\" and A.Zone ~= \"pvp\") then \n        return false \n    end \n    \nend \n\nfunction A.Second_CastBars(unit)\n    if not A.IsInitialized or (A.Zone ~= \"arena\" and A.Zone ~= \"pvp\")  then \n        return false \n    end  \nend \n\n\n-- setfenv will make working it way faster as lua condition for TMW frames \n--Env.GrappleWeaponIsReady = A.GrappleWeaponIsReady\nEnv.Main_CastBars         = A.Main_CastBars\nEnv.Second_CastBars         = A.Second_CastBars\n\n\n",
+					["Code"] = "local TMW                                            = TMW \nlocal CNDT                                            = TMW.CNDT\nlocal Env                                            = CNDT.Env\n\nlocal A                                                = Action\nlocal GetToggle                                        = A.GetToggle\nlocal InterruptIsValid                                = A.InterruptIsValid\n\nlocal UnitCooldown                                    = A.UnitCooldown\nlocal Unit                                            = A.Unit \nlocal Player                                        = A.Player \nlocal Pet                                            = A.Pet\nlocal LoC                                            = A.LossOfControl\nlocal MultiUnits                                    = A.MultiUnits\nlocal EnemyTeam                                        = A.EnemyTeam\nlocal FriendlyTeam                                    = A.FriendlyTeam\nlocal TeamCache                                        = A.TeamCache\nlocal InstanceInfo                                    = A.InstanceInfo\n\nlocal select, setmetatable                            = select, setmetatable\n\nA.Data.ProfileEnabled[TMW.db:GetCurrentProfile()]     = true\nA.Data.ProfileUI                                     = {    \n    DateTime = \"JMR BM/MM v1.11 (13JAN2021)\",\n    [2] = {\n        [ACTION_CONST_HUNTER_BEASTMASTERY] = { \n            { -- [1]                            \n                {\n                    E = \"Checkbox\", \n                    DB = \"mouseover\",\n                    DBV = true,\n                    L = { \n                        ANY = \"Use @mouseover\", \n                    }, \n                    TT = { \n                        ANY = \"Will unlock use actions for @mouseover units\\nExample: Resuscitate, Healing\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"BSCS\",\n                    DBV = true,\n                    L = { \n                        ANY = \"Use Bursting/Concussive Shot\",  \n                    }, \n                    TT = { \n                        ANY = \"Bursting Shot if enemy player/mob is close. Concussive Shot if enemy player is moving, or if mob is close to you and you are low hp.\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"AoE\",\n                    DBV = true,\n                    L = { \n                        ANY = \"Use AoE\",  \n                    }, \n                    TT = { \n                        ANY = \"Enable multiunits actions\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"SOULFORGE\",\n                    DBV = false,\n                    L = { \n                        ANY = \"SFE\",  \n                    }, \n                    TT = { \n                        ANY = \"Soulforge Embers legendary is equipped\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"FCOMBAT\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Force Combat\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation out of combat\", \n                    }, \n                    M = {},\n                },\n            },\n            { -- [6]\n                {\n                    E = \"Slider\",                                                     \n                    MIN = 1, \n                    MAX = 6,                            \n                    DB = \"WSmin\",\n                    DBV = 1,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(328231) .. \" Minimum Units to Cast\",\n                    }, \n                    TT = { \n                        ANY = \"Uncheck will Volley/Resonating Arrow ONLY if cursor is over your Target.\", \n                    },\n                    M = {},\n                },\n            },\n            {\n                {\n                    E        = \"Slider\",                                                     \n                    MIN        = 0, \n                    MAX        = 50,                            \n                    DB        = \"BurstTTDMobs\",\n                    DBV        = 20,\n                    ONOFF    = false,\n                    L        = { \n                        ANY =  \"Burst Mob \\ntime to die (sec) >=\",\n                    }, \n                    M         = {},\n                },                \n                {\n                    E        = \"Slider\",                                                     \n                    MIN        = 0, \n                    MAX        = 50,                            \n                    DB        = \"BurstTTDBoss\",\n                    DBV        = 20,\n                    ONOFF    = false,\n                    L        = { \n                        ANY =  \"Burst Boss \\ntime to die (sec) >=\",\n                    }, \n                    M         = {},\n                },\n            },\n            {\n                {\n                    E = \"Dropdown\",                                                         \n                    OT = {\n                        { text = \"Burst\",            value = \"BURST\" },\n                        { text = \"Everyone\",        value = \"EVERYONE\" },\n                    },\n                    DB = \"TrinketUsage\",\n                    DBV = \"BURST\",\n                    L = { \n                        ANY = \"Trinkets \\nusage\",\n                    },\n                    M = {},\n                },\n                \n            },\n            { -- [2]\n                {\n                    E = \"Header\",\n                    L = {\n                        ANY = \" -- Offensive -- \",\n                    },\n                },\n            },\n            \n            {\n                {\n                    E = \"Checkbox\", \n                    DB = \"forceAoE\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Force AoE\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation to AoE even if Action AoE is Off.\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"CovCDs\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Covenant on Burst\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation to use Covenant even if Burst Mode is Off.\", \n                    }, \n                    M = {},\n                },\n            },\n            { -- [6]\n                {\n                    E = \"Checkbox\", \n                    DB = \"MOVRA\",\n                    DBV = false,\n                    L = { \n                        ANY = \"RA/WS usage (Checked)Always or (Unchecked)Only if you Mouseover your Target\",  \n                    }, \n                    TT = { \n                        ANY = \"Uncheck will Resonating Arrow/Wild Spirit ONLY if cursor is over your Target.\", \n                    }, \n                    M = {},\n                },\n            },\n            {\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"ExhilarationHP\",\n                    DBV = 100,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(109304) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n            },\n            {\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"SpiritMendHP\",\n                    DBV = 100,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(90361) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n            },\n            {\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"Turtle\",\n                    DBV = 100,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(186265) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"MendPet\",\n                    DBV = 100, -- Set healthpercentage @99% life. \n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(136) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n            },        \n        },    \n        [ACTION_CONST_HUNTER_MARKSMANSHIP] = { \n            { -- [1]                            \n                {\n                    E = \"Checkbox\", \n                    DB = \"mouseover\",\n                    DBV = true,\n                    L = { \n                        ANY = \"Use @mouseover\", \n                    }, \n                    TT = { \n                        ANY = \"Will unlock use actions for @mouseover units\\nExample: Resuscitate, Healing\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"AoE\",\n                    DBV = true,\n                    L = { \n                        ANY = \"Use AoE\",  \n                    }, \n                    TT = { \n                        ANY = \"Enable multiunits actions\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"BSCS\",\n                    DBV = true,\n                    L = { \n                        ANY = \"Use Bursting/Concussive Shot\",  \n                    }, \n                    TT = { \n                        ANY = \"Bursting Shot if enemy player/mob is close. Concussive Shot if enemy player is moving, or if mob is close to you and you are low hp.\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"SOULFORGE\",\n                    DBV = false,\n                    L = { \n                        ANY = \"SFE\",  \n                    }, \n                    TT = { \n                        ANY = \"Soulforge Embers legendary is equipped\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"SSHOTS\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Surg\",  \n                    }, \n                    TT = { \n                        ANY = \"Surging Shots legendary is equipped\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"FCOMBAT\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Force Combat\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation out of combat\", \n                    }, \n                    M = {},\n                },\n            },\n            { -- [6]\n                {\n                    E = \"Slider\",                                                     \n                    MIN = 1, \n                    MAX = 6,                            \n                    DB = \"WSmin\",\n                    DBV = 1,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(328231) .. \" Minimum Units to Cast\",\n                    }, \n                    TT = { \n                        ANY = \"Uncheck will Volley/Resonating Arrow ONLY if cursor is over your Target.\", \n                    },\n                    M = {},\n                },\n            },\n            {\n                {\n                    E        = \"Slider\",                                                     \n                    MIN        = 0, \n                    MAX        = 50,                            \n                    DB        = \"BurstTTDMobs\",\n                    DBV        = 20,\n                    ONOFF    = false,\n                    L        = { \n                        ANY =  \"Burst Mob \\ntime to die (sec) >=\",\n                    }, \n                    M         = {},\n                },                \n                {\n                    E        = \"Slider\",                                                     \n                    MIN        = 0, \n                    MAX        = 50,                            \n                    DB        = \"BurstTTDBoss\",\n                    DBV        = 20,\n                    ONOFF    = false,\n                    L        = { \n                        ANY =  \"Burst Boss \\ntime to die (sec) >=\",\n                    }, \n                    M         = {},\n                },\n            },\n            {\n                {\n                    E = \"Dropdown\",                                                         \n                    OT = {\n                        { text = \"Burst\",            value = \"BURST\" },\n                        { text = \"Everyone\",        value = \"EVERYONE\" },\n                    },\n                    DB = \"TrinketUsage\",\n                    DBV = \"BURST\",\n                    L = { \n                        ANY = \"Trinkets \\nusage\",\n                    },\n                    M = {},\n                },\n                \n            },\n            { -- [2]\n                {\n                    E = \"Header\",\n                    L = {\n                        ANY = \" -- Offensive -- \",\n                    },\n                },\n            },\n            \n            {\n                {\n                    E = \"Checkbox\", \n                    DB = \"forceAoE\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Force AoE\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation to AoE even if Action AoE is Off.\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"CovCDs\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Covenant on Burst\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation to use Covenant even if Burst Mode is Off.\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"VolleyCDs\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Volley on Burst\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation to use Volley even if Burst Mode is Off.\", \n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Checkbox\", \n                    DB = \"DTCDs\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Double Tap on Burst\",  \n                    }, \n                    TT = { \n                        ANY = \"Force rotation to use Double Tap even if Burst Mode is Off.\", \n                    }, \n                    M = {},\n                },\n            },\n            { -- [6]\n                {\n                    E = \"Checkbox\", \n                    DB = \"MOVRA\",\n                    DBV = false,\n                    L = { \n                        ANY = \"Volley/RA/WS usage (Checked)Always or (Unchecked)Only if you Mouseover your Target\",  \n                    }, \n                    TT = { \n                        ANY = \"Uncheck will Volley/Resonating Arrow/Wild Spirit ONLY if cursor is over your Target.\", \n                    }, \n                    M = {},\n                },\n            },\n            {\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"ExhilarationHP\",\n                    DBV = 100,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(109304) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n            },\n            \n            {\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"Turtle\",\n                    DBV = 100,\n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(186265) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n                {\n                    E = \"Slider\",                                                     \n                    MIN = -1, \n                    MAX = 100,                            \n                    DB = \"MendPet\",\n                    DBV = 100, -- Set healthpercentage @99% life. \n                    ONOFF = true,\n                    L = { \n                        ANY = A.GetSpellInfo(136) .. \" (%)\",\n                    }, \n                    M = {},\n                },\n            },        \n        },\n    },\n    \n}\n\nfunction A.Main_CastBars(unit, list)\n    if not A.IsInitialized or (A.Zone ~= \"arena\" and A.Zone ~= \"pvp\") then \n        return false \n    end \n    \nend \n\nfunction A.Second_CastBars(unit)\n    if not A.IsInitialized or (A.Zone ~= \"arena\" and A.Zone ~= \"pvp\")  then \n        return false \n    end  \nend \n\n\n-- setfenv will make working it way faster as lua condition for TMW frames \n--Env.GrappleWeaponIsReady = A.GrappleWeaponIsReady\nEnv.Main_CastBars         = A.Main_CastBars\nEnv.Second_CastBars         = A.Second_CastBars\n\n\n",
 				}, -- [1]
 				{
 					["Order"] = 2,
 					["Name"] = "MM",
-					["Code"] = "local _G, setmetatable, pairs, type, math    = _G, setmetatable, pairs, type, math\nlocal huge                                     = math.huge\nlocal TMW                                     = _G.TMW \nlocal Action                                 = _G.Action\nlocal CONST                                 = Action.Const\nlocal Listener                                 = Action.Listener\nlocal Create                                 = Action.Create\nlocal GetToggle                                = Action.GetToggle\nlocal GetLatency                            = Action.GetLatency\nlocal GetGCD                                = Action.GetGCD\nlocal GetCurrentGCD                            = Action.GetCurrentGCD\nlocal ShouldStop                            = Action.ShouldStop\nlocal BurstIsON                                = Action.BurstIsON\nlocal AuraIsValid                            = Action.AuraIsValid\nlocal AuraIsValidByPhialofSerenity            = Action.AuraIsValidByPhialofSerenity\nlocal InterruptIsValid                        = Action.InterruptIsValid\nlocal DetermineUsableObject                    = Action.DetermineUsableObject\nlocal Utils                                    = Action.Utils\nlocal BossMods                                = Action.BossMods\nlocal TeamCache                                = Action.TeamCache\nlocal EnemyTeam                                = Action.EnemyTeam\nlocal FriendlyTeam                            = Action.FriendlyTeam\nlocal LoC                                     = Action.LossOfControl\nlocal Player                                = Action.Player \nlocal MultiUnits                            = Action.MultiUnits\nlocal UnitCooldown                            = Action.UnitCooldown\nlocal Unit                                    = Action.Unit \nlocal IsUnitEnemy                            = Action.IsUnitEnemy\nlocal IsUnitFriendly                        = Action.IsUnitFriendly\nlocal Azerite                                 = LibStub(\"AzeriteTraits\")\nlocal Pet                                       = LibStub(\"PetLibrary\")\nlocal ACTION_CONST_HUNTER_MARKSMANSHIP       = CONST.HUNTER_MARKSMANSHIP\nlocal ACTION_CONST_AUTOTARGET                = CONST.AUTOTARGET\nlocal ACTION_CONST_SPELLID_FREEZING_TRAP    = CONST.SPELLID_FREEZING_TRAP\nlocal IsIndoors, UnitIsUnit                    = _G.IsIndoors, _G.UnitIsUnit\nlocal partyMembers               = GetNumGroupMembers()\n\nAction[ACTION_CONST_HUNTER_MARKSMANSHIP] = {\n    -- Racial\n    ArcaneTorrent                         = Create({ Type = \"Spell\", ID = 50613                                                                            }),\n    BloodFury                             = Create({ Type = \"Spell\", ID = 20572                                                                            }),\n    BagofTricks                           = Create({ Type = \"Spell\", ID = 312411                                                                            }),\n    Fireblood                             = Create({ Type = \"Spell\", ID = 265221                                                                            }),\n    AncestralCall                         = Create({ Type = \"Spell\", ID = 274738                                                                            }),\n    Berserking                            = Create({ Type = \"Spell\", ID = 26297                                                                            }),\n    ArcanePulse                           = Create({ Type = \"Spell\", ID = 260364                                                                            }),\n    QuakingPalm                           = Create({ Type = \"Spell\", ID = 107079                                                                            }),\n    Haymaker                              = Create({ Type = \"Spell\", ID = 287712                                                                            }),\n    WarStomp                              = Create({ Type = \"Spell\", ID = 20549                                                                            }),\n    BullRush                              = Create({ Type = \"Spell\", ID = 255654                                                                            }),\n    GiftofNaaru                           = Create({ Type = \"Spell\", ID = 59544                                                                            }),\n    Shadowmeld                            = Create({ Type = \"Spell\", ID = 58984                                                                            }), -- usable in Action Core\n    Stoneform                             = Create({ Type = \"Spell\", ID = 20594                                                                            }),\n    WilloftheForsaken                     = Create({ Type = \"Spell\", ID = 7744                                                                            }), -- not usable in APL but user can Queue it\n    EscapeArtist                          = Create({ Type = \"Spell\", ID = 20589                                                                            }), -- not usable in APL but user can Queue it\n    EveryManforHimself                    = Create({ Type = \"Spell\", ID = 59752                                                                            }), -- not usable in APL but user can Queue it\n    -- CrownControl\n    CounterShot                                  = Create({ Type = \"Spell\", ID = 147362, isKick = true                                                                }),\n    KickGreen                             = Create({ Type = \"SpellSingleColor\", ID = 147362, Color = \"GREEN\", Desc = \"[2] Kick\", QueueForbidden = true        }),\n    -- Suppotive\n    SummonPet2                            = Create({ Type = \"Spell\", ID = 83242}),\n    SummonPet3                            = Create({ Type = \"Spell\", ID = 83243}),\n    SummonPet4                            = Create({ Type = \"Spell\", ID = 83244}),\n    SummonPet5                            = Create({ Type = \"Spell\", ID = 83245}),\n    MendPet                               = Create({ Type = \"Spell\", ID = 136}),\n    RevivePet                             = Create({ Type = \"Spell\", ID = 982}),\n    -- Self Defensives\n    Exhilaration                          = Create({ Type = \"Spell\", ID = 109304}),\n    AspectoftheTurtle                     = Create({ Type = \"Spell\", ID = 186265}),\n    -- Player Abilities\n    HuntersMark                           = Create({ Type = \"Spell\", ID = 257284}),\n    Multishot                             = Create({ Type = \"Spell\", ID = 257620}),\n    AMurderofCrows                        = Create({ Type = \"Spell\", ID = 131894}),\n    SteadyShot                            = Create({ Type = \"Spell\", ID = 56641}),\n    Intimidation                          = Create({ Type = \"Spell\", ID = 19577}),\n    Exhilaration                          = Create({ Type = \"Spell\", ID = 109304}),\n    TarTrap                               = Create({ Type = \"Spell\", ID = 187698}),\n    Flare                                 = Create({ Type = \"Spell\", ID = 1543}),\n    KillShot                              = Create({ Type = \"Spell\", ID = 53351}),\n    ArcaneShot                            = Create({ Type = \"Spell\", ID = 185358}),\n    TranquilizingShot                     = Create({ Type = \"Spell\", ID = 19801}),\n    AimedShot                              = Create({ Type = \"Spell\", ID = 19434}),\n    RapidFire                              = Create({ Type = \"Spell\", ID = 257044}),\n    -- Talents\n    CarefulAim                            = Create({ Type = \"Spell\", ID = 260228}),\n    CallingtheShots                       = Create({ Type = \"Spell\", ID = 260404}),\n    DoubleTap                             = Create({ Type = \"Spell\", ID = 260402}),\n    MasterMarksman                        = Create({ Type = \"Spell\", ID = 260309}),\n    SteadyFocus                           = Create({ Type = \"Spell\", ID = 193533}),\n    Volley                                = Create({ Type = \"Spell\", ID = 260243}),\n    ChimaeraShot                          = Create({ Type = \"Spell\", ID = 342049}),\n    DeadEye                               = Create({ Type = \"Spell\", ID = 321460}),\n    ExplosiveShot                         = Create({ Type = \"Spell\", ID = 212431}),\n    LethalShots                           = Create({ Type = \"Spell\", ID = 260393}),\n    -- Covenants\n    WildSpirits                           = Create({ Type = \"Spell\", ID = 328231}),\n    DeathChakram                          = Create({ Type = \"Spell\", ID = 325028}),\n    ResonatingArrow                       = Create({ Type = \"Spell\", ID = 308491}),\n    FlayedShot                            = Create({ Type = \"Spell\", ID = 324149}),\n    -- Buffs\n    ArcaneTorrent                          = Create({ Type = \"Spell\", ID = 50613     }),\n    BloodFury                              = Create({ Type = \"Spell\", ID = 20572      }),\n    Fireblood                              = Create({ Type = \"Spell\", ID = 265221     }),\n    AncestralCall                          = Create({ Type = \"Spell\", ID = 274738     }),\n    Berserking                             = Create({ Type = \"Spell\", ID = 26297    }),\n    ArcanePulse                            = Create({ Type = \"Spell\", ID = 260364    }),\n    QuakingPalm                            = Create({ Type = \"Spell\", ID = 107079     }),\n    Haymaker                               = Create({ Type = \"Spell\", ID = 287712     }), \n    WarStomp                               = Create({ Type = \"Spell\", ID = 20549     }),\n    BullRush                               = Create({ Type = \"Spell\", ID = 255654     }),  \n    CamouflageBuff                         = Create({ Type = \"Spell\", ID = 199483    }),\n    GiftofNaaru                            = Create({ Type = \"Spell\", ID = 59544    }),\n    Shadowmeld                             = Create({ Type = \"Spell\", ID = 58984    }), -- usable in Action Core \n    Stoneform                              = Create({ Type = \"Spell\", ID = 20594    }), \n    WilloftheForsaken                      = Create({ Type = \"Spell\", ID = 7744        }), -- not usable in APL but user can Queue it   \n    EscapeArtist                           = Create({ Type = \"Spell\", ID = 20589    }), -- not usable in APL but user can Queue it\n    EveryManforHimself                     = Create({ Type = \"Spell\", ID = 59752    }), -- not usable in APL but user can Queue it\n    BagofTricks                            = Create({ Type = \"Spell\", ID = 312411    }),\n    -- Generics\n    HuntersMarkDebuff                      = Create({ Type = \"Spell\", ID = 257284 , Hidden = true     }),\n    HuntersMark                            = Create({ Type = \"Spell\", ID = 257284 }),\n    DoubleTap                              = Create({ Type = \"Spell\", ID = 260402 }),\n    TrueshotBuff                           = Create({ Type = \"Spell\", ID = 288613 , Hidden = true     }),\n    Trueshot                               = Create({ Type = \"Spell\", ID = 288613 }),\n    AimedShot                              = Create({ Type = \"Spell\", ID = 19434 }),\n    RapidFire                              = Create({ Type = \"Spell\", ID = 257044 }),\n    Berserking                             = Create({ Type = \"Spell\", ID = 26297 }),\n    BerserkingBuff                         = Create({ Type = \"Spell\", ID = 26297 , Hidden = true     }),\n    CarefulAim                             = Create({ Type = \"Spell\", ID = 260228 }),\n    BloodFury                              = Create({ Type = \"Spell\", ID = 20572 }),\n    BloodFuryBuff                          = Create({ Type = \"Spell\", ID = 20572 , Hidden = true     }),\n    AncestralCall                          = Create({ Type = \"Spell\", ID = 274738 }),\n    Fireblood                              = Create({ Type = \"Spell\", ID = 265221 }),\n    LightsJudgment                         = Create({ Type = \"Spell\", ID = 255647 }),\n    PreciseShotsBuff                       = Create({ Type = \"Spell\", ID = 260242 , Hidden = true     }),\n    ExplosiveShot                          = Create({ Type = \"Spell\", ID = 212431 }),\n    Barrage                                = Create({ Type = \"Spell\", ID = 120360 }),\n    AMurderofCrows                         = Create({ Type = \"Spell\", ID = 131894 }),\n    SerpentSting                           = Create({ Type = \"Spell\", ID = 271788 }),\n    SerpentStingDebuff                     = Create({ Type = \"Spell\", ID = 271788 , Hidden = true     }),\n    UnerringVisionBuff                     = Create({ Type = \"Spell\", ID = 274447 , Hidden = true     }),\n    UnerringVision                         = Create({ Type = \"Spell\", ID = 274444 }),\n    ArcaneShot                             = Create({ Type = \"Spell\", ID = 185358 }),\n    MasterMarksmanBuff                     = Create({ Type = \"Spell\", ID = 269576 , Hidden = true     }),\n    DoubleTapBuff                          = Create({ Type = \"Spell\", ID = 260402 , Hidden = true     }),\n    PiercingShot                           = Create({ Type = \"Spell\", ID = 198670 }),\n    FocusedFire                            = Create({ Type = \"Spell\", ID = 278531 }),\n    SteadyShot                             = Create({ Type = \"Spell\", ID = 56641 }),\n    TrickShotsBuff                         = Create({ Type = \"Spell\", ID = 257622 , Hidden = true     }),\n    LockAndLoadBuff                        = Create({ Type = \"Spell\", ID = 194594 , Hidden = true     }),\n    DeadEyeBuff                            = Create({ Type = \"Spell\", ID = 321461 , Hidden = true     }),\n    IntheRhythm                            = Create({ Type = \"Spell\", ID = 264198 }),\n    SurgingShots                           = Create({ Type = \"Spell\", ID = 287707 }),\n    Streamline                             = Create({ Type = \"Spell\", ID = 260367 }),\n    Multishot                              = Create({ Type = \"Spell\", ID = 257620 }),\n    CallingtheShots                        = Create({ Type = \"Spell\", ID = 260404 }),\n    FeignDeath                             = Create({ Type = \"Spell\", ID = 5384 }),\n    BurstingShot                           = Create({ Type = \"Spell\", ID = 186387 }),\n    -- Pet\n    CallPet                                = Create({ Type = \"Spell\", ID = 883, Texture = 136 }),\n    MendPet                                = Create({ Type = \"Spell\", ID = 136, Texture = 136  }),\n    RevivePet                              = Create({ Type = \"Spell\", ID = 982, Texture = 136 }),\n    SpiritShock                            = Create({ Type = \"SpellSingleColor\", ID = 264265, Color = \"BLUE\" }), -- Pet dispell/purge\n    SonicBlast                             = Create({ Type = \"SpellSingleColor\", ID = 264263, Color = \"YELLOW\" }), -- Pet dispell/purge\n    Exhilaration                           = Create({ Type = \"Spell\", ID = 109304 }),\n    SpiritMend                             = Create({ Type = \"SpellSingleColor\", ID = 90361, Color = \"YELLOW\"}), \n    BindingShot                            = Create({ Type = \"Spell\", ID = 109248  }), \n    Smack                                  = Create({ Type = \"Spell\", ID = 49966  }), \n    Claw                                   = Create({ Type = \"Spell\", ID = 16827  }), \n    Bite                                   = Create({ Type = \"Spell\", ID = 17253  }), \n    SurvivaloftheFittest                   = Create({ Type = \"SpellSingleColor\", ID = 264735, Color = \"PINK\"  }),\n    PrimalRage                             = Create({ Type = \"SpellSingleColor\", ID = 264667, Color = \"PINK\"  }),\n    MastersCall                            = Create({ Type = \"SpellSingleColor\", ID = 53271, Color = \"PINK\"  }),    \n    Intimidation                           = Create({ Type = \"Spell\", ID = 19577  }),\n    -- Utilities\n    BindingShot                            = Create({ Type = \"Spell\", ID = 109248  }),\n    AspectoftheTurtle                      = Create({ Type = \"Spell\", ID = 274441 }),\n    ConcussiveShot                         = Create({ Type = \"Spell\", ID = 5116 }),\n    FreezingTrap                           = Create({ Type = \"Spell\", ID = 187650}),\n    -- Pet Spells\n    Exhilaration                           = Create({ Type = \"Spell\", ID = 109304 }),\n    SpiritMend                             = Create({ Type = \"SpellSingleColor\", ID = 90361, Color = \"YELLOW\"}),\n    SpiritShock                            = Create({ Type = \"SpellSingleColor\", ID = 264265, Color = \"BLUE\" }), -- Pet dispell/purge\n    SonicBlast                             = Create({ Type = \"SpellSingleColor\", ID = 264263, Color = \"YELLOW\" }), -- Pet dispell/purge\n    -- Potions\n    PotionofUnbridledFury                  = Create({ Type = \"Potion\", ID = 169299, QueueForbidden = true }), \n    BattlePotionOfAgility                  = Create({ Type = \"Potion\", ID = 163223, QueueForbidden = true }),  \n    SuperiorPotionofUnbridledFury          = Create({ Type = \"Potion\", ID = 168489, QueueForbidden = true }), \n    SuperiorSteelskinPotion                = Create({ Type = \"Potion\", ID = 168501, QueueForbidden = true }), \n    AbyssalHealingPotion                   = Create({ Type = \"Potion\", ID = 301310, QueueForbidden = true }),     \n    PotionofFocusedResolve                 = Create({ Type = \"Potion\", ID = 168506 }),\n    SuperiorBattlePotionofStrength         = Create({ Type = \"Potion\", ID = 168500 }),\n    PotionofEmpoweredProximity             = Create({ Type = \"Potion\", ID = 168529 }),\n    -- Trinkets\n    AzsharasFontofPower                    = Create({ Type = \"Trinket\", ID = 169314 }),\n    PocketsizedComputationDevice           = Create({ Type = \"Trinket\", ID = 167555 }),\n    RotcrustedVoodooDoll                   = Create({ Type = \"Trinket\", ID = 159624 }),\n    ShiverVenomRelic                       = Create({ Type = \"Trinket\", ID = 168905 }),\n    AquipotentNautilus                     = Create({ Type = \"Trinket\", ID = 169305 }),\n    TidestormCodex                         = Create({ Type = \"Trinket\", ID = 165576 }),\n    VialofStorms                           = Create({ Type = \"Trinket\", ID = 158224 }),\n    GalecallersBoon                        = Create({ Type = \"Trinket\", ID = 159614 }),\n    InvocationOfYulon                      = Create({ Type = \"Trinket\", ID = 165568 }),\n    LustrousGoldenPlumage                  = Create({ Type = \"Trinket\", ID = 159617 }),\n    LurkersInsidiousGift                   = Create({ Type = \"Trinket\", ID = 167866 }),\n    VigorTrinket                           = Create({ Type = \"Trinket\", ID = 165572 }),\n    AshvanesRazorCoral                     = Create({ Type = \"Trinket\", ID = 169311 }),\n    MalformedHeraldsLegwraps               = Create({ Type = \"Trinket\", ID = 167835 }),\n    HyperthreadWristwraps                  = Create({ Type = \"Trinket\", ID = 168989 }),\n    NotoriousAspirantsBadge                = Create({ Type = \"Trinket\", ID = 167528 }),\n    NotoriousGladiatorsBadge               = Create({ Type = \"Trinket\", ID = 167380 }),\n    SinisterGladiatorsBadge                = Create({ Type = \"Trinket\", ID = 165058 }),\n    SinisterAspirantsBadge                 = Create({ Type = \"Trinket\", ID = 165223 }),\n    DreadGladiatorsBadge                   = Create({ Type = \"Trinket\", ID = 161902 }),\n    DreadAspirantsBadge                    = Create({ Type = \"Trinket\", ID = 162966 }),\n    DreadCombatantsInsignia                = Create({ Type = \"Trinket\", ID = 161676 }),\n    NotoriousAspirantsMedallion            = Create({ Type = \"Trinket\", ID = 167525 }),\n    NotoriousGladiatorsMedallion           = Create({ Type = \"Trinket\", ID = 167377 }),\n    SinisterGladiatorsMedallion            = Create({ Type = \"Trinket\", ID = 165055 }),\n    SinisterAspirantsMedallion             = Create({ Type = \"Trinket\", ID = 165220 }),\n    DreadGladiatorsMedallion               = Create({ Type = \"Trinket\", ID = 161674 }),\n    DreadAspirantsMedallion                = Create({ Type = \"Trinket\", ID = 162897 }),\n    DreadCombatantsMedallion               = Create({ Type = \"Trinket\", ID = 161811 }),\n    IgnitionMagesFuse                      = Create({ Type = \"Trinket\", ID = 159615 }),\n    TzanesBarkspines                       = Create({ Type = \"Trinket\", ID = 161411 }),\n    AzurethosSingedPlumage                = Create({ Type = \"Trinket\", ID = 161377 }),\n    AncientKnotofWisdomAlliance            = Create({ Type = \"Trinket\", ID = 161417 }),\n    AncientKnotofWisdomHorde               = Create({ Type = \"Trinket\", ID = 166793 }),\n    ShockbitersFang                        = Create({ Type = \"Trinket\", ID = 169318 }),\n    NeuralSynapseEnhancer                  = Create({ Type = \"Trinket\", ID = 168973 }),\n    BalefireBranch                         = Create({ Type = \"Trinket\", ID = 159630 }),\n    GrongsPrimalRage                       = Create({ Type = \"Trinket\", ID = 165574 }),\n    BygoneBeeAlmanac                       = Create({ Type = \"Trinket\", ID = 163936 }),\n    RampingAmplitudeGigavoltEngine         = Create({ Type = \"Trinket\", ID = 165580 }),\n    VisionofDemise                         = Create({ Type = \"Trinket\", ID = 169307 }),\n    JesHowler                              = Create({ Type = \"Trinket\", ID = 159627 }),\n    GalecallersBeak                        = Create({ Type = \"Trinket\", ID = 161379 }),\n    DribblingInkpod                        = Create({ Type = \"Trinket\", ID = 169319 }),\n    MerekthasFang                          = Create({ Type = \"Trinket\", ID = 158367 }),    \n    GrongsPrimalRage                       = Create({ Type = \"Trinket\", ID = 165574 }),\n    BygoneBeeAlmanac                       = Create({ Type = \"Trinket\", ID = 163936 }),\n    RampingAmplitudeGigavoltEngine         = Create({ Type = \"Trinket\", ID = 165580 }),\n    VisionofDemise                         = Create({ Type = \"Trinket\", ID = 169307 }),\n    JesHowler                              = Create({ Type = \"Trinket\", ID = 159627 }),\n    GalecallersBeak                        = Create({ Type = \"Trinket\", ID = 161379 }),\n    DribblingInkpod                        = Create({ Type = \"Trinket\", ID = 169319 }),\n    RazdunksBigRedButton                   = Create({ Type = \"Trinket\", ID = 159611 }),\n    MerekthasFang                          = Create({ Type = \"Trinket\", ID = 158367 }),\n    KnotofAncientFuryAlliance              = Create({ Type = \"Trinket\", ID = 161413 }),\n    KnotofAncientFuryHorde                 = Create({ Type = \"Trinket\", ID = 166795 }),\n    FirstMatesSpyglass                     = Create({ Type = \"Trinket\", ID = 158163 }),\n    VialofAnimatedBlood                    = Create({ Type = \"Trinket\", ID = 159625 }),\n    -- Misc\n    Channeling                             = Create({ Type = \"Spell\", ID = 209274, Hidden = true     }),    -- Show an icon during channeling\n    TargetEnemy                            = Create({ Type = \"Spell\", ID = 44603, Hidden = true     }),    -- Change Target (Tab button)\n    StopCast                               = Create({ Type = \"Spell\", ID = 61721, Hidden = true     }),        -- spell_magic_polymorphrabbit\n    CyclotronicBlast                       = Create({ Type = \"Spell\", ID = 293491, Hidden = true}),\n    ConcentratedFlameBurn                  = Create({ Type = \"Spell\", ID = 295368, Hidden = true}),\n    RazorCoralDebuff                       = Create({ Type = \"Spell\", ID = 303568, Hidden = true     }),\n    ConductiveInkDebuff                    = Create({ Type = \"Spell\", ID = 302565, Hidden = true     }),\n    Trueshot                              = Create({ Type = \"Spell\", ID = 288613}),\n    ResonatingArrowDebuff                    = Create({ Type = \"Spell\", ID = 308498}),\n    -- PvP Talents\n    -- Items\n    RapidReload                            = Create({ Type = \"Spell\", ID = 278530 }),\n    -- Hidden\n}\n\nAction:CreateEssencesFor(ACTION_CONST_HUNTER_MARKSMANSHIP)\nlocal A = setmetatable(Action[ACTION_CONST_HUNTER_MARKSMANSHIP], { __index = Action })\nlocal player                                    = \"player\"\nlocal target                                    = \"target\"\nlocal pet                                        = \"pet\"\nlocal Temp                                        = {\n    AttackTypes                                    = {\"TotalImun\", \"DamagePhysImun\"},    \n    AuraForStun                                    = {\"TotalImun\", \"DamagePhysImun\", \"CCTotalImun\", \"StunImun\"},    \n    AuraForCC                                    = {\"TotalImun\", \"DamagePhysImun\", \"CCTotalImun\"},\n    AuraForOnlyCCAndStun                        = {\"CCTotalImun\", \"StunImun\"},\n    AuraForInterrupt                            = {\"TotalImun\", \"DamagePhysImun\", \"KickImun\"},\n    AuraForSlow                                    = {\"TotalImun\", \"DamagePhysImun\", \"CCTotalImun\", \"Freedom\"},\n    FeignDeathDelay                                = 0,\n    PetFamily                                    = \"nil\",\n    GetPetMeleeSpells                            = { (17253), (16827), (49966) },\n    IsSlotTrinketBlocked                         = {},\n}\n\nfunction Temp.IsPetInMelee(unitID)\n    -- @return boolean \n    return Pet:IsInRange(Temp.GetPetMeleeSpells[1], unitID) or Pet:IsInRange(Temp.GetPetMeleeSpells[2], unitID) or Pet:IsInRange(Temp.GetPetMeleeSpells[3], unitID)\nend\nlocal max_search = 5\nlocal function GetEnemies()\n    -- @return number \n    local enemies = MultiUnits:GetActiveEnemies()   \n    return enemies\nend \n\nlocal function GetByRange(count, range, isCheckEqual, isCheckCombat)\n    -- @return boolean \n    local c = 0 \n    for unitID in pairs(ActiveUnitPlates) do \n        if (not isCheckEqual or not UnitIsUnit(target, unitID)) and (not isCheckCombat or Unit(unitID):CombatTime() > 0) then \n            if range then \n                local r = Unit(unitID):GetRange()\n                if r > 0 and r <= range then \n                    c = c + 1\n                end \n            end \n            \n            if c >= count then \n                return true \n            end \n        end \n    end\nend \n\nlocal function GetByRangeTTD(self, count, range)\n    -- @return number\n    local total, total_ttd = 0, 0\n    \n    for unitID in pairs(ActiveUnitPlates) do \n        if not range or Unit(unitID):CanInterract(range) then \n            total = total + 1\n            total_ttd = total_ttd + Unit(unitID):TimeToDie()\n        end \n        \n        if count and total >= count then \n            break \n        end \n    end \n    \n    if total > 0 then \n        return total_ttd / total     \n    else  \n        return huge\n    end\nend \nGetByRangeTTD = A.MakeFunctionCachedDynamic(GetByRangeTTD)\n\n-- [1] CC AntiFake Rotation\nlocal function AntiFakeStun(unitID) \n    return \n    IsUnitEnemy(unitID) and  \n    Unit(unitID):GetRange() <= 40 and \n    Unit(unitID):IsControlAble(\"stun\", 0) and \n    A.IntimidationGreen:AbsentImun(unitID, Temp.AuraForOnlyCCAndStun, true)          \nend \nA[1] = function(icon)    \n    if A.IntimidationGreen:IsReady(nil, nil, nil, true) and \n    (\n        AntiFakeStun(\"mouseover\") or \n        AntiFakeStun(\"target\")\n    )\n    then \n        return A.IntimidationGreen:Show(icon)         \n    end                                                                     \nend\n\nlocal function SelfDefensives()\n    if Unit(player):CombatTime() == 0 then \n        return \n    end\n    \n    local Exhilaration = A.GetToggle(2, \"ExhilarationHP\")\n    if Exhilaration >= 0 and A.Exhilaration:IsReady(player) and \n    (\n        (     -- Auto \n            Exhilaration >= 100 and \n            (\n                -- HP lose per sec >= 20\n                Unit(player):GetDMG() * 100 / Unit(player):HealthMax() >= 20 or \n                Unit(player):GetRealTimeDMG() >= Unit(player):HealthMax() * 0.20 or \n                -- TTD \n                Unit(player):TimeToDieX(25) < 5 or \n                (\n                    A.IsInPvP and \n                    (\n                        Unit(player):UseDeff() or \n                        (\n                            Unit(player, 5):HasFlags() and \n                            Unit(player):GetRealTimeDMG() > 0 and \n                            Unit(player):IsFocused() \n                        )\n                    )\n                )\n            ) and \n            Unit(player):HasBuffs(\"DeffBuffs\", true) == 0\n        ) or \n        (    -- Custom\n            Exhilaration < 100 and \n            Unit(player):HealthPercent() <= Exhilaration\n        )\n    ) \n    then \n        return A.Exhilaration\n    end\n    \n    local AspectoftheTurtle = A.GetToggle(2, \"Turtle\")\n    if AspectoftheTurtle >= 0 and A.AspectoftheTurtle:IsReady(player) and \n    (\n        (     -- Auto \n            AspectoftheTurtle >= 100 and \n            (\n                -- HP lose per sec >= 30\n                Unit(player):GetDMG() * 100 / Unit(\"player\"):HealthMax() >= 30 or \n                Unit(player):GetRealTimeDMG() >= Unit(player):HealthMax() * 0.30 or \n                -- TTD \n                Unit(player):TimeToDieX(25) < 5 or \n                (\n                    A.IsInPvP and \n                    (\n                        Unit(player):UseDeff() or \n                        (\n                            Unit(player, 5):HasFlags() and \n                            Unit(player):GetRealTimeDMG() > 0 and \n                            Unit(player):IsFocused() \n                        )\n                    )\n                )\n            ) and \n            Unit(player):HasBuffs(\"DeffBuffs\", true) == 0\n        ) or \n        (    -- Custom\n            AspectoftheTurtle < 100 and \n            Unit(player):HealthPercent() <= AspectoftheTurtle\n        )\n    ) \n    then\n        return A.AspectoftheTurtle\n    end\n    -- PhialofSerenity\n    --            local PhialofSerenityHP, PhialofSerenityOperator, PhialofSerenityTTD = GetToggle(2, \"PhialofSerenityHP\"), GetToggle(2, \"PhialofSerenityOperator\"), GetToggle(2, \"PhialofSerenityTTD\")\n    --            if A.PhialofSerenity:IsReady(player) and\n    --            PhialofSerenityOperator == \"AND\" then \n    --                if (PhialofSerenityHP <= 0 or Unit(player):HealthPercent() <= PhialofSerenityHP) and (PhialofSerenityTTD <= 0 or Unit(player):TimeToDie() <= PhialofSerenityTTD) then \n    --                    return A.AbyssalHealingPotion\n    --                end \n    --            else\n    --                if A.PhialofSerenity:IsReady(player) and (PhialofSerenityHP > 0 and Unit(player):HealthPercent() <= PhialofSerenityHP) or (PhialofSerenityTTD > 0 and Unit(player):TimeToDie() <= PhialofSerenityTTD) then \n    --                    return A.AbyssalHealingPotion\n    --                end \n    --            end            \n    -- Dispel \n    --            if A.PhialofSerenity:IsReady(player) and AuraIsValidByPhialofSerenity() then \n    --                return A.AbyssalHealingPotion    \n    --    end    \nend\nSelfDefensives = A.MakeFunctionCachedStatic(SelfDefensives)\n\nlocal function MasterMarksmanBuffCheck()\n    return (Unit(player):HasBuffs(A.MasterMarksmanBuff) or (Unit(player):IsCasting(A.AimedShot) and A.MasterMarksman:IsSpellLearned()))\nend\n\nlocal function UseItems(player)\n    if A.Trinket1:IsReady(unitID) and A.Trinket1:GetItemCategory() ~= \"DEFF\" and not Temp.IsSlotTrinketBlocked[A.Trinket1.ID] and A.Trinket1:AbsentImun(unitID, Temp.TotalAndMagPhys) then \n        return A.Trinket1\n    end\n    \n    if A.Trinket2:IsReady(player) and A.Trinket2:GetItemCategory() ~= \"DEFF\" and not Temp.IsSlotTrinketBlocked[A.Trinket2.ID] and A.Trinket2:AbsentImun(unitID, Temp.TotalAndMagPhys) then \n        return A.Trinket2\n    end\nend\n\n\n-----------------------------------------\n--                 ROTATION  \n-----------------------------------------\n\n-- [3] Single Rotation\nA[3] = function(icon)\n    local isMoving                         = A.Player:IsMoving()\n    local unitID                        = \"player\"\n    local targetID                   = \"target\"\n    local isMovingOut                = Unit(targetID):IsMoving()\n    local inAoE                            = GetToggle(2, \"AoE\")\n    local inHoldAoE                        = GetToggle(2, \"holdAoE\")\n    local minHoldAoE                    = GetToggle(2, \"holdAoENum\") \n    local isStartAttack                    = GetToggle(2, \"startAttack\")\n    local forceAoE                        = GetToggle(2, \"forceAoE\")\n    local combatTime                    = Unit(player):CombatTime()\n    local inCombat                        = combatTime > 0\n    local enemies                        = GetEnemies()\n    local profileStop                    = false\n    local canCast                        = true\n    local VarCAExecute                     = Unit(unitID):HealthPercent() > 70\n    local SoulForgeEmbersEquipped         = GetToggle(2, \"SOULFORGE\")\n    local SurgingShotsEquiped             = GetToggle(2, \"SSHOTS\")\n    local Pull                             = Action.BossMods_Pulling()\n    local CovCDs                      = GetToggle(2, \"CovCDs\") or BurstIsON(unitID)\n    local VolleyCDs                     = GetToggle(2, \"VolleyCDs\") or BurstIsON(unitID)\n    local DTCDs                         = GetToggle(2, \"DTCDs\") or BurstIsON(unitID)\n    local MOVRA                            = GetToggle(2, \"MOVRA\") or UnitIsUnit(target, \"mouseover\")\n    local WSmin                            = GetToggle(2, \"WSmin\")\n    local BSCS                            = GetToggle(2, \"BSCS\")\n    local forcecombat            = GetToggle(2, \"FCOMBAT\") or inCombat\n    local AimedShotCurrentCharges, AimedShotMaxCharges, AimedShotCooldownStart, AimedShotCooldownDuration, AimedShotChargeModRate = GetSpellCharges(A.AimedShot.ID)\n    \n    -- Function to check if trinket is not on-use (spellID is empty or null)\n    local function isempty(s)\n        return s == nil or s == ''\n    end\n    \n    local canSteady = A.LastPlayerCastID == A.SteadyShot.ID and Unit(player):HasBuffs(A.SteadyFocus.ID) < 2 * (A.SteadyShot:GetSpellCastTime() + GetGCD() + GetLatency())\n    local shouldSteady = A.LastPlayerCastID ~= A.SteadyShot.ID and Unit(player):HasBuffs(A.SteadyFocus.ID) == 0\n    local shouldAimshotDuringVolley = A.AimedShot:IsReady(unitID) and\n    Unit(player):HasBuffs(A.Volley.ID) > (2.5-(2.5*(GetHaste(player)/100))) and --can fire one AimedShot before volley ends\n    Unit(player):HasBuffs(A.Volley.ID) > 0 and (\n        (A.LastPlayerCastID ~= A.AimedShot.ID) or\n        (\n            A.LastPlayerCastID == A.AimedShot.ID and\n            not A.RapidFire:IsReady(unit) and\n            A.RapidFire:GetSpellTimeSinceLastCast() > 4\n        ) or\n        (\n            Unit(player):HasBuffs(A.Trueshot.ID, true) > 0\n        )\n    )\n    local shouldRapidfireDuringVolley = A.RapidFire:IsReady(unitID) and Unit(player):HasBuffs(A.Volley.ID) > 0\n    \n    local t1itemId = GetInventoryItemID(\"player\", 13) -- Get Trinket1 ID\n    local t1spellName, t1spellID =  GetItemSpell(t1itemId) -- Get Spell ID related to Trinket1\n    if not isempty(t1spellName) then -- If there is a spell (on-use trinket)\n        local t1cooldownMS, t1gcdMS = GetSpellBaseCooldown(t1spellID) -- Get cooldown in MS\n        t1cooldown = (t1cooldownMS/1000) -- convert it to seconds\n    end\n    if isempty(t1spellName) then -- If there isn't a spell (not on-use trinket)\n        t1cooldown = 0\n    end\n    \n    local t2itemId = GetInventoryItemID(\"player\", 14) -- Get Trinket2 ID\n    local t2spellName, t2spellID =  GetItemSpell(t2itemId) -- Get Spell ID related to Trinket2\n    if not isempty(t2spellName) then -- If there is a spell (on-use trinket)\n        local t2cooldownMS, t2gcdMS = GetSpellBaseCooldown(t2spellID) -- Get cooldown in MS\n        t2cooldown = (t2cooldownMS/1000) -- convert it to seconds\n    end\n    if isempty(t2spellName) then -- If there isn't a spell (not on-use trinket)\n        t2cooldown = 0\n    end\n    \n    -- Trinket 1 usage\n    if A.Trinket1:IsReadyByPassCastGCD(unitID) and Unit(target):IsExists() and not Temp.IsSlotTrinketBlocked[A.Trinket1.ID] and    \n    (   -- If two on-uses are ready and competing for a Trueshot sync, assume the longer cd has a stronger effect and prefer that unless it's already on cooldown, otherwise use the one that's off cooldown\n        (\n            Unit(player):HasBuffs(A.Trueshot.ID, true) > 0 and\n            (\n                t1cooldown >= t2cooldown or\n                A.Trinket2:GetCooldown() > 0\n            )\n        ) or\n        \n        -- If a trinket is ready and another stronger (assumed from longer cooldown) on-use will also be ready by the time Trueshot comes back off cooldown, then use it if the shared 20 second cd it triggers won't interfere with the upcoming Trueshot sync'd on-use.\n        (\n            not A.Trueshot:IsReadyByPassCastGCD(unitID) and A.Trueshot:GetCooldown() > 20 and t2cooldown >= t1cooldown and A.Trinket2:GetCooldown() - 5 < A.Trueshot:GetCooldown()\n        ) or\n        \n        -- If a trinket could be used and still come back off cooldown for a future Trueshot, it's safe to use, preferring the longest cooldown if two are ready.\n        (\n            t1cooldown -5 < A.Trueshot:GetCooldown() and\n            (   \n                t1cooldown >= t2cooldown or\n                A.Trinket2:GetCooldown() > 0\n            )\n        ) or\n        \n        -- If the fight is going to end before your next Trueshot, and the target is a World/Raid Boss just start using trinket to make sure they get used.\n        (\n            Unit(target):TimeToDie() < A.Trueshot:GetCooldown() and partyMembers > 5 and -- partyMembers is already working\n            (\n                UnitClassification(\"target\") == \"worldboss\" or\n                UnitLevel(\"target\") == -1\n            )\n        ) \n    )\n    then\n        return A.Trinket1:Show(icon)\n    end\n    \n    -- Trinket 2 usage\n    if A.Trinket2:IsReadyByPassCastGCD(unitID) and Unit(target):IsExists() and not Temp.IsSlotTrinketBlocked[A.Trinket2.ID] and    \n    (    -- If two on-uses are ready and competing for a Trueshot sync, assume the longer cd has a stronger effect and prefer that unless it's already on cooldown, otherwise use the one that's off cooldown\n        (\n            Unit(player):HasBuffs(A.Trueshot.ID, true) > 0 and\n            (\n                t2cooldown >= t1cooldown or\n                A.Trinket1:GetCooldown() > 0\n            )\n        ) or\n        \n        -- If a trinket is ready and another stronger (assumed from longer cooldown) on-use will also be ready by the time Trueshot comes back off cooldown, then use it if the shared 20 second cd it triggers won't interfere with the upcoming Trueshot sync'd on-use.\n        (\n            not A.Trueshot:IsReadyByPassCastGCD(unitID) and A.Trueshot:GetCooldown() > 20 and t1cooldown >= t2cooldown and A.Trinket1:GetCooldown() - 5 < A.Trueshot:GetCooldown()\n        ) or\n        \n        -- If a trinket could be used and still come back off cooldown for a future Trueshot, it's safe to use, preferring the longest cooldown if two are ready.\n        (\n            t2cooldown -5 < A.Trueshot:GetCooldown() and\n            (   \n                t2cooldown >= t1cooldown or\n                A.Trinket1:GetCooldown() > 0\n            )\n        ) or\n        \n        -- If the fight is going to end before your next Trueshot, and the target is a World/Raid Boss just start using trinket to make sure they get used.\n        (\n            Unit(target):TimeToDie() < A.Trueshot:GetCooldown() and partyMembers > 5 and -- partyMembers is already working\n            (\n                UnitClassification(\"target\") == \"worldboss\" or\n                UnitLevel(\"target\") == -1\n            )\n        )\n    )\n    then\n        return A.Trinket2:Show(icon)\n    end\n    \n    local function num(val)\n        if val then return 1 else return 0 end\n    end\n    \n    if (Player:IsCasting() or Player:IsChanneling()) then\n        canCast = false\n    else \n        canCast = true\n    end\n    \n    if Temp.FeignDeathDelay > 0 then\n        Temp.FeignDeathDelay = Temp.FeignDeathDelay - 1\n        return \n    end\n    \n    Temp.PetFamily = UnitCreatureFamily(Pet:GetMainPet() and Pet:GetMainPet().name or pet)\n    \n    local function EnemyRotation(unitID)    \n        \n        local unit = \"target\"        \n        local MendPet = GetToggle(2, \"MendPet\")\n        if A.MendPet:IsReady(player) and Pet:IsActive() and Unit(pet):HealthPercent() > 0 and ((MendPet >= 100 and (Unit(pet):GetDMG() * 100 / Unit(pet):HealthMax() >= 20 or Unit(pet):GetRealTimeDMG() >= Unit(pet):HealthMax() * 0.20 or Unit(pet):TimeToDieX(15) < 2)) or (MendPet < 100 and Unit(pet):HealthPercent() <= MendPet and Unit(pet):HasBuffs(A.MendPet.ID) == 0))    then\n            return A.MendPet:Show(icon)\n        end\n        \n        -- Purge\n        if A.ArcaneTorrent:AutoRacial(unitID) then \n            return A.ArcaneTorrent:Show(icon)\n        end   \n        \n        -- [[ INTERRUPTS ]] \n        local useKick, useCC, useRacial, notInterruptable, castRemainsTime, castDoneTime = InterruptIsValid(unitID, nil, nil, not A.CounterShot:IsReady(unitID)) -- A.CounterShot non GCD spell\n        \n        if castDoneTime > 0 then\n            if useKick and not notInterruptable and A.CounterShot:IsReady(unitID) then\n                return A.CounterShot:Show(icon)\n            end\n            \n            if useRacial and A.QuakingPalm:AutoRacial(unitID) then \n                return A.QuakingPalm:Show(icon)\n            end \n            \n            if useRacial and A.Haymaker:AutoRacial(unitID) then \n                return A.Haymaker:Show(icon)\n            end \n            \n            if useRacial and A.WarStomp:AutoRacial(unitID) then \n                return A.WarStomp:Show(icon)\n            end \n            \n            if useRacial and A.BullRush:AutoRacial(unitID) then \n                return A.BullRush:Show(icon)\n            end   \n        end\n        \n        -- Explosives or Totems\n        if canCast and (Unit(unitID):IsExplosives() or Unit(unitID):IsTotem()) then\n            if A.ArcaneShot:IsReady(unitID) then\n                return A.ArcaneShot:Show(icon)\n            end\n            \n            if A.SteadyShot:IsReady(unitID) then\n                return A.SteadyShot:Show(icon)\n            end\n        end\n        \n        -- Dispell Enrage / Magic\n        if A.TranquilizingShot:IsReady(unitID) and (AuraIsValid(unitID, \"UseExpelEnrage\", \"Enrage\") or AuraIsValid(unitID, \"UseDispel\", \"Magic\")) then \n            return A.TranquilizingShot:Show(icon)\n        end \n        \n        local canBurst = false\n        if (Unit(unitID):TimeToDie() >= GetToggle(2, \"BurstTTDBoss\") or Unit(unitID):TimeToDie() >= GetToggle(2, \"BurstTTDMobs\")) then\n            canBurst = true\n        end\n        \n        -- Torghast Jars\n        if UnitName(targetID)==\"Aschenes Phylakterium\" or UnitName(targetID)==\"Ashen Phylactery\" or UnitName(targetID)==\"Filacteria cinérea\" or UnitName(targetID)==\"Phylactère cendreux\" or UnitName(targetID)==\"Filatterio Cinereo\" or UnitName(targetID)==\"Filactério Cinzento\" or UnitName(targetID)==\"Phylactery with ashes\" or UnitName(targetID)==\"잿빛 성물함\" or UnitName(targetID)==\"灰烬护命匣\" then\n            if A.Multishot:IsReady(unitID) then\n                return A.Multishot:Show(icon)\n            end\n            \n            if A.SteadyShot:IsReady(unitID) then\n                return A.SteadyShot:Show(icon)\n            end\n        end          \n        if Player:CastRemains(A.SteadyShot.ID, true) > .5 and Player:Focus() > 70 and Unit(player):HasBuffs(A.SteadyFocus.ID) > 8 then\n            return A.StopCast:Show(icon)\n        end     \n        -- local function PreCombat()\n        --     if A.DoubleTap:IsReady(unitID, true) and A.SteadyShot:IsReady(unitID) and ((Unit(unitID):GetRange() <= 40 and canBurst) and Pull > .1 and Pull <= 10) and DTCDs then\n        --         return A.DoubleTap:Show(icon)\n        --     end\n        --     --actions.precombat+=/aimed_shot,if=active_enemies<3&(!covenant.kyrian&!talent.volley|active_enemies<2)\n        --     if A.AimedShot:IsReady(unitID) and enemies < 3 and (not A.ResonatingArrow:IsSpellLearned() and not A.Volley:IsSpellLearned() or enemies < 2) and Pull > .1 and Pull <= A.AimedShot:GetSpellCastTime() then\n        --         return A.AimedShot:Show(icon)\n        --     end\n        -- end\n        local function CD()\n            if A.Berserking:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 then\n                return A.Berserking:Show(icon)\n            end\n            if A.BloodFury:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 then\n                return A.BloodFury:Show(icon)\n            end\n            if A.AncestralCall:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 then\n                return A.AncestralCall:Show(icon)\n            end\n            if A.Fireblood:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 then\n                return A.Fireblood:Show(icon)\n            end\n            if A.LightsJudgment:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.TrueshotBuff.ID) == 0 then\n                return A.LightsJudgment:Show(icon)\n            end\n            if A.BagofTricks:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.TrueshotBuff.ID) == 0 then\n                return A.BagofTricks:Show(icon)\n            end\n        end \n        local function ST()\n            --actions.precombat+=/aimed_shot,if=active_enemies<3&(!covenant.kyrian&!talent.volley|active_enemies<2)\n            if (A.AimedShot:IsReady(unitID) or Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0) and\n            Unit(targetID):CombatTime() == 0 and\n            Unit(player):CombatTime() == 0 and\n            AimedShotCurrentCharges == 2 and\n            not A.IsInPvP and\n            (\n                not isMoving or\n                Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0\n            ) then\n                return A.AimedShot:Show(icon)\n            end\n            --actions.st=steady_shot,if=talent.steady_focus&(prev_gcd.1.steady_shot&buff.steady_focus.remains<5|buff.steady_focus.down)\n            if A.SteadyFocus:IsSpellLearned() and\n            canSteady then\n                return A.SteadyShot:Show(icon)\n            end\n            if A.SteadyFocus:IsSpellLearned() and\n            shouldSteady then\n                return A.SteadyShot:Show(icon)\n            end\n            --actions.st+=/kill_shot\n            if A.KillShot:IsReady(unit) then\n                return A.KillShot:Show(icon)\n            end\n            --actions.st+=/double_tap,if=covenant.kyrian&cooldown.resonating_arrow.remains<gcd|!covenant.kyrian&!covenant.night_fae|covenant.night_fae&(cooldown.wild_spirits.remains<gcd|cooldown.trueshot.remains>55)|target.time_to_die<15\n            if A.DoubleTap:IsReady(unitID, true) and\n            canBurst and\n            DTCDs and\n            (\n                A.ResonatingArrow:IsSpellLearned() and A.ResonatingArrow:GetCooldown() < GetGCD() or\n                (\n                    not A.ResonatingArrow:IsSpellLearned() and\n                    not A.WildSpirits:IsSpellLearned()\n                ) or\n                A.WildSpirits:IsSpellLearned() and\n                (\n                    A.WildSpirits:GetCooldown() < GetGCD() or\n                    A.Trueshot:GetCooldown() > 55\n                )\n            ) and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped\n            ) then\n                return A.DoubleTap:Show(icon)\n            end\n            --actions.st+=/tar_trap,if=runeforge.soulforge_embers&tar_trap.remains<gcd&cooldown.flare.remains<gcd\n            if A.TarTrap:IsReady(unitID, true) and\n            MOVRA and\n            SoulForgeEmbersEquipped and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst then\n                return A.TarTrap:Show(icon)\n            end\n            --actions.st+=/flare,if=tar_trap.up&runeforge.soulforge_embers\n            if A.Flare:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            SoulForgeEmbersEquipped then\n                return A.Flare:Show(icon)\n            end\n            --actions.st+=/explosive_shot\n            if A.ExplosiveShot:IsReady(unitID) then\n                return A.ExplosiveShot:Show(icon)\n            end\n            --actions.st+=/wild_spirits\n            if A.WildSpirits:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            CovCDs then\n                return A.WildSpirits:Show(icon)\n            end\n            --actions.st+=/flayed_shot\n            if A.FlayedShot:IsReady(unitID) and\n            CovCDs then\n                return A.FlayedShot:Show(icon)\n            end\n            --actions.st+=/death_chakram,if=focus+cast_regen<focus.max\n            if A.DeathChakram:IsReady(unitID) and\n            Player:Focus() < 100 and\n            CovCDs then\n                return A.DeathChakram:Show(icon)\n            end\n            --actions.st+=/a_murder_of_crows\n            if A.AMurderofCrows:IsReady(unitID) then\n                return A.AMurderofCrows:Show(icon)\n            end\n            --actions.st+=/resonating_arrow\n            if A.ResonatingArrow:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            CovCDs and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped\n            ) then\n                return A.ResonatingArrow:Show(icon)\n            end\n            --actions.st+=/volley,if=buff.precise_shots.down|!talent.chimaera_shot|active_enemies<2\n            if A.Volley:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            VolleyCDs and\n            (\n                A.RapidFire:IsReady(unitID) or\n                A.AimedShot:IsReady(unitID)\n            ) and\n            (\n                Unit(player):HasBuffs(A.PreciseShotsBuff.ID) == 0 or\n                not A.ChimaeraShot:IsSpellLearned() or\n                enemies < 2\n            ) then\n                return A.Volley:Show(icon)\n            end\n            --actions.st+=/trueshot,if=buff.precise_shots.down|buff.resonating_arrow.up|buff.wild_spirits.up|buff.volley.up&active_enemies>1\n            if A.Trueshot:IsReadyByPassCastGCD(unitID) and\n            BurstIsON(unitID) and\n            (\n                Unit(player):HasBuffs(A.PreciseShotsBuff.ID) == 0 or \n                (A.ResonatingArrow:GetSpellTimeSinceLastCast() < 10) or\n                (A.WildSpirits:GetSpellTimeSinceLastCast() < 15) or\n                (A.Volley:GetSpellTimeSinceLastCast() < 2)\n            ) and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped\n            ) then\n                return A.Trueshot:Show(icon)\n            end\n            --volley RapidFire priority ST\n            if (shouldRapidfireDuringVolley and enemies>1) then\n                return A.RapidFire:Show(icon)\n            end\n            --volley AimedShot priority ST\n            if (shouldAimshotDuringVolley and enemies>1) then\n                return A.AimedShot:Show(icon)\n            end\n            --actions.st+=/aimed_shot,target_if=buff.precise_shots.down|(buff.trueshot.up|full_recharge_time<gcd+cast_time)&(!talent.chimaera_shot|active_enemies<2)|buff.trick_shots.remains>execute_time&active_enemies>1\n            if (A.AimedShot:IsReady(unitID) or Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0) and\n            (not isMoving or Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0) and\n            (\n                Unit(player):HasBuffs(A.PreciseShotsBuff.ID) == 0 or\n                (\n                    Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 or\n                    A.AimedShot:GetSpellChargesFullRechargeTime() < (GetGCD() + GetCurrentGCD() + A.AimedShot:GetSpellCastTime())\n                ) and\n                (\n                    not A.ChimaeraShot:IsSpellLearned() or\n                    enemies < 2\n                ) or\n                (\n                    Unit(player):HasBuffs(A.TrickShotsBuff.ID, true) > (GetGCD() + GetCurrentGCD() + A.AimedShot:GetSpellCastTime())\n                ) or\n                (\n                    Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0 and\n                    AimedShotCurrentCharges == 2\n                )\n            ) and\n            (\n                (\n                    A.IsInPvP and\n                    (\n                        (SurgingShotsEquiped and not A.RapidFire:IsReady(unitID)) or\n                        not SurgingShotsEquiped\n                    )\n                ) or not A.IsInPvP\n            ) then\n                return A.AimedShot:Show(icon)\n            end\n            --actions.st+=/rapid_fire,if=focus+cast_regen<focus.max&(buff.trueshot.down|!runeforge.eagletalons_true_focus)&(buff.double_tap.down|talent.streamline)\n            if (A.RapidFire:IsReady(unitID) and \n                (not A.IsInPvP or (A.IsInPvP and not SurgingShotsEquiped))) and\n            (\n                (Player:Focus() + Player:FocusCastRegen(A.RapidFire:GetSpellCastTime()) < Player:FocusMax()) and\n                Unit(unitID):TimeToDie() > 6 and\n                not inAoE and\n                (\n                    Unit(player):HasBuffs(A.DoubleTapBuff.ID) == 0 or\n                    A.Streamline:IsSpellLearned()\n                )\n            ) or (A.IsInPvP and SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) then\n                return A.RapidFire:Show(icon)\n            end\n            --actions.st+=/chimaera_shot,if=buff.precise_shots.up|focus>cost+action.aimed_shot.cost\n            if A.ChimaeraShot:IsReady(unitID) and\n            (\n                Unit(player):HasBuffs(A.PreciseShotsBuff.ID) > 0 or\n                (Player:Focus() > A.ChimaeraShot:GetSpellPowerCostCache() + A.AimedShot:GetSpellPowerCostCache())\n            ) then\n                return A.ChimaeraShot:Show(icon)\n            end\n            --actions.st+=/arcane_shot,if=buff.precise_shots.up|focus>cost+action.aimed_shot.cost\n            if A.ArcaneShot:IsReady(unitID) and\n            (   --TODO: descobrir o que é \"Buff\"\n                --(Buff and enemies < 2) or not Buff) and\n                (\n                    Unit(player):HasBuffs(A.PreciseShotsBuff.ID) > 0 or\n                    Player:Focus() > 55\n                )\n            ) then\n                return A.ArcaneShot:Show(icon)\n            end\n            --actions.st+=/serpent_sting,target_if=min:remains,if=refreshable&target.time_to_die>duration\n            if A.SerpentSting:IsReady(unitID) and\n            Unit(target):HasDeBuffs(A.SerpentSting.ID) <= 2 and\n            Unit(unitID):TimeToDie() > 18 then\n                return A.SerpentSting:Show(icon)\n            end\n            --actions.st+=/barrage,if=active_enemies>1\n            if A.Barrage:IsReady(unitID) and \n            enemies > 1 then\n                return A.Barrage:Show(icon)\n            end\n            --actions.st+=/rapid_fire,if=focus+cast_regen<focus.max&(buff.double_tap.down|talent.streamline)\n            if A.RapidFire:IsReady(unitID) and\n            Unit(unitID):TimeToDie() >= 2 and\n            not inAoE and\n            (\n                Player:Focus() + Player:FocusCastRegen(A.RapidFire:GetSpellCastTime()) < Player:FocusMax() and\n                (\n                    Unit(player):HasBuffs(A.DoubleTap.ID) == 0 or\n                    A.Streamline:IsSpellLearned()\n                )\n            ) then\n                return A.RapidFire:Show(icon)\n            end\n            --actions.st+=/steady_shot\n            if A.SteadyShot:IsReady(unitID) and\n            (Player:Focus() + Player:FocusCastRegen(A.SteadyShot:GetSpellCastTime()) < Player:FocusMax()) then\n                return A.SteadyShot:Show(icon)\n            end\n        end      \n        \n        local function TS()\n            --actions.trickshots=steady_shot,if=talent.steady_focus&in_flight&buff.steady_focus.remains<5\n            if A.SteadyFocus:IsSpellLearned() and\n            canSteady then\n                return A.SteadyShot:Show(icon)\n            end\n            if A.SteadyFocus:IsSpellLearned() and\n            shouldSteady then\n                return A.SteadyShot:Show(icon)\n            end\n            --actions.trickshots+=/double_tap,if=covenant.kyrian&cooldown.resonating_arrow.remains<gcd|!covenant.kyrian&!covenant.night_fae|covenant.night_fae&(cooldown.wild_spirits.remains<gcd|cooldown.trueshot.remains>55)|target.time_to_die<10\n            if A.DoubleTap:IsReady(unitID, true) and\n            canBurst and\n            DTCDs and\n            (\n                A.ResonatingArrow:IsSpellLearned() and A.ResonatingArrow:GetCooldown() < GetGCD() or\n                (\n                    not A.ResonatingArrow:IsSpellLearned() and\n                    not A.WildSpirits:IsSpellLearned()\n                ) or\n                A.WildSpirits:IsSpellLearned() and\n                (\n                    A.WildSpirits:GetCooldown() < GetGCD() or\n                    A.Trueshot:GetCooldown() > 55\n                )\n            ) and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped\n            ) then\n                return A.DoubleTap:Show(icon)\n            end\n            --actions.st+=/tar_trap,if=runeforge.soulforge_embers&tar_trap.remains<gcd&cooldown.flare.remains<gcd\n            if A.TarTrap:IsReady(unitID, true) and\n            MOVRA and\n            SoulForgeEmbersEquipped and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst then\n                return A.TarTrap:Show(icon)\n            end\n            --actions.st+=/flare,if=tar_trap.up&runeforge.soulforge_embers\n            if A.Flare:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            SoulForgeEmbersEquipped then\n                return A.Flare:Show(icon)\n            end\n            --actions.st+=/explosive_shot\n            if A.ExplosiveShot:IsReady(unitID) then\n                return A.ExplosiveShot:Show(icon)\n            end\n            --actions.st+=/wild_spirits\n            if A.WildSpirits:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            CovCDs then\n                return A.WildSpirits:Show(icon)\n            end\n            --actions.trickshots+=/resonating_arrow\n            if A.ResonatingArrow:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            CovCDs and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped\n            ) then\n                return A.ResonatingArrow:Show(icon)\n            end\n            --actions.trickshots+=/volley\n            if A.Volley:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            VolleyCDs and\n            (\n                A.RapidFire:IsReady(unitID) or\n                A.AimedShot:IsReady(unitID)\n            ) then\n                return A.Volley:Show(icon)\n            end\n            --actions.trickshots+=/barrage\n            if A.Barrage:IsReady(unitID) then\n                return A.Barrage:Show(icon)\n            end\n            --actions.trickshots+=/trueshot\n            if A.Trueshot:IsReadyByPassCastGCD(player) and\n            canBurst and\n            BurstIsON(unitID) and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped\n            ) then\n                return A.Trueshot:Show(icon)\n            end \n            --volley RapidFire priority AOE\n            if (shouldRapidfireDuringVolley) then\n                return A.RapidFire:Show(icon)\n            end\n            --volley AimedShot priority AOE\n            if (shouldAimshotDuringVolley) then\n                return A.AimedShot:Show(icon)\n            end\n            --actions.trickshots+=/rapid_fire,if=buff.trick_shots.remains>=execute_time&runeforge.surging_shots&buff.double_tap.down\n            if A.RapidFire:IsReady(unitID) and\n            Unit(player):HasBuffs(A.TrickShotsBuff.ID, true) > 1 and\n            Unit(unitID):TimeToDie() >= 2 and\n            (\n                Unit(player):HasBuffs(A.DoubleTapBuff.ID) == 0 or\n                SurgingShotsEquiped\n            )\n            then\n                return A.RapidFire:Show(icon)\n            end\n            --actions.trickshots+=/aimed_shot,target_if=buff.trick_shots.remains>=execute_time&(buff.precise_shots.down|full_recharge_time<cast_time+gcd|buff.trueshot.up)\n            if (A.AimedShot:IsReady(unitID) or Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0) and\n            (not isMoving or Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0) and\n            Unit(player):HasBuffs(A.TrickShotsBuff.ID, true) >= 2 and\n            (\n                Unit(player):HasBuffs(A.PreciseShotsBuff.ID) == 0 or\n                A.AimedShot:GetSpellChargesFullRechargeTime() < (GetGCD() + GetCurrentGCD() + A.AimedShot:GetSpellCastTime()) or\n                Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0\n            ) then\n                return A.AimedShot:Show(icon)\n            end\n            --actions.trickshots+=/death_chakram,if=focus+cast_regen<focus.max\n            if A.DeathChakram:IsReady(unitID) and\n            Player:Focus() < 100 and\n            CovCDs then\n                return A.DeathChakram:Show(icon)\n            end\n            --actions.trickshots+=/rapid_fire,if=buff.trick_shots.remains>=execute_time\n            if A.RapidFire:IsReady(unitID) and\n            Unit(player):HasBuffs(A.TrickShotsBuff.ID, true) >= (GetGCD() + GetCurrentGCD() + A.RapidFire:GetSpellCastTime()) and\n            Unit(unitID):TimeToDie() > (GetGCD() + GetCurrentGCD() + A.RapidFire:GetSpellCastTime()) then\n                return A.RapidFire:Show(icon)\n            end\n            --actions.trickshots+=/multishot,if=buff.trick_shots.down|buff.precise_shots.up&focus>cost+action.aimed_shot.cost&(!talent.chimaera_shot|active_enemies>3)\n            if A.Multishot:IsReady(unitID) and\n            (\n                (Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0 and Player:Focus() > 20) or\n                (Unit(player):HasBuffs(A.LockAndLoadBuff.ID) == 0 and Player:Focus() > 55)\n            ) and\n            (\n                Unit(player):HasBuffs(A.TrickShotsBuff.ID, true) == 0 or\n                Unit(player):HasBuffs(A.PreciseShotsBuff.ID) > 0\n            ) then\n                return A.Multishot:Show(icon)\n            end\n            --actions.trickshots+=/chimaera_shot,if=buff.precise_shots.up&focus>cost+action.aimed_shot.cost&active_enemies<4\n            if A.ChimaeraShot:IsReady(unitID) and\n            Unit(player):HasBuffs(A.PreciseShotsBuff.ID, true) > 0 and\n            Player:Focus() > 55 then\n                return A.ChimaeraShot:Show(icon)\n            end\n            --actions.trickshots+=/kill_shot,if=buff.dead_eye.down\n            if A.KillShot:IsReady(unit) and\n            Unit(player):HasBuffs(A.DeadEyeBuff.ID) == 0 then\n                return A.KillShot:Show(icon)\n            end\n            --actions.trickshots+=/a_murder_of_crows\n            if A.AMurderofCrows:IsReady(unitID) then\n                return A.AMurderofCrows:Show(icon)\n            end\n            --actions.trickshots+=/flayed_shot\n            if A.FlayedShot:IsReady(unitID) and\n            CovCDs then\n                return A.FlayedShot:Show(icon)\n            end\n            --actions.trickshots+=/serpent_sting,target_if=min:dot.serpent_sting.remains,if=refreshable\n            if A.SerpentSting:IsReady(unitID) and\n            Unit(unitID):HasDebuffs(A.SerpentStingDebuff.ID, true) < 2 and\n            Unit(unitID):TimeToDie() > 18 then\n                return A.SerpentSting:Show(icon)\n            end\n            --actions.trickshots+=/multishot,if=focus>cost+action.aimed_shot.cost\n            if A.Multishot:IsReady(unitID) and\n            Player:Focus() > 55 then\n                return A.Multishot:Show(icon)\n            end\n            --actions.trickshots+=/steady_shot\n            if A.SteadyShot:IsReady(unitID) then\n                return A.SteadyShot:Show(icon)\n            end\n        end\n        \n        if A.BurstingShot:IsReady(unitID, true) and not Unit(unitID):IsDead() and MultiUnits:GetByRange(5, 1) >= 1 and Unit(player):IsTankingAoE(10) and BSCS then\n            return A.BurstingShot:Show(icon)\n        end\n        \n        ---- ConcussiveShot if:\n        -- PvE: Low hp while KillShot isn't ready AND player has aggro AND target not slowed AND (no pet active OR pet is dead)\n        -- PvP: target is moving AND target not slowed AND player camouflage isn't active AND MaxSpeed >= 100 AND trushot down\n        -- Both: target not phys imune AND target exists AND target is alive\n        if A.ConcussiveShot:IsReady(unitID) and not Unit(unitID):IsDead() and Unit(unitID):IsExists() and\n        (\n            (\n                BSCS and \n                not A.IsInPvP and\n                Unit(player):IsTankingAoE(10) and\n                Unit(unitID):HasDeBuffs(\"Slowed\") == 0 and\n                Unit(unitID):GetMaxSpeed() >= 100 and\n                (Unit(player):HealthPercent() < 20 and not A.KillShot:IsReady(unit)) and\n                (not Pet:IsActive() or Unit(pet):HealthPercent() <1)\n            ) or \n            (\n                BSCS and\n                A.IsInPvP and\n                isMovingOut and\n                Unit(player):HasBuffs(A.CamouflageBuff.ID, true) == 0 and\n                Unit(unitID):HasDeBuffs(\"Slowed\") == 0 and\n                Unit(unitID):GetMaxSpeed() >= 100 and\n                Unit(player):HasBuffs(A.TrueshotBuff.ID) == 0 and\n                not A.KillShot:IsReady(unit)\n            ) and\n            A.ConcussiveShot:AbsentImun(unitID, Temp.TotalAndPhys)\n        ) then\n            return A.ConcussiveShot:Show(icon)\n        end\n        \n        if canBurst and canCast and BurstIsON(unitID) and forcecombat and CD() then\n            return true\n        end\n        if (not inAoE or (enemies < 3)) and canCast and forcecombat and not forceAoE and ST() then\n            return true\n        end\n        if (enemies > 2 or forceAoE) and canCast and forcecombat and TS() then\n            return true\n        end\n        if not forcecombat and not profileStop and Unit(unit):IsExists() and unit ~= \"mouseover\" and not Player:IsMounted() and not Unit(unit):IsDead() and PreCombat() then\n            return true\n        end\n        \n    end\n    \n    -- Defensive\n    local SelfDefensive = SelfDefensives()\n    if SelfDefensive then \n        return SelfDefensive:Show(icon)\n    end\n    \n    -- Mouseover \n    if A.IsUnitEnemy(\"mouseover\") then \n        unit = \"mouseover\"\n        if not Unit(unitID):IsDead() and EnemyRotation(unit) then \n            return true\n        end \n        \n    end    \n    \n    -- Target  \n    if A.IsUnitEnemy(\"target\") then \n        unit = \"target\"\n        if not Unit(unitID):IsDead() and EnemyRotation(unit) then \n            return true\n        end \n        \n    end\n    \nend \n\n\n\n\n-- Nil (nothing for profile here, just reset them)\nA[1] = nil\nA[2] = nil  \nA[4] = nil \nA[5] = nil \nA[6] = nil\nA[7] = nil\nA[8] = nil \n\n",
+					["Code"] = "local _G, setmetatable, pairs, type, math    = _G, setmetatable, pairs, type, math\nlocal huge                                     = math.huge\nlocal TMW                                     = _G.TMW \nlocal Action                                 = _G.Action\nlocal CONST                                 = Action.Const\nlocal Listener                                 = Action.Listener\nlocal Create                                 = Action.Create\nlocal GetToggle                                = Action.GetToggle\nlocal GetLatency                            = Action.GetLatency\nlocal GetGCD                                = Action.GetGCD\nlocal GetCurrentGCD                            = Action.GetCurrentGCD\nlocal ShouldStop                            = Action.ShouldStop\nlocal BurstIsON                                = Action.BurstIsON\nlocal AuraIsValid                            = Action.AuraIsValid\nlocal AuraIsValidByPhialofSerenity            = Action.AuraIsValidByPhialofSerenity\nlocal InterruptIsValid                        = Action.InterruptIsValid\nlocal DetermineUsableObject                    = Action.DetermineUsableObject\nlocal Utils                                    = Action.Utils\nlocal BossMods                                = Action.BossMods\nlocal TeamCache                                = Action.TeamCache\nlocal EnemyTeam                                = Action.EnemyTeam\nlocal FriendlyTeam                            = Action.FriendlyTeam\nlocal LoC                                     = Action.LossOfControl\nlocal Player                                = Action.Player \nlocal MultiUnits                            = Action.MultiUnits\nlocal UnitCooldown                            = Action.UnitCooldown\nlocal Unit                                    = Action.Unit \nlocal IsUnitEnemy                            = Action.IsUnitEnemy\nlocal IsUnitFriendly                        = Action.IsUnitFriendly\nlocal Azerite                                 = LibStub(\"AzeriteTraits\")\nlocal Pet                                       = LibStub(\"PetLibrary\")\nlocal ACTION_CONST_HUNTER_MARKSMANSHIP       = CONST.HUNTER_MARKSMANSHIP\nlocal ACTION_CONST_AUTOTARGET                = CONST.AUTOTARGET\nlocal ACTION_CONST_SPELLID_FREEZING_TRAP    = CONST.SPELLID_FREEZING_TRAP\nlocal IsIndoors, UnitIsUnit                    = _G.IsIndoors, _G.UnitIsUnit\nlocal partyMembers               = GetNumGroupMembers()\n\nAction[ACTION_CONST_HUNTER_MARKSMANSHIP] = {\n    -- Racial\n    ArcaneTorrent                         = Create({ Type = \"Spell\", ID = 50613                                                                            }),\n    BloodFury                             = Create({ Type = \"Spell\", ID = 20572                                                                            }),\n    BagofTricks                           = Create({ Type = \"Spell\", ID = 312411                                                                            }),\n    Fireblood                             = Create({ Type = \"Spell\", ID = 265221                                                                            }),\n    AncestralCall                         = Create({ Type = \"Spell\", ID = 274738                                                                            }),\n    Berserking                            = Create({ Type = \"Spell\", ID = 26297                                                                            }),\n    ArcanePulse                           = Create({ Type = \"Spell\", ID = 260364                                                                            }),\n    QuakingPalm                           = Create({ Type = \"Spell\", ID = 107079                                                                            }),\n    Haymaker                              = Create({ Type = \"Spell\", ID = 287712                                                                            }),\n    WarStomp                              = Create({ Type = \"Spell\", ID = 20549                                                                            }),\n    BullRush                              = Create({ Type = \"Spell\", ID = 255654                                                                            }),\n    GiftofNaaru                           = Create({ Type = \"Spell\", ID = 59544                                                                            }),\n    Shadowmeld                            = Create({ Type = \"Spell\", ID = 58984                                                                            }), -- usable in Action Core\n    Stoneform                             = Create({ Type = \"Spell\", ID = 20594                                                                            }),\n    WilloftheForsaken                     = Create({ Type = \"Spell\", ID = 7744                                                                            }), -- not usable in APL but user can Queue it\n    EscapeArtist                          = Create({ Type = \"Spell\", ID = 20589                                                                            }), -- not usable in APL but user can Queue it\n    EveryManforHimself                    = Create({ Type = \"Spell\", ID = 59752                                                                            }), -- not usable in APL but user can Queue it\n    -- CrownControl\n    CounterShot                                  = Create({ Type = \"Spell\", ID = 147362, isKick = true                                                                }),\n    KickGreen                             = Create({ Type = \"SpellSingleColor\", ID = 147362, Color = \"GREEN\", Desc = \"[2] Kick\", QueueForbidden = true        }),\n    -- Suppotive\n    SummonPet2                            = Create({ Type = \"Spell\", ID = 83242}),\n    SummonPet3                            = Create({ Type = \"Spell\", ID = 83243}),\n    SummonPet4                            = Create({ Type = \"Spell\", ID = 83244}),\n    SummonPet5                            = Create({ Type = \"Spell\", ID = 83245}),\n    MendPet                               = Create({ Type = \"Spell\", ID = 136}),\n    RevivePet                             = Create({ Type = \"Spell\", ID = 982}),\n    -- Self Defensives\n    Exhilaration                          = Create({ Type = \"Spell\", ID = 109304}),\n    AspectoftheTurtle                     = Create({ Type = \"Spell\", ID = 186265}),\n    -- Player Abilities\n    HuntersMark                           = Create({ Type = \"Spell\", ID = 257284}),\n    Multishot                             = Create({ Type = \"Spell\", ID = 257620}),\n    AMurderofCrows                        = Create({ Type = \"Spell\", ID = 131894}),\n    SteadyShot                            = Create({ Type = \"Spell\", ID = 56641}),\n    Intimidation                          = Create({ Type = \"Spell\", ID = 19577}),\n    Exhilaration                          = Create({ Type = \"Spell\", ID = 109304}),\n    TarTrap                               = Create({ Type = \"Spell\", ID = 187698}),\n    Flare                                 = Create({ Type = \"Spell\", ID = 1543}),\n    KillShot                              = Create({ Type = \"Spell\", ID = 53351}),\n    ArcaneShot                            = Create({ Type = \"Spell\", ID = 185358}),\n    TranquilizingShot                     = Create({ Type = \"Spell\", ID = 19801}),\n    AimedShot                              = Create({ Type = \"Spell\", ID = 19434}),\n    RapidFire                              = Create({ Type = \"Spell\", ID = 257044}),\n    -- Talents\n    CarefulAim                            = Create({ Type = \"Spell\", ID = 260228}),\n    CallingtheShots                       = Create({ Type = \"Spell\", ID = 260404}),\n    DoubleTap                             = Create({ Type = \"Spell\", ID = 260402}),\n    MasterMarksman                        = Create({ Type = \"Spell\", ID = 260309}),\n    SteadyFocus                           = Create({ Type = \"Spell\", ID = 193533}),\n    Volley                                = Create({ Type = \"Spell\", ID = 260243}),\n    ChimaeraShot                          = Create({ Type = \"Spell\", ID = 342049}),\n    DeadEye                               = Create({ Type = \"Spell\", ID = 321460}),\n    ExplosiveShot                         = Create({ Type = \"Spell\", ID = 212431}),\n    LethalShots                           = Create({ Type = \"Spell\", ID = 260393}),\n    -- Covenants\n    WildSpirits                           = Create({ Type = \"Spell\", ID = 328231}),\n    DeathChakram                          = Create({ Type = \"Spell\", ID = 325028}),\n    ResonatingArrow                       = Create({ Type = \"Spell\", ID = 308491}),\n    FlayedShot                            = Create({ Type = \"Spell\", ID = 324149}),\n    -- Buffs\n    ArcaneTorrent                          = Create({ Type = \"Spell\", ID = 50613     }),\n    BloodFury                              = Create({ Type = \"Spell\", ID = 20572      }),\n    Fireblood                              = Create({ Type = \"Spell\", ID = 265221     }),\n    AncestralCall                          = Create({ Type = \"Spell\", ID = 274738     }),\n    Berserking                             = Create({ Type = \"Spell\", ID = 26297    }),\n    ArcanePulse                            = Create({ Type = \"Spell\", ID = 260364    }),\n    QuakingPalm                            = Create({ Type = \"Spell\", ID = 107079     }),\n    Haymaker                               = Create({ Type = \"Spell\", ID = 287712     }), \n    WarStomp                               = Create({ Type = \"Spell\", ID = 20549     }),\n    BullRush                               = Create({ Type = \"Spell\", ID = 255654     }),  \n    CamouflageBuff                         = Create({ Type = \"Spell\", ID = 199483    }),\n    GiftofNaaru                            = Create({ Type = \"Spell\", ID = 59544    }),\n    Shadowmeld                             = Create({ Type = \"Spell\", ID = 58984    }), -- usable in Action Core \n    Stoneform                              = Create({ Type = \"Spell\", ID = 20594    }), \n    WilloftheForsaken                      = Create({ Type = \"Spell\", ID = 7744        }), -- not usable in APL but user can Queue it   \n    EscapeArtist                           = Create({ Type = \"Spell\", ID = 20589    }), -- not usable in APL but user can Queue it\n    EveryManforHimself                     = Create({ Type = \"Spell\", ID = 59752    }), -- not usable in APL but user can Queue it\n    BagofTricks                            = Create({ Type = \"Spell\", ID = 312411    }),\n    -- Generics\n    HuntersMarkDebuff                      = Create({ Type = \"Spell\", ID = 257284 , Hidden = true     }),\n    HuntersMark                            = Create({ Type = \"Spell\", ID = 257284 }),\n    DoubleTap                              = Create({ Type = \"Spell\", ID = 260402 }),\n    TrueshotBuff                           = Create({ Type = \"Spell\", ID = 288613 , Hidden = true     }),\n    Trueshot                               = Create({ Type = \"Spell\", ID = 288613 }),\n    AimedShot                              = Create({ Type = \"Spell\", ID = 19434 }),\n    RapidFire                              = Create({ Type = \"Spell\", ID = 257044 }),\n    Berserking                             = Create({ Type = \"Spell\", ID = 26297 }),\n    BerserkingBuff                         = Create({ Type = \"Spell\", ID = 26297 , Hidden = true     }),\n    CarefulAim                             = Create({ Type = \"Spell\", ID = 260228 }),\n    BloodFury                              = Create({ Type = \"Spell\", ID = 20572 }),\n    BloodFuryBuff                          = Create({ Type = \"Spell\", ID = 20572 , Hidden = true     }),\n    AncestralCall                          = Create({ Type = \"Spell\", ID = 274738 }),\n    Fireblood                              = Create({ Type = \"Spell\", ID = 265221 }),\n    LightsJudgment                         = Create({ Type = \"Spell\", ID = 255647 }),\n    PreciseShotsBuff                       = Create({ Type = \"Spell\", ID = 260242 , Hidden = true     }),\n    ExplosiveShot                          = Create({ Type = \"Spell\", ID = 212431 }),\n    Barrage                                = Create({ Type = \"Spell\", ID = 120360 }),\n    AMurderofCrows                         = Create({ Type = \"Spell\", ID = 131894 }),\n    SerpentSting                           = Create({ Type = \"Spell\", ID = 271788 }),\n    SerpentStingDebuff                     = Create({ Type = \"Spell\", ID = 271788 , Hidden = true     }),\n    UnerringVisionBuff                     = Create({ Type = \"Spell\", ID = 274447 , Hidden = true     }),\n    UnerringVision                         = Create({ Type = \"Spell\", ID = 274444 }),\n    ArcaneShot                             = Create({ Type = \"Spell\", ID = 185358 }),\n    MasterMarksmanBuff                     = Create({ Type = \"Spell\", ID = 269576 , Hidden = true     }),\n    DoubleTapBuff                          = Create({ Type = \"Spell\", ID = 260402 , Hidden = true     }),\n    PiercingShot                           = Create({ Type = \"Spell\", ID = 198670 }),\n    FocusedFire                            = Create({ Type = \"Spell\", ID = 278531 }),\n    SteadyShot                             = Create({ Type = \"Spell\", ID = 56641 }),\n    TrickShotsBuff                         = Create({ Type = \"Spell\", ID = 257622 , Hidden = true     }),\n    LockAndLoadBuff                        = Create({ Type = \"Spell\", ID = 194594 , Hidden = true     }),\n    DeadEyeBuff                            = Create({ Type = \"Spell\", ID = 321461 , Hidden = true     }),\n    IntheRhythm                            = Create({ Type = \"Spell\", ID = 264198 }),\n    SurgingShots                           = Create({ Type = \"Spell\", ID = 287707 }),\n    Streamline                             = Create({ Type = \"Spell\", ID = 260367 }),\n    Multishot                              = Create({ Type = \"Spell\", ID = 257620 }),\n    CallingtheShots                        = Create({ Type = \"Spell\", ID = 260404 }),\n    FeignDeath                             = Create({ Type = \"Spell\", ID = 5384 }),\n    BurstingShot                           = Create({ Type = \"Spell\", ID = 186387 }),\n    -- Pet\n    CallPet                                = Create({ Type = \"Spell\", ID = 883, Texture = 136 }),\n    MendPet                                = Create({ Type = \"Spell\", ID = 136, Texture = 136  }),\n    RevivePet                              = Create({ Type = \"Spell\", ID = 982, Texture = 136 }),\n    SpiritShock                            = Create({ Type = \"SpellSingleColor\", ID = 264265, Color = \"BLUE\" }), -- Pet dispell/purge\n    SonicBlast                             = Create({ Type = \"SpellSingleColor\", ID = 264263, Color = \"YELLOW\" }), -- Pet dispell/purge\n    Exhilaration                           = Create({ Type = \"Spell\", ID = 109304 }),\n    SpiritMend                             = Create({ Type = \"SpellSingleColor\", ID = 90361, Color = \"YELLOW\"}), \n    BindingShot                            = Create({ Type = \"Spell\", ID = 109248  }), \n    Smack                                  = Create({ Type = \"Spell\", ID = 49966  }), \n    Claw                                   = Create({ Type = \"Spell\", ID = 16827  }), \n    Bite                                   = Create({ Type = \"Spell\", ID = 17253  }), \n    SurvivaloftheFittest                   = Create({ Type = \"SpellSingleColor\", ID = 264735, Color = \"PINK\"  }),\n    PrimalRage                             = Create({ Type = \"SpellSingleColor\", ID = 264667, Color = \"PINK\"  }),\n    MastersCall                            = Create({ Type = \"SpellSingleColor\", ID = 53271, Color = \"PINK\"  }),    \n    Intimidation                           = Create({ Type = \"Spell\", ID = 19577  }),\n    -- Utilities\n    BindingShot                            = Create({ Type = \"Spell\", ID = 109248  }),\n    AspectoftheTurtle                      = Create({ Type = \"Spell\", ID = 274441 }),\n    ConcussiveShot                         = Create({ Type = \"Spell\", ID = 5116 }),\n    FreezingTrap                           = Create({ Type = \"Spell\", ID = 187650}),\n    -- Pet Spells\n    Exhilaration                           = Create({ Type = \"Spell\", ID = 109304 }),\n    SpiritMend                             = Create({ Type = \"SpellSingleColor\", ID = 90361, Color = \"YELLOW\"}),\n    SpiritShock                            = Create({ Type = \"SpellSingleColor\", ID = 264265, Color = \"BLUE\" }), -- Pet dispell/purge\n    SonicBlast                             = Create({ Type = \"SpellSingleColor\", ID = 264263, Color = \"YELLOW\" }), -- Pet dispell/purge\n    -- Potions\n    PotionofUnbridledFury                  = Create({ Type = \"Potion\", ID = 169299, QueueForbidden = true }), \n    BattlePotionOfAgility                  = Create({ Type = \"Potion\", ID = 163223, QueueForbidden = true }),  \n    SuperiorPotionofUnbridledFury          = Create({ Type = \"Potion\", ID = 168489, QueueForbidden = true }), \n    SuperiorSteelskinPotion                = Create({ Type = \"Potion\", ID = 168501, QueueForbidden = true }), \n    AbyssalHealingPotion                   = Create({ Type = \"Potion\", ID = 301310, QueueForbidden = true }),     \n    PotionofFocusedResolve                 = Create({ Type = \"Potion\", ID = 168506 }),\n    SuperiorBattlePotionofStrength         = Create({ Type = \"Potion\", ID = 168500 }),\n    PotionofEmpoweredProximity             = Create({ Type = \"Potion\", ID = 168529 }),\n    -- Trinkets\n    AzsharasFontofPower                    = Create({ Type = \"Trinket\", ID = 169314 }),\n    PocketsizedComputationDevice           = Create({ Type = \"Trinket\", ID = 167555 }),\n    RotcrustedVoodooDoll                   = Create({ Type = \"Trinket\", ID = 159624 }),\n    ShiverVenomRelic                       = Create({ Type = \"Trinket\", ID = 168905 }),\n    AquipotentNautilus                     = Create({ Type = \"Trinket\", ID = 169305 }),\n    TidestormCodex                         = Create({ Type = \"Trinket\", ID = 165576 }),\n    VialofStorms                           = Create({ Type = \"Trinket\", ID = 158224 }),\n    GalecallersBoon                        = Create({ Type = \"Trinket\", ID = 159614 }),\n    InvocationOfYulon                      = Create({ Type = \"Trinket\", ID = 165568 }),\n    LustrousGoldenPlumage                  = Create({ Type = \"Trinket\", ID = 159617 }),\n    LurkersInsidiousGift                   = Create({ Type = \"Trinket\", ID = 167866 }),\n    VigorTrinket                           = Create({ Type = \"Trinket\", ID = 165572 }),\n    AshvanesRazorCoral                     = Create({ Type = \"Trinket\", ID = 169311 }),\n    MalformedHeraldsLegwraps               = Create({ Type = \"Trinket\", ID = 167835 }),\n    HyperthreadWristwraps                  = Create({ Type = \"Trinket\", ID = 168989 }),\n    NotoriousAspirantsBadge                = Create({ Type = \"Trinket\", ID = 167528 }),\n    NotoriousGladiatorsBadge               = Create({ Type = \"Trinket\", ID = 167380 }),\n    SinisterGladiatorsBadge                = Create({ Type = \"Trinket\", ID = 165058 }),\n    SinisterAspirantsBadge                 = Create({ Type = \"Trinket\", ID = 165223 }),\n    DreadGladiatorsBadge                   = Create({ Type = \"Trinket\", ID = 161902 }),\n    DreadAspirantsBadge                    = Create({ Type = \"Trinket\", ID = 162966 }),\n    DreadCombatantsInsignia                = Create({ Type = \"Trinket\", ID = 161676 }),\n    NotoriousAspirantsMedallion            = Create({ Type = \"Trinket\", ID = 167525 }),\n    NotoriousGladiatorsMedallion           = Create({ Type = \"Trinket\", ID = 167377 }),\n    SinisterGladiatorsMedallion            = Create({ Type = \"Trinket\", ID = 165055 }),\n    SinisterAspirantsMedallion             = Create({ Type = \"Trinket\", ID = 165220 }),\n    DreadGladiatorsMedallion               = Create({ Type = \"Trinket\", ID = 161674 }),\n    DreadAspirantsMedallion                = Create({ Type = \"Trinket\", ID = 162897 }),\n    DreadCombatantsMedallion               = Create({ Type = \"Trinket\", ID = 161811 }),\n    IgnitionMagesFuse                      = Create({ Type = \"Trinket\", ID = 159615 }),\n    TzanesBarkspines                       = Create({ Type = \"Trinket\", ID = 161411 }),\n    AzurethosSingedPlumage                = Create({ Type = \"Trinket\", ID = 161377 }),\n    AncientKnotofWisdomAlliance            = Create({ Type = \"Trinket\", ID = 161417 }),\n    AncientKnotofWisdomHorde               = Create({ Type = \"Trinket\", ID = 166793 }),\n    ShockbitersFang                        = Create({ Type = \"Trinket\", ID = 169318 }),\n    NeuralSynapseEnhancer                  = Create({ Type = \"Trinket\", ID = 168973 }),\n    BalefireBranch                         = Create({ Type = \"Trinket\", ID = 159630 }),\n    GrongsPrimalRage                       = Create({ Type = \"Trinket\", ID = 165574 }),\n    BygoneBeeAlmanac                       = Create({ Type = \"Trinket\", ID = 163936 }),\n    RampingAmplitudeGigavoltEngine         = Create({ Type = \"Trinket\", ID = 165580 }),\n    VisionofDemise                         = Create({ Type = \"Trinket\", ID = 169307 }),\n    JesHowler                              = Create({ Type = \"Trinket\", ID = 159627 }),\n    GalecallersBeak                        = Create({ Type = \"Trinket\", ID = 161379 }),\n    DribblingInkpod                        = Create({ Type = \"Trinket\", ID = 169319 }),\n    MerekthasFang                          = Create({ Type = \"Trinket\", ID = 158367 }),    \n    GrongsPrimalRage                       = Create({ Type = \"Trinket\", ID = 165574 }),\n    BygoneBeeAlmanac                       = Create({ Type = \"Trinket\", ID = 163936 }),\n    RampingAmplitudeGigavoltEngine         = Create({ Type = \"Trinket\", ID = 165580 }),\n    VisionofDemise                         = Create({ Type = \"Trinket\", ID = 169307 }),\n    JesHowler                              = Create({ Type = \"Trinket\", ID = 159627 }),\n    GalecallersBeak                        = Create({ Type = \"Trinket\", ID = 161379 }),\n    DribblingInkpod                        = Create({ Type = \"Trinket\", ID = 169319 }),\n    RazdunksBigRedButton                   = Create({ Type = \"Trinket\", ID = 159611 }),\n    MerekthasFang                          = Create({ Type = \"Trinket\", ID = 158367 }),\n    KnotofAncientFuryAlliance              = Create({ Type = \"Trinket\", ID = 161413 }),\n    KnotofAncientFuryHorde                 = Create({ Type = \"Trinket\", ID = 166795 }),\n    FirstMatesSpyglass                     = Create({ Type = \"Trinket\", ID = 158163 }),\n    VialofAnimatedBlood                    = Create({ Type = \"Trinket\", ID = 159625 }),\n    -- Misc\n    Channeling                             = Create({ Type = \"Spell\", ID = 209274, Hidden = true     }),    -- Show an icon during channeling\n    TargetEnemy                            = Create({ Type = \"Spell\", ID = 44603, Hidden = true     }),    -- Change Target (Tab button)\n    StopCast                               = Create({ Type = \"Spell\", ID = 61721, Hidden = true     }),        -- spell_magic_polymorphrabbit\n    CyclotronicBlast                       = Create({ Type = \"Spell\", ID = 293491, Hidden = true}),\n    ConcentratedFlameBurn                  = Create({ Type = \"Spell\", ID = 295368, Hidden = true}),\n    RazorCoralDebuff                       = Create({ Type = \"Spell\", ID = 303568, Hidden = true     }),\n    ConductiveInkDebuff                    = Create({ Type = \"Spell\", ID = 302565, Hidden = true     }),\n    Trueshot                              = Create({ Type = \"Spell\", ID = 288613}),\n    ResonatingArrowDebuff                    = Create({ Type = \"Spell\", ID = 308498}),\n    -- PvP Talents\n    -- Items\n    RapidReload                            = Create({ Type = \"Spell\", ID = 278530 }),\n    -- Hidden\n}\n\nAction:CreateEssencesFor(ACTION_CONST_HUNTER_MARKSMANSHIP)\nlocal A = setmetatable(Action[ACTION_CONST_HUNTER_MARKSMANSHIP], { __index = Action })\nlocal player                                    = \"player\"\nlocal target                                    = \"target\"\nlocal pet                                        = \"pet\"\nlocal Temp                                        = {\n    AttackTypes                                    = {\"TotalImun\", \"DamagePhysImun\"},    \n    AuraForStun                                    = {\"TotalImun\", \"DamagePhysImun\", \"CCTotalImun\", \"StunImun\"},    \n    AuraForCC                                    = {\"TotalImun\", \"DamagePhysImun\", \"CCTotalImun\"},\n    AuraForOnlyCCAndStun                        = {\"CCTotalImun\", \"StunImun\"},\n    AuraForInterrupt                            = {\"TotalImun\", \"DamagePhysImun\", \"KickImun\"},\n    AuraForSlow                                    = {\"TotalImun\", \"DamagePhysImun\", \"CCTotalImun\", \"Freedom\"},\n    FeignDeathDelay                                = 0,\n    PetFamily                                    = \"nil\",\n    GetPetMeleeSpells                            = { (17253), (16827), (49966) },\n    IsSlotTrinketBlocked                         = {},\n}\n\nfunction Temp.IsPetInMelee(unitID)\n    -- @return boolean \n    return Pet:IsInRange(Temp.GetPetMeleeSpells[1], unitID) or Pet:IsInRange(Temp.GetPetMeleeSpells[2], unitID) or Pet:IsInRange(Temp.GetPetMeleeSpells[3], unitID)\nend\nlocal max_search = 5\nlocal function GetEnemies()\n    -- @return number \n    local enemies = MultiUnits:GetActiveEnemies()   \n    return enemies\nend \n\nlocal function GetByRange(count, range, isCheckEqual, isCheckCombat)\n    -- @return boolean \n    local c = 0 \n    for unitID in pairs(ActiveUnitPlates) do \n        if (not isCheckEqual or not UnitIsUnit(target, unitID)) and (not isCheckCombat or Unit(unitID):CombatTime() > 0) then \n            if range then \n                local r = Unit(unitID):GetRange()\n                if r > 0 and r <= range then \n                    c = c + 1\n                end \n            end \n            \n            if c >= count then \n                return true \n            end \n        end \n    end\nend \n\nlocal function GetByRangeTTD(self, count, range)\n    -- @return number\n    local total, total_ttd = 0, 0\n    \n    for unitID in pairs(ActiveUnitPlates) do \n        if not range or Unit(unitID):CanInterract(range) then \n            total = total + 1\n            total_ttd = total_ttd + Unit(unitID):TimeToDie()\n        end \n        \n        if count and total >= count then \n            break \n        end \n    end \n    \n    if total > 0 then \n        return total_ttd / total     \n    else  \n        return huge\n    end\nend \nGetByRangeTTD = A.MakeFunctionCachedDynamic(GetByRangeTTD)\n\n-- [1] CC AntiFake Rotation\nlocal function AntiFakeStun(unitID) \n    return \n    IsUnitEnemy(unitID) and  \n    Unit(unitID):GetRange() <= 40 and \n    Unit(unitID):IsControlAble(\"stun\", 0) and \n    A.IntimidationGreen:AbsentImun(unitID, Temp.AuraForOnlyCCAndStun, true)          \nend \nA[1] = function(icon)    \n    if A.IntimidationGreen:IsReady(nil, nil, nil, true) and \n    (\n        AntiFakeStun(\"mouseover\") or \n        AntiFakeStun(\"target\")\n    )\n    then \n        return A.IntimidationGreen:Show(icon)         \n    end                                                                     \nend\n\nlocal function SelfDefensives()\n    if Unit(player):CombatTime() == 0 then \n        return \n    end\n    \n    local Exhilaration = A.GetToggle(2, \"ExhilarationHP\")\n    if Exhilaration >= 0 and A.Exhilaration:IsReady(player) and \n    (\n        (     -- Auto \n            Exhilaration >= 100 and \n            (\n                -- HP lose per sec >= 20\n                Unit(player):GetDMG() * 100 / Unit(player):HealthMax() >= 20 or \n                Unit(player):GetRealTimeDMG() >= Unit(player):HealthMax() * 0.20 or \n                -- TTD \n                Unit(player):TimeToDieX(25) < 5 or \n                (\n                    A.IsInPvP and \n                    (\n                        Unit(player):UseDeff() or \n                        (\n                            Unit(player, 5):HasFlags() and \n                            Unit(player):GetRealTimeDMG() > 0 and \n                            Unit(player):IsFocused() \n                        )\n                    )\n                )\n            ) and \n            Unit(player):HasBuffs(\"DeffBuffs\", true) == 0\n        ) or \n        (    -- Custom\n            Exhilaration < 100 and \n            Unit(player):HealthPercent() <= Exhilaration\n        )\n    ) \n    then \n        return A.Exhilaration\n    end\n    \n    local AspectoftheTurtle = A.GetToggle(2, \"Turtle\")\n    if AspectoftheTurtle >= 0 and A.AspectoftheTurtle:IsReady(player) and \n    (\n        (     -- Auto \n            AspectoftheTurtle >= 100 and \n            (\n                -- HP lose per sec >= 30\n                Unit(player):GetDMG() * 100 / Unit(\"player\"):HealthMax() >= 30 or \n                Unit(player):GetRealTimeDMG() >= Unit(player):HealthMax() * 0.30 or \n                -- TTD \n                Unit(player):TimeToDieX(25) < 5 or \n                (\n                    A.IsInPvP and \n                    (\n                        Unit(player):UseDeff() or \n                        (\n                            Unit(player, 5):HasFlags() and \n                            Unit(player):GetRealTimeDMG() > 0 and \n                            Unit(player):IsFocused() \n                        )\n                    )\n                )\n            ) and \n            Unit(player):HasBuffs(\"DeffBuffs\", true) == 0\n        ) or \n        (    -- Custom\n            AspectoftheTurtle < 100 and \n            Unit(player):HealthPercent() <= AspectoftheTurtle\n        )\n    ) \n    then\n        return A.AspectoftheTurtle\n    end\n    -- PhialofSerenity\n    --            local PhialofSerenityHP, PhialofSerenityOperator, PhialofSerenityTTD = GetToggle(2, \"PhialofSerenityHP\"), GetToggle(2, \"PhialofSerenityOperator\"), GetToggle(2, \"PhialofSerenityTTD\")\n    --            if A.PhialofSerenity:IsReady(player) and\n    --            PhialofSerenityOperator == \"AND\" then \n    --                if (PhialofSerenityHP <= 0 or Unit(player):HealthPercent() <= PhialofSerenityHP) and (PhialofSerenityTTD <= 0 or Unit(player):TimeToDie() <= PhialofSerenityTTD) then \n    --                    return A.AbyssalHealingPotion\n    --                end \n    --            else\n    --                if A.PhialofSerenity:IsReady(player) and (PhialofSerenityHP > 0 and Unit(player):HealthPercent() <= PhialofSerenityHP) or (PhialofSerenityTTD > 0 and Unit(player):TimeToDie() <= PhialofSerenityTTD) then \n    --                    return A.AbyssalHealingPotion\n    --                end \n    --            end            \n    -- Dispel \n    --            if A.PhialofSerenity:IsReady(player) and AuraIsValidByPhialofSerenity() then \n    --                return A.AbyssalHealingPotion    \n    --    end    \nend\nSelfDefensives = A.MakeFunctionCachedStatic(SelfDefensives)\n\nlocal function MasterMarksmanBuffCheck()\n    return (Unit(player):HasBuffs(A.MasterMarksmanBuff) or (Unit(player):IsCasting(A.AimedShot) and A.MasterMarksman:IsSpellLearned()))\nend\n\nlocal function UseItems(player)\n    if A.Trinket1:IsReady(unitID) and A.Trinket1:GetItemCategory() ~= \"DEFF\" and not Temp.IsSlotTrinketBlocked[A.Trinket1.ID] and A.Trinket1:AbsentImun(unitID, Temp.TotalAndMagPhys) then \n        return A.Trinket1\n    end\n    \n    if A.Trinket2:IsReady(player) and A.Trinket2:GetItemCategory() ~= \"DEFF\" and not Temp.IsSlotTrinketBlocked[A.Trinket2.ID] and A.Trinket2:AbsentImun(unitID, Temp.TotalAndMagPhys) then \n        return A.Trinket2\n    end\nend\n\n\n-----------------------------------------\n--                 ROTATION  \n-----------------------------------------\n\n-- [3] Single Rotation\nA[3] = function(icon)\n    local isMoving                         = A.Player:IsMoving()\n    local unitID                        = \"player\"\n    local targetID                   = \"target\"\n    local isMovingOut                = Unit(targetID):IsMoving()\n    local inAoE                            = GetToggle(2, \"AoE\")\n    local inHoldAoE                        = GetToggle(2, \"holdAoE\")\n    local minHoldAoE                    = GetToggle(2, \"holdAoENum\") \n    local isStartAttack                    = GetToggle(2, \"startAttack\")\n    local forceAoE                        = GetToggle(2, \"forceAoE\")\n    local combatTime                    = Unit(player):CombatTime()\n    local inCombat                        = combatTime > 0\n    local enemies                        = GetEnemies()\n    local profileStop                    = false\n    local canCast                        = true\n    local VarCAExecute                     = Unit(unitID):HealthPercent() > 70\n    local SoulForgeEmbersEquipped         = GetToggle(2, \"SOULFORGE\")\n    local SurgingShotsEquiped             = GetToggle(2, \"SSHOTS\")\n    local Pull                             = Action.BossMods_Pulling()\n    local CovCDs                      = GetToggle(2, \"CovCDs\") or BurstIsON(unitID)\n    local VolleyCDs                     = GetToggle(2, \"VolleyCDs\") or BurstIsON(unitID)\n    local DTCDs                         = GetToggle(2, \"DTCDs\") or BurstIsON(unitID)\n    local MOVRA                            = GetToggle(2, \"MOVRA\") or UnitIsUnit(target, \"mouseover\")\n    local WSmin                            = GetToggle(2, \"WSmin\")\n    local BSCS                            = GetToggle(2, \"BSCS\")\n    local forcecombat            = GetToggle(2, \"FCOMBAT\") or inCombat\n    local AimedShotCurrentCharges, AimedShotMaxCharges, AimedShotCooldownStart, AimedShotCooldownDuration, AimedShotChargeModRate = GetSpellCharges(A.AimedShot.ID)\n    \n    -- Function to check if trinket is not on-use (spellID is empty or null)\n    local function isempty(s)\n        return s == nil or s == ''\n    end\n    \n    local canSteady = A.LastPlayerCastID == A.SteadyShot.ID and Unit(player):HasBuffs(A.SteadyFocus.ID) < 2 * (A.SteadyShot:GetSpellCastTime() + GetGCD() + GetLatency())\n    local shouldSteady = A.LastPlayerCastID ~= A.SteadyShot.ID and Unit(player):HasBuffs(A.SteadyFocus.ID) == 0\n    local shouldAimshotDuringVolley = A.AimedShot:IsReady(unitID) and\n    Unit(player):HasBuffs(A.Volley.ID) > (2.5-(2.5*(GetHaste(player)/100))) and --can fire one AimedShot before volley ends\n    Unit(player):HasBuffs(A.Volley.ID) > 0 and (\n        (A.LastPlayerCastID ~= A.AimedShot.ID) or\n        (\n            A.LastPlayerCastID == A.AimedShot.ID and\n            not A.RapidFire:IsReady(unit) and\n            A.RapidFire:GetSpellTimeSinceLastCast() > 4\n        ) or\n        (\n            Unit(player):HasBuffs(A.Trueshot.ID, true) > 0\n        )\n    )\n    local shouldRapidfireDuringVolley = A.RapidFire:IsReady(unitID) and Unit(player):HasBuffs(A.Volley.ID) > 0\n    \n    local t1itemId = GetInventoryItemID(\"player\", 13) -- Get Trinket1 ID\n    local t1spellName, t1spellID =  GetItemSpell(t1itemId) -- Get Spell ID related to Trinket1\n    if not isempty(t1spellName) then -- If there is a spell (on-use trinket)\n        local t1cooldownMS, t1gcdMS = GetSpellBaseCooldown(t1spellID) -- Get cooldown in MS\n        t1cooldown = (t1cooldownMS/1000) -- convert it to seconds\n    end\n    if isempty(t1spellName) then -- If there isn't a spell (not on-use trinket)\n        t1cooldown = 0\n    end\n    \n    local t2itemId = GetInventoryItemID(\"player\", 14) -- Get Trinket2 ID\n    local t2spellName, t2spellID =  GetItemSpell(t2itemId) -- Get Spell ID related to Trinket2\n    if not isempty(t2spellName) then -- If there is a spell (on-use trinket)\n        local t2cooldownMS, t2gcdMS = GetSpellBaseCooldown(t2spellID) -- Get cooldown in MS\n        t2cooldown = (t2cooldownMS/1000) -- convert it to seconds\n    end\n    if isempty(t2spellName) then -- If there isn't a spell (not on-use trinket)\n        t2cooldown = 0\n    end\n    \n    -- Trinket 1 usage\n    if A.Trinket1:IsReadyByPassCastGCD(unitID) and Unit(target):IsExists() and not Temp.IsSlotTrinketBlocked[A.Trinket1.ID] and    \n    (   -- If two on-uses are ready and competing for a Trueshot sync, assume the longer cd has a stronger effect and prefer that unless it's already on cooldown, otherwise use the one that's off cooldown\n        (\n            Unit(player):HasBuffs(A.Trueshot.ID, true) > 0 and\n            (\n                t1cooldown >= t2cooldown or\n                A.Trinket2:GetCooldown() > 0\n            )\n        ) or\n        \n        -- If a trinket is ready and another stronger (assumed from longer cooldown) on-use will also be ready by the time Trueshot comes back off cooldown, then use it if the shared 20 second cd it triggers won't interfere with the upcoming Trueshot sync'd on-use.\n        (\n            not A.Trueshot:IsReadyByPassCastGCD(unitID) and A.Trueshot:GetCooldown() > 20 and t2cooldown >= t1cooldown and A.Trinket2:GetCooldown() - 5 < A.Trueshot:GetCooldown()\n        ) or\n        \n        -- If a trinket could be used and still come back off cooldown for a future Trueshot, it's safe to use, preferring the longest cooldown if two are ready.\n        (\n            t1cooldown -5 < A.Trueshot:GetCooldown() and\n            (   \n                t1cooldown >= t2cooldown or\n                A.Trinket2:GetCooldown() > 0\n            )\n        ) or\n        \n        -- If the fight is going to end before your next Trueshot, and the target is a World/Raid Boss just start using trinket to make sure they get used.\n        (\n            Unit(target):TimeToDie() < A.Trueshot:GetCooldown() and partyMembers > 5 and -- partyMembers is already working\n            (\n                UnitClassification(\"target\") == \"worldboss\" or\n                UnitLevel(\"target\") == -1\n            )\n        ) \n    )\n    then\n        return A.Trinket1:Show(icon)\n    end\n    \n    -- Trinket 2 usage\n    if A.Trinket2:IsReadyByPassCastGCD(unitID) and Unit(target):IsExists() and not Temp.IsSlotTrinketBlocked[A.Trinket2.ID] and    \n    (    -- If two on-uses are ready and competing for a Trueshot sync, assume the longer cd has a stronger effect and prefer that unless it's already on cooldown, otherwise use the one that's off cooldown\n        (\n            Unit(player):HasBuffs(A.Trueshot.ID, true) > 0 and\n            (\n                t2cooldown >= t1cooldown or\n                A.Trinket1:GetCooldown() > 0\n            )\n        ) or\n        \n        -- If a trinket is ready and another stronger (assumed from longer cooldown) on-use will also be ready by the time Trueshot comes back off cooldown, then use it if the shared 20 second cd it triggers won't interfere with the upcoming Trueshot sync'd on-use.\n        (\n            not A.Trueshot:IsReadyByPassCastGCD(unitID) and A.Trueshot:GetCooldown() > 20 and t1cooldown >= t2cooldown and A.Trinket1:GetCooldown() - 5 < A.Trueshot:GetCooldown()\n        ) or\n        \n        -- If a trinket could be used and still come back off cooldown for a future Trueshot, it's safe to use, preferring the longest cooldown if two are ready.\n        (\n            t2cooldown -5 < A.Trueshot:GetCooldown() and\n            (   \n                t2cooldown >= t1cooldown or\n                A.Trinket1:GetCooldown() > 0\n            )\n        ) or\n        \n        -- If the fight is going to end before your next Trueshot, and the target is a World/Raid Boss just start using trinket to make sure they get used.\n        (\n            Unit(target):TimeToDie() < A.Trueshot:GetCooldown() and partyMembers > 5 and -- partyMembers is already working\n            (\n                UnitClassification(\"target\") == \"worldboss\" or\n                UnitLevel(\"target\") == -1\n            )\n        )\n    )\n    then\n        return A.Trinket2:Show(icon)\n    end\n    \n    local function num(val)\n        if val then return 1 else return 0 end\n    end\n    \n    if (Player:IsCasting() or Player:IsChanneling()) then\n        canCast = false\n    else \n        canCast = true\n    end\n    \n    if Temp.FeignDeathDelay > 0 then\n        Temp.FeignDeathDelay = Temp.FeignDeathDelay - 1\n        return \n    end\n    \n    Temp.PetFamily = UnitCreatureFamily(Pet:GetMainPet() and Pet:GetMainPet().name or pet)\n    \n    local function EnemyRotation(unitID)    \n        \n        local unit = \"target\"        \n        local MendPet = GetToggle(2, \"MendPet\")\n        if A.MendPet:IsReady(player) and Pet:IsActive() and Unit(pet):HealthPercent() > 0 and ((MendPet >= 100 and (Unit(pet):GetDMG() * 100 / Unit(pet):HealthMax() >= 20 or Unit(pet):GetRealTimeDMG() >= Unit(pet):HealthMax() * 0.20 or Unit(pet):TimeToDieX(15) < 2)) or (MendPet < 100 and Unit(pet):HealthPercent() <= MendPet and Unit(pet):HasBuffs(A.MendPet.ID) == 0))    then\n            return A.MendPet:Show(icon)\n        end\n        \n        -- Purge\n        if A.ArcaneTorrent:AutoRacial(unitID) then \n            return A.ArcaneTorrent:Show(icon)\n        end   \n        \n        -- [[ INTERRUPTS ]] \n        local useKick, useCC, useRacial, notInterruptable, castRemainsTime, castDoneTime = InterruptIsValid(unitID, nil, nil, not A.CounterShot:IsReady(unitID)) -- A.CounterShot non GCD spell\n        \n        if castDoneTime > 0 then\n            if useKick and not notInterruptable and A.CounterShot:IsReady(unitID) then\n                return A.CounterShot:Show(icon)\n            end\n            \n            if useRacial and A.QuakingPalm:AutoRacial(unitID) then \n                return A.QuakingPalm:Show(icon)\n            end \n            \n            if useRacial and A.Haymaker:AutoRacial(unitID) then \n                return A.Haymaker:Show(icon)\n            end \n            \n            if useRacial and A.WarStomp:AutoRacial(unitID) then \n                return A.WarStomp:Show(icon)\n            end \n            \n            if useRacial and A.BullRush:AutoRacial(unitID) then \n                return A.BullRush:Show(icon)\n            end   \n        end\n        \n        -- Explosives or Totems\n        if canCast and (Unit(unitID):IsExplosives() or Unit(unitID):IsTotem()) then\n            if A.ArcaneShot:IsReady(unitID) then\n                return A.ArcaneShot:Show(icon)\n            end\n            \n            if A.SteadyShot:IsReady(unitID) then\n                return A.SteadyShot:Show(icon)\n            end\n        end\n        \n        -- Dispell Enrage / Magic\n        if A.TranquilizingShot:IsReady(unitID) and (AuraIsValid(unitID, \"UseExpelEnrage\", \"Enrage\") or AuraIsValid(unitID, \"UseDispel\", \"Magic\")) then \n            return A.TranquilizingShot:Show(icon)\n        end \n        \n        local canBurst = false\n        if (Unit(unitID):TimeToDie() >= GetToggle(2, \"BurstTTDBoss\") or Unit(unitID):TimeToDie() >= GetToggle(2, \"BurstTTDMobs\")) then\n            canBurst = true\n        end\n        \n        -- Torghast Jars\n        if UnitName(targetID)==\"Aschenes Phylakterium\" or UnitName(targetID)==\"Ashen Phylactery\" or UnitName(targetID)==\"Filacteria cinérea\" or UnitName(targetID)==\"Phylactère cendreux\" or UnitName(targetID)==\"Filatterio Cinereo\" or UnitName(targetID)==\"Filactério Cinzento\" or UnitName(targetID)==\"Phylactery with ashes\" or UnitName(targetID)==\"잿빛 성물함\" or UnitName(targetID)==\"灰烬护命匣\" then\n            if A.Multishot:IsReady(unitID) then\n                return A.Multishot:Show(icon)\n            end\n            \n            if A.SteadyShot:IsReady(unitID) then\n                return A.SteadyShot:Show(icon)\n            end\n        end          \n        if Player:CastRemains(A.SteadyShot.ID, true) > .5 and Player:Focus() > 70 and Unit(player):HasBuffs(A.SteadyFocus.ID) > 8 then\n            return A.StopCast:Show(icon)\n        end\n        if Player:CastRemains(A.AimedShot.ID, true) > .1 and inAoE and Unit(player):HasBuffs(A.TrickShotsBuff.ID, true) == 0 then\n            return A.StopCast:Show(icon)\n        end\n        if Player:CastRemains(A.AimedShot.ID, true) > 1.1 and not inAoE and Unit(player):HasBuffs(A.PreciseShotsBuff.ID) > 0 and Unit(player):HasBuffs(A.TrueshotBuff.ID) == 0 and A.AimedShot:GetSpellChargesFullRechargeTime() > (GetGCD() + GetCurrentGCD() + A.AimedShot:GetSpellCastTime()) then\n            return A.StopCast:Show(icon)\n        end\n        \n        -- local function PreCombat()\n        --     if A.DoubleTap:IsReady(unitID, true) and A.SteadyShot:IsReady(unitID) and ((Unit(unitID):GetRange() <= 40 and canBurst) and Pull > .1 and Pull <= 10) and DTCDs then\n        --         return A.DoubleTap:Show(icon)\n        --     end\n        --     --actions.precombat+=/aimed_shot,if=active_enemies<3&(!covenant.kyrian&!talent.volley|active_enemies<2)\n        --     if A.AimedShot:IsReady(unitID) and enemies < 3 and (not A.ResonatingArrow:IsSpellLearned() and not A.Volley:IsSpellLearned() or enemies < 2) and Pull > .1 and Pull <= A.AimedShot:GetSpellCastTime() then\n        --         return A.AimedShot:Show(icon)\n        --     end\n        -- end\n        local function CD()\n            if A.Berserking:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 then\n                return A.Berserking:Show(icon)\n            end\n            if A.BloodFury:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 then\n                return A.BloodFury:Show(icon)\n            end\n            if A.AncestralCall:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 then\n                return A.AncestralCall:Show(icon)\n            end\n            if A.Fireblood:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 then\n                return A.Fireblood:Show(icon)\n            end\n            if A.LightsJudgment:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.TrueshotBuff.ID) == 0 then\n                return A.LightsJudgment:Show(icon)\n            end\n            if A.BagofTricks:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.TrueshotBuff.ID) == 0 then\n                return A.BagofTricks:Show(icon)\n            end\n        end \n        local function ST()\n            --actions.precombat+=/aimed_shot,if=active_enemies<3&(!covenant.kyrian&!talent.volley|active_enemies<2)\n            if (A.AimedShot:IsReady(unitID) or Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0) and\n            Unit(targetID):CombatTime() == 0 and\n            Unit(player):CombatTime() == 0 and\n            AimedShotCurrentCharges == 2 and\n            not A.IsInPvP and\n            (\n                not isMoving or\n                Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0\n            ) then\n                return A.AimedShot:Show(icon)\n            end\n            --actions.st=steady_shot,if=talent.steady_focus&(prev_gcd.1.steady_shot&buff.steady_focus.remains<5|buff.steady_focus.down)\n            if A.SteadyFocus:IsSpellLearned() and\n            canSteady then\n                return A.SteadyShot:Show(icon)\n            end\n            if A.SteadyFocus:IsSpellLearned() and\n            shouldSteady then\n                return A.SteadyShot:Show(icon)\n            end\n            --actions.st+=/kill_shot\n            if A.KillShot:IsReady(unit) then\n                return A.KillShot:Show(icon)\n            end\n            --actions.st+=/double_tap,if=covenant.kyrian&cooldown.resonating_arrow.remains<gcd|!covenant.kyrian&!covenant.night_fae|covenant.night_fae&(cooldown.wild_spirits.remains<gcd|cooldown.trueshot.remains>55)|target.time_to_die<15\n            if A.DoubleTap:IsReady(unitID, true) and\n            canBurst and\n            DTCDs and\n            (\n                A.ResonatingArrow:IsSpellLearned() and A.ResonatingArrow:GetCooldown() < GetGCD() or\n                (\n                    not A.ResonatingArrow:IsSpellLearned() and\n                    not A.WildSpirits:IsSpellLearned()\n                ) or\n                A.WildSpirits:IsSpellLearned() and\n                (\n                    A.WildSpirits:GetCooldown() < GetGCD() or\n                    A.Trueshot:GetCooldown() > 55\n                )\n            ) and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped or\n                Unit(unitID):TimeToDie() < 15\n            ) then\n                return A.DoubleTap:Show(icon)\n            end\n            --actions.st+=/tar_trap,if=runeforge.soulforge_embers&tar_trap.remains<gcd&cooldown.flare.remains<gcd\n            if A.TarTrap:IsReady(unitID, true) and\n            MOVRA and\n            SoulForgeEmbersEquipped and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst then\n                return A.TarTrap:Show(icon)\n            end\n            --actions.st+=/flare,if=tar_trap.up&runeforge.soulforge_embers\n            if A.Flare:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            SoulForgeEmbersEquipped then\n                return A.Flare:Show(icon)\n            end\n            --actions.st+=/explosive_shot\n            if A.ExplosiveShot:IsReady(unitID) then\n                return A.ExplosiveShot:Show(icon)\n            end\n            --actions.st+=/wild_spirits\n            if A.WildSpirits:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            CovCDs and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped or\n                Unit(unitID):TimeToDie() < 15\n            ) then\n                return A.WildSpirits:Show(icon)\n            end\n            --actions.st+=/flayed_shot\n            if A.FlayedShot:IsReady(unitID) and\n            CovCDs then\n                return A.FlayedShot:Show(icon)\n            end\n            --actions.st+=/death_chakram,if=focus+cast_regen<focus.max\n            if A.DeathChakram:IsReady(unitID) and\n            Player:Focus() < 100 and\n            CovCDs then\n                return A.DeathChakram:Show(icon)\n            end\n            --actions.st+=/a_murder_of_crows\n            if A.AMurderofCrows:IsReady(unitID) then\n                return A.AMurderofCrows:Show(icon)\n            end\n            --actions.st+=/resonating_arrow\n            if A.ResonatingArrow:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            CovCDs and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped or\n                Unit(unitID):TimeToDie() < 15\n            ) then\n                return A.ResonatingArrow:Show(icon)\n            end\n            --actions.st+=/volley,if=buff.precise_shots.down|!talent.chimaera_shot|active_enemies<2\n            if A.Volley:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            VolleyCDs and\n            (\n                A.RapidFire:IsReady(unitID) or\n                A.AimedShot:IsReady(unitID)\n            ) and\n            (\n                Unit(player):HasBuffs(A.PreciseShotsBuff.ID) == 0 or\n                not A.ChimaeraShot:IsSpellLearned() or\n                enemies < 2\n            ) then\n                return A.Volley:Show(icon)\n            end\n            --actions.st+=/trueshot,if=buff.precise_shots.down|buff.resonating_arrow.up|buff.wild_spirits.up|buff.volley.up&active_enemies>1\n            if A.Trueshot:IsReadyByPassCastGCD(unitID) and\n            BurstIsON(unitID) and\n            (\n                Unit(player):HasBuffs(A.PreciseShotsBuff.ID) == 0 or \n                (A.ResonatingArrow:GetSpellTimeSinceLastCast() < 10) or\n                (A.WildSpirits:GetSpellTimeSinceLastCast() < 15) or\n                (A.Volley:GetSpellTimeSinceLastCast() < 2)\n            ) and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped or\n                Unit(unitID):TimeToDie() < 20\n            ) then\n                return A.Trueshot:Show(icon)\n            end\n            --volley RapidFire priority ST\n            if (shouldRapidfireDuringVolley and enemies>1) then\n                return A.RapidFire:Show(icon)\n            end\n            --volley AimedShot priority ST\n            if (shouldAimshotDuringVolley and enemies>1) then\n                return A.AimedShot:Show(icon)\n            end\n            --actions.st+=/aimed_shot,target_if=buff.precise_shots.down|(buff.trueshot.up|full_recharge_time<gcd+cast_time)&(!talent.chimaera_shot|active_enemies<2)|buff.trick_shots.remains>execute_time&active_enemies>1\n            if (A.AimedShot:IsReady(unitID) or Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0) and\n            (not isMoving or Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0) and\n            (\n                Unit(player):HasBuffs(A.PreciseShotsBuff.ID) == 0 or\n                (\n                    Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 or\n                    A.AimedShot:GetSpellChargesFullRechargeTime() < (GetGCD() + GetCurrentGCD() + A.AimedShot:GetSpellCastTime())\n                ) and\n                (\n                    not A.ChimaeraShot:IsSpellLearned() or\n                    enemies < 2\n                ) or\n                (\n                    Unit(player):HasBuffs(A.TrickShotsBuff.ID, true) > (GetGCD() + GetCurrentGCD() + A.AimedShot:GetSpellCastTime())\n                ) or\n                (\n                    Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0 and\n                    AimedShotCurrentCharges == 2\n                )\n            ) and\n            (\n                (\n                    A.IsInPvP and\n                    (\n                        (SurgingShotsEquiped and not A.RapidFire:IsReady(unitID)) or\n                        not SurgingShotsEquiped\n                    )\n                ) or not A.IsInPvP\n            ) then\n                return A.AimedShot:Show(icon)\n            end\n            --actions.st+=/rapid_fire,if=focus+cast_regen<focus.max&(buff.trueshot.down|!runeforge.eagletalons_true_focus)&(buff.double_tap.down|talent.streamline)\n            if A.RapidFire:IsReady(unitID) and \n            (Player:Focus() + Player:FocusCastRegen(A.RapidFire:GetSpellCastTime()) < Player:FocusMax()) and\n            Unit(unitID):TimeToDie() > 6 and\n            not inAoE and\n            (\n                (\n                    not SurgingShotsEquiped and\n                    (\n                        Unit(player):HasBuffs(A.DoubleTapBuff.ID) == 0 or\n                        A.Streamline:IsSpellLearned()\n                    )\n                ) or\n                (\n                    SurgingShotsEquiped and\n                    (\n                        Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 or\n                        Unit(player):HasBuffs(A.DoubleTapBuff.ID) > 0 or\n                        A.DoubleTap:GetCooldown() > 4 or\n                        A.DoubleTap:IsReady(unitID)\n                    )\n                )\n            ) then\n                return A.RapidFire:Show(icon)\n            end\n            --actions.st+=/chimaera_shot,if=buff.precise_shots.up|focus>cost+action.aimed_shot.cost\n            if A.ChimaeraShot:IsReady(unitID) and\n            (\n                Unit(player):HasBuffs(A.PreciseShotsBuff.ID) > 0 or\n                (Player:Focus() > A.ChimaeraShot:GetSpellPowerCostCache() + A.AimedShot:GetSpellPowerCostCache())\n            ) then\n                return A.ChimaeraShot:Show(icon)\n            end\n            --actions.st+=/arcane_shot,if=buff.precise_shots.up|focus>cost+action.aimed_shot.cost\n            if A.ArcaneShot:IsReady(unitID) and\n            (   --TODO: descobrir o que é \"Buff\"\n                --(Buff and enemies < 2) or not Buff) and\n                (\n                    Unit(player):HasBuffs(A.PreciseShotsBuff.ID) > 0 or\n                    Player:Focus() > 55\n                )\n            ) then\n                return A.ArcaneShot:Show(icon)\n            end\n            --actions.st+=/serpent_sting,target_if=min:remains,if=refreshable&target.time_to_die>duration\n            if A.SerpentSting:IsReady(unitID) and\n            Unit(target):HasDeBuffs(A.SerpentSting.ID) <= 2 and\n            Unit(unitID):TimeToDie() > 18 then\n                return A.SerpentSting:Show(icon)\n            end\n            --actions.st+=/barrage,if=active_enemies>1\n            if A.Barrage:IsReady(unitID) and \n            enemies > 1 then\n                return A.Barrage:Show(icon)\n            end\n            --actions.st+=/rapid_fire,if=focus+cast_regen<focus.max&(buff.double_tap.down|talent.streamline)\n            if A.RapidFire:IsReady(unitID) and\n            Unit(unitID):TimeToDie() >= 2 and\n            Player:Focus() + Player:FocusCastRegen(A.RapidFire:GetSpellCastTime()) < Player:FocusMax() and\n            not inAoE and\n            (\n                (\n                    not SurgingShotsEquiped and\n                    (\n                        Unit(player):HasBuffs(A.DoubleTap.ID) == 0 or\n                        A.Streamline:IsSpellLearned()\n                    )\n                ) or\n                (\n                    SurgingShotsEquiped and\n                    (\n                        Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 or\n                        Unit(player):HasBuffs(A.DoubleTapBuff.ID) > 0 or\n                        A.DoubleTap:GetCooldown() > 4 or\n                        A.DoubleTap:IsReady(unitID)\n                    )\n                )\n            ) then\n                return A.RapidFire:Show(icon)\n            end\n            --actions.st+=/steady_shot\n            if A.SteadyShot:IsReady(unitID) and\n            (Player:Focus() + Player:FocusCastRegen(A.SteadyShot:GetSpellCastTime()) < Player:FocusMax()) then\n                return A.SteadyShot:Show(icon)\n            end\n        end      \n        \n        local function TS()\n            --actions.trickshots=steady_shot,if=talent.steady_focus&in_flight&buff.steady_focus.remains<5\n            if A.SteadyFocus:IsSpellLearned() and\n            canSteady then\n                return A.SteadyShot:Show(icon)\n            end\n            if A.SteadyFocus:IsSpellLearned() and\n            shouldSteady then\n                return A.SteadyShot:Show(icon)\n            end\n            --actions.trickshots+=/double_tap,if=covenant.kyrian&cooldown.resonating_arrow.remains<gcd|!covenant.kyrian&!covenant.night_fae|covenant.night_fae&(cooldown.wild_spirits.remains<gcd|cooldown.trueshot.remains>55)|target.time_to_die<10\n            if A.DoubleTap:IsReady(unitID, true) and\n            canBurst and\n            DTCDs and\n            (\n                A.ResonatingArrow:IsSpellLearned() and A.ResonatingArrow:GetCooldown() < GetGCD() or\n                (\n                    not A.ResonatingArrow:IsSpellLearned() and\n                    not A.WildSpirits:IsSpellLearned()\n                ) or\n                A.WildSpirits:IsSpellLearned() and\n                (\n                    A.WildSpirits:GetCooldown() < GetGCD() or\n                    A.Trueshot:GetCooldown() > 55\n                )\n            ) and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped or\n                Unit(unitID):TimeToDie() < 15\n            ) then\n                return A.DoubleTap:Show(icon)\n            end\n            --actions.st+=/tar_trap,if=runeforge.soulforge_embers&tar_trap.remains<gcd&cooldown.flare.remains<gcd\n            if A.TarTrap:IsReady(unitID, true) and\n            MOVRA and\n            SoulForgeEmbersEquipped and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst then\n                return A.TarTrap:Show(icon)\n            end\n            --actions.st+=/flare,if=tar_trap.up&runeforge.soulforge_embers\n            if A.Flare:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            SoulForgeEmbersEquipped then\n                return A.Flare:Show(icon)\n            end\n            --actions.st+=/explosive_shot\n            if A.ExplosiveShot:IsReady(unitID) then\n                return A.ExplosiveShot:Show(icon)\n            end\n            --actions.st+=/wild_spirits\n            if A.WildSpirits:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            CovCDs and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped or\n                Unit(unitID):TimeToDie() < 15\n            ) then\n                return A.WildSpirits:Show(icon)\n            end\n            --actions.trickshots+=/resonating_arrow\n            if A.ResonatingArrow:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            CovCDs and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped or\n                Unit(unitID):TimeToDie() < 15\n            ) then\n                return A.ResonatingArrow:Show(icon)\n            end\n            --actions.trickshots+=/volley\n            if A.Volley:IsReady(unitID, true) and\n            Unit(unitID):GetRange() <= 40 and\n            canBurst and\n            MOVRA and\n            VolleyCDs and\n            (\n                A.RapidFire:IsReady(unitID) or\n                A.AimedShot:IsReady(unitID)\n            ) then\n                return A.Volley:Show(icon)\n            end\n            --actions.trickshots+=/barrage\n            if A.Barrage:IsReady(unitID) then\n                return A.Barrage:Show(icon)\n            end\n            --actions.trickshots+=/trueshot\n            if A.Trueshot:IsReadyByPassCastGCD(player) and\n            canBurst and\n            BurstIsON(unitID) and\n            (\n                (SurgingShotsEquiped and A.RapidFire:IsReady(unitID)) or\n                not SurgingShotsEquiped or\n                Unit(unitID):TimeToDie() < 20\n            ) then\n                return A.Trueshot:Show(icon)\n            end \n            --volley RapidFire priority AOE\n            if (shouldRapidfireDuringVolley) then\n                return A.RapidFire:Show(icon)\n            end\n            --volley AimedShot priority AOE\n            if (shouldAimshotDuringVolley) then\n                return A.AimedShot:Show(icon)\n            end\n            --actions.trickshots+=/rapid_fire,if=buff.trick_shots.remains>=execute_time&runeforge.surging_shots&buff.double_tap.down\n            if A.RapidFire:IsReady(unitID) and\n            Unit(player):HasBuffs(A.TrickShotsBuff.ID, true) > 1 and\n            Unit(unitID):TimeToDie() >= 2 and\n            (\n                (\n                    not SurgingShotsEquiped and\n                    Unit(player):HasBuffs(A.DoubleTapBuff.ID) == 0\n                ) or\n                (\n                    SurgingShotsEquiped and\n                    (\n                        Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 or\n                        Unit(player):HasBuffs(A.DoubleTapBuff.ID) > 0 or\n                        A.DoubleTap:GetCooldown() > 4 or\n                        A.DoubleTap:IsReady(unitID)\n                    )\n                )\n            )\n            then\n                return A.RapidFire:Show(icon)\n            end\n            --actions.trickshots+=/aimed_shot,target_if=buff.trick_shots.remains>=execute_time&(buff.precise_shots.down|full_recharge_time<cast_time+gcd|buff.trueshot.up)\n            if (A.AimedShot:IsReady(unitID) or Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0) and\n            (not isMoving or Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0) and\n            Unit(player):HasBuffs(A.TrickShotsBuff.ID, true) >= 2 and\n            (\n                Unit(player):HasBuffs(A.PreciseShotsBuff.ID) == 0 or\n                A.AimedShot:GetSpellChargesFullRechargeTime() < (GetGCD() + GetCurrentGCD() + A.AimedShot:GetSpellCastTime()) or\n                Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0\n            ) then\n                return A.AimedShot:Show(icon)\n            end\n            --actions.trickshots+=/death_chakram,if=focus+cast_regen<focus.max\n            if A.DeathChakram:IsReady(unitID) and\n            Player:Focus() < 100 and\n            CovCDs then\n                return A.DeathChakram:Show(icon)\n            end\n            --actions.trickshots+=/rapid_fire,if=buff.trick_shots.remains>=execute_time\n            if A.RapidFire:IsReady(unitID) and\n            Unit(player):HasBuffs(A.TrickShotsBuff.ID, true) >= (GetGCD() + GetCurrentGCD() + A.RapidFire:GetSpellCastTime()) and\n            Unit(unitID):TimeToDie() > (GetGCD() + GetCurrentGCD() + A.RapidFire:GetSpellCastTime()) and\n            (\n                (\n                    not SurgingShotsEquiped\n                ) or\n                (\n                    SurgingShotsEquiped and\n                    (\n                        Unit(player):HasBuffs(A.TrueshotBuff.ID) > 0 or\n                        Unit(player):HasBuffs(A.DoubleTapBuff.ID) > 0 or\n                        A.DoubleTap:GetCooldown() > 4 or\n                        A.DoubleTap:IsReady(unitID)\n                    )\n                )\n            ) then\n                return A.RapidFire:Show(icon)\n            end\n            --actions.trickshots+=/multishot,if=buff.trick_shots.down|buff.precise_shots.up&focus>cost+action.aimed_shot.cost&(!talent.chimaera_shot|active_enemies>3)\n            if A.Multishot:IsReady(unitID) and\n            (\n                (Unit(player):HasBuffs(A.LockAndLoadBuff.ID) > 0 and Player:Focus() > 20) or\n                (Unit(player):HasBuffs(A.LockAndLoadBuff.ID) == 0 and Player:Focus() > 55)\n            ) and\n            (\n                Unit(player):HasBuffs(A.TrickShotsBuff.ID, true) == 0 or\n                Unit(player):HasBuffs(A.PreciseShotsBuff.ID) > 0\n            ) then\n                return A.Multishot:Show(icon)\n            end\n            --actions.trickshots+=/chimaera_shot,if=buff.precise_shots.up&focus>cost+action.aimed_shot.cost&active_enemies<4\n            if A.ChimaeraShot:IsReady(unitID) and\n            Unit(player):HasBuffs(A.PreciseShotsBuff.ID, true) > 0 and\n            Player:Focus() > 55 then\n                return A.ChimaeraShot:Show(icon)\n            end\n            --actions.trickshots+=/kill_shot,if=buff.dead_eye.down\n            if A.KillShot:IsReady(unit) and\n            Unit(player):HasBuffs(A.DeadEyeBuff.ID) == 0 then\n                return A.KillShot:Show(icon)\n            end\n            --actions.trickshots+=/a_murder_of_crows\n            if A.AMurderofCrows:IsReady(unitID) then\n                return A.AMurderofCrows:Show(icon)\n            end\n            --actions.trickshots+=/flayed_shot\n            if A.FlayedShot:IsReady(unitID) and\n            CovCDs then\n                return A.FlayedShot:Show(icon)\n            end\n            --actions.trickshots+=/serpent_sting,target_if=min:dot.serpent_sting.remains,if=refreshable\n            if A.SerpentSting:IsReady(unitID) and\n            Unit(unitID):HasDebuffs(A.SerpentStingDebuff.ID, true) < 2 and\n            Unit(unitID):TimeToDie() > 18 then\n                return A.SerpentSting:Show(icon)\n            end\n            --actions.trickshots+=/multishot,if=focus>cost+action.aimed_shot.cost\n            if A.Multishot:IsReady(unitID) and\n            Player:Focus() > 55 then\n                return A.Multishot:Show(icon)\n            end\n            --actions.trickshots+=/steady_shot\n            if A.SteadyShot:IsReady(unitID) then\n                return A.SteadyShot:Show(icon)\n            end\n        end\n        \n        if A.BurstingShot:IsReady(unitID, true) and not Unit(unitID):IsDead() and MultiUnits:GetByRange(5, 1) >= 1 and Unit(player):IsTankingAoE(10) and BSCS then\n            return A.BurstingShot:Show(icon)\n        end\n        \n        ---- ConcussiveShot if:\n        -- PvE: Low hp while KillShot isn't ready AND player has aggro AND target not slowed AND (no pet active OR pet is dead)\n        -- PvP: target is moving AND target not slowed AND player camouflage isn't active AND MaxSpeed >= 100 AND trushot down\n        -- Both: target not phys imune AND target exists AND target is alive\n        if A.ConcussiveShot:IsReady(unitID) and not Unit(unitID):IsDead() and Unit(unitID):IsExists() and\n        (\n            (\n                BSCS and \n                not A.IsInPvP and\n                Unit(player):IsTankingAoE(10) and\n                Unit(unitID):HasDeBuffs(\"Slowed\") == 0 and\n                Unit(unitID):GetMaxSpeed() >= 100 and\n                (Unit(player):HealthPercent() < 20 and not A.KillShot:IsReady(unit)) and\n                (not Pet:IsActive() or Unit(pet):HealthPercent() <1)\n            ) or \n            (\n                BSCS and\n                A.IsInPvP and\n                isMovingOut and\n                Unit(player):HasBuffs(A.CamouflageBuff.ID, true) == 0 and\n                Unit(unitID):HasDeBuffs(\"Slowed\") == 0 and\n                Unit(unitID):GetMaxSpeed() >= 100 and\n                Unit(player):HasBuffs(A.TrueshotBuff.ID) == 0 and\n                not A.KillShot:IsReady(unit)\n            ) and\n            A.ConcussiveShot:AbsentImun(unitID, Temp.TotalAndPhys)\n        ) then\n            return A.ConcussiveShot:Show(icon)\n        end\n        \n        if canBurst and canCast and BurstIsON(unitID) and forcecombat and CD() then\n            return true\n        end\n        if (not inAoE or (enemies < 3)) and canCast and forcecombat and not forceAoE and ST() then\n            return true\n        end\n        if (enemies > 2 or forceAoE) and canCast and forcecombat and TS() then\n            return true\n        end\n        if not forcecombat and not profileStop and Unit(unit):IsExists() and unit ~= \"mouseover\" and not Player:IsMounted() and not Unit(unit):IsDead() and PreCombat() then\n            return true\n        end\n        \n    end\n    \n    -- Defensive\n    local SelfDefensive = SelfDefensives()\n    if SelfDefensive then \n        return SelfDefensive:Show(icon)\n    end\n    \n    -- Mouseover \n    if A.IsUnitEnemy(\"mouseover\") then \n        unit = \"mouseover\"\n        if not Unit(unitID):IsDead() and EnemyRotation(unit) then \n            return true\n        end \n        \n    end    \n    \n    -- Target  \n    if A.IsUnitEnemy(\"target\") then \n        unit = \"target\"\n        if not Unit(unitID):IsDead() and EnemyRotation(unit) then \n            return true\n        end \n        \n    end\n    \nend \n\n\n\n\n-- Nil (nothing for profile here, just reset them)\nA[1] = nil\nA[2] = nil  \nA[4] = nil \nA[5] = nil \nA[6] = nil\nA[7] = nil\nA[8] = nil \n\n",
 				}, -- [2]
 				{
 					["Name"] = "BM",
