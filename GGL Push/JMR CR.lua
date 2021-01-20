@@ -7,48 +7,24 @@ TellMeWhenDB = {
 				{
 				}, -- [2]
 			},
-			["TMW:textlayout:1TMvg5InaYOw"] = {
+			["TMW:textlayout:1Rh4g1a9S6Uf"] = {
 				{
+					["Outline"] = "OUTLINE",
+					["Shadow"] = 0.9,
 					["Anchors"] = {
 						{
-							["y"] = -1.5,
-							["x"] = 1.5,
-							["point"] = "TOPLEFT",
-							["relativePoint"] = "TOPLEFT",
+							["y"] = 58,
+							["relativeTo"] = "IconModule_CooldownSweepCooldown",
+							["relativePoint"] = "RIGHT",
+							["x"] = 12.2,
 						}, -- [1]
 					},
-					["DefaultText"] = "[ActionBurst]",
-					["Size"] = 6,
+					["Name"] = "Morpheus",
+					["Rotate"] = 90,
+					["Size"] = 35,
 				}, -- [1]
-				{
-					["Anchors"] = {
-						{
-							["y"] = 1,
-							["x"] = 0.5,
-							["point"] = "BOTTOMRIGHT",
-							["relativePoint"] = "BOTTOMRIGHT",
-						}, -- [1]
-					},
-					["Name"] = "Morpheus",
-					["DefaultText"] = "[ActionAoE]",
-					["Size"] = 6,
-				}, -- [2]
-				{
-					["Anchors"] = {
-						{
-							["y"] = 1,
-							["x"] = 1.5,
-							["point"] = "BOTTOMLEFT",
-							["relativePoint"] = "BOTTOMLEFT",
-						}, -- [1]
-					},
-					["Name"] = "Morpheus",
-					["DefaultText"] = "[ActionMode]",
-					["Size"] = 6,
-				}, -- [3]
-				["GUID"] = "TMW:textlayout:1TMvg5InaYOw",
-				["Name"] = "ActionLayout",
-				["n"] = 3,
+				["GUID"] = "TMW:textlayout:1Rh4g1a9S6Uf",
+				["Name"] = "UserInterface_TextVertical",
 			},
 			["TMW:textlayout:1RkGJEN4L5o_"] = {
 				{
@@ -126,24 +102,48 @@ TellMeWhenDB = {
 				["GUID"] = "TMW:textlayout:1S6ieoFev4r0",
 				["Name"] = "UserInterface_SmallerText",
 			},
-			["TMW:textlayout:1Rh4g1a9S6Uf"] = {
+			["TMW:textlayout:1TMvg5InaYOw"] = {
 				{
-					["Outline"] = "OUTLINE",
-					["Shadow"] = 0.9,
 					["Anchors"] = {
 						{
-							["y"] = 58,
-							["x"] = 12.2,
-							["relativePoint"] = "RIGHT",
-							["relativeTo"] = "IconModule_CooldownSweepCooldown",
+							["y"] = -1.5,
+							["x"] = 1.5,
+							["point"] = "TOPLEFT",
+							["relativePoint"] = "TOPLEFT",
+						}, -- [1]
+					},
+					["DefaultText"] = "[ActionBurst]",
+					["Size"] = 6,
+				}, -- [1]
+				{
+					["Anchors"] = {
+						{
+							["y"] = 1,
+							["x"] = 0.5,
+							["point"] = "BOTTOMRIGHT",
+							["relativePoint"] = "BOTTOMRIGHT",
 						}, -- [1]
 					},
 					["Name"] = "Morpheus",
-					["Rotate"] = 90,
-					["Size"] = 35,
-				}, -- [1]
-				["GUID"] = "TMW:textlayout:1Rh4g1a9S6Uf",
-				["Name"] = "UserInterface_TextVertical",
+					["DefaultText"] = "[ActionAoE]",
+					["Size"] = 6,
+				}, -- [2]
+				{
+					["Anchors"] = {
+						{
+							["y"] = 1,
+							["x"] = 1.5,
+							["point"] = "BOTTOMLEFT",
+							["relativePoint"] = "BOTTOMLEFT",
+						}, -- [1]
+					},
+					["Name"] = "Morpheus",
+					["DefaultText"] = "[ActionMode]",
+					["Size"] = 6,
+				}, -- [3]
+				["GUID"] = "TMW:textlayout:1TMvg5InaYOw",
+				["Name"] = "ActionLayout",
+				["n"] = 3,
 			},
 		},
 		["ShowGUIDs"] = true,
@@ -187,13 +187,6 @@ TellMeWhenDB = {
 		},
 		["Groups"] = {
 			{
-				["GUID"] = "TMW:group:1RCgER2LDYMA",
-				["Point"] = {
-					["y"] = -52.1353299047438,
-					["x"] = -29.9,
-					["point"] = "TOPLEFT",
-					["relativePoint"] = "TOPLEFT",
-				},
 				["Scale"] = 1.40016186237335,
 				["Locked"] = true,
 				["Enabled"] = false,
@@ -4550,10 +4543,17 @@ TellMeWhenDB = {
 					["[GGL] Monk"] = false,
 					["[DEV] All in One"] = false,
 					["[GGL] Template"] = false,
-					["[GGL] Test"] = false,
 					["[GGL] SimTest"] = false,
+					["[GGL] Test"] = false,
 				},
 				["Name"] = "[GGL] Chat trigger",
+				["GUID"] = "TMW:group:1RCgER2LDYMA",
+				["Point"] = {
+					["y"] = -52.1353299047438,
+					["x"] = -29.9,
+					["point"] = "TOPLEFT",
+					["relativePoint"] = "TOPLEFT",
+				},
 			}, -- [1]
 			{
 				["GUID"] = "TMW:group:1RhHG3BLwtGX",
@@ -5298,9 +5298,9 @@ TellMeWhenDB = {
 				},
 				["EnabledProfiles"] = {
 					["[GGL] Monk"] = false,
-					["[GGL] Template"] = false,
-					["[GGL] Test"] = false,
 					["[GGL] SimTest"] = false,
+					["[GGL] Test"] = false,
+					["[GGL] Template"] = false,
 				},
 				["Name"] = "[GGL] Anchor TOGGLES",
 				["Point"] = {
@@ -5311,7 +5311,6 @@ TellMeWhenDB = {
 				},
 			}, -- [2]
 			{
-				["GUID"] = "TMW:group:1RVRouwrKDKz",
 				["Point"] = {
 					["y"] = 30,
 					["relativeTo"] = "TMW:group:1RhHG3BLwtGX",
@@ -6077,9 +6076,9 @@ TellMeWhenDB = {
 				["LayoutDirection"] = 8,
 				["EnabledProfiles"] = {
 					["[GGL] Monk"] = false,
-					["[GGL] Template"] = false,
-					["[GGL] Test"] = false,
 					["[GGL] SimTest"] = false,
+					["[GGL] Test"] = false,
+					["[GGL] Template"] = false,
 				},
 				["Name"] = "[GGL] System TOGGLES",
 				["Conditions"] = {
@@ -6089,16 +6088,10 @@ TellMeWhenDB = {
 					}, -- [1]
 					["n"] = 1,
 				},
+				["GUID"] = "TMW:group:1RVRouwrKDKz",
 				["Locked"] = true,
 			}, -- [3]
 			{
-				["GUID"] = "TMW:group:1RhKveUIDx_I",
-				["Point"] = {
-					["y"] = -8.27309977087656,
-					["x"] = 893.789245605469,
-					["point"] = "TOPLEFT",
-					["relativePoint"] = "TOPLEFT",
-				},
 				["Scale"] = 0.725002586841583,
 				["Rows"] = 7,
 				["Locked"] = true,
@@ -6860,6 +6853,7 @@ TellMeWhenDB = {
 					{
 						["Type"] = "item",
 						["Name"] = "5512",
+						["OnlyInBags"] = true,
 						["Conditions"] = {
 							{
 								["Type"] = "ICON",
@@ -6905,7 +6899,6 @@ TellMeWhenDB = {
 							}, -- [4]
 						},
 						["FakeHidden"] = true,
-						["OnlyInBags"] = true,
 						["Enabled"] = true,
 					}, -- [44]
 					{
@@ -7081,11 +7074,11 @@ TellMeWhenDB = {
 							["ROOT"] = true,
 							["FEAR"] = true,
 							["DISORIENT"] = true,
-							["BANISH"] = true,
-							["SAP"] = true,
-							["PACIFYSILENCE"] = true,
-							["CHARM"] = true,
 							["HORROR"] = true,
+							["CHARM"] = true,
+							["PACIFYSILENCE"] = true,
+							["SAP"] = true,
+							["BANISH"] = true,
 						},
 						["BuffOrDebuff"] = "HARMFUL",
 						["Type"] = "conditionicon",
@@ -7217,22 +7210,22 @@ TellMeWhenDB = {
 							{
 								["Type"] = "UNITSPEC",
 								["BitFlags"] = {
-									[105] = true,
+									[253] = true,
 									[63] = true,
 									[262] = true,
-									[256] = true,
-									[65] = true,
+									[254] = true,
+									[258] = true,
 									[265] = true,
 									[266] = true,
 									[267] = true,
-									[62] = true,
+									[105] = true,
 									[64] = true,
 									[270] = true,
-									[102] = true,
+									[256] = true,
 									[257] = true,
-									[258] = true,
-									[254] = true,
-									[253] = true,
+									[65] = true,
+									[102] = true,
+									[62] = true,
 								},
 								["PrtsBefore"] = 1,
 								["AndOr"] = "OR",
@@ -7405,9 +7398,9 @@ TellMeWhenDB = {
 									[577] = true,
 									[268] = true,
 									[255] = true,
-									[254] = true,
-									[259] = true,
 									[103] = true,
+									[259] = true,
+									[254] = true,
 								},
 								["PrtsBefore"] = 1,
 								["AndOr"] = "OR",
@@ -7430,9 +7423,9 @@ TellMeWhenDB = {
 									[66] = true,
 									[70] = true,
 									[72] = true,
-									[71] = true,
-									[104] = true,
 									[73] = true,
+									[104] = true,
+									[71] = true,
 								},
 								["PrtsBefore"] = 1,
 								["AndOr"] = "OR",
@@ -8063,13 +8056,19 @@ TellMeWhenDB = {
 				},
 				["EnabledProfiles"] = {
 					["[GGL] Template"] = false,
-					["[GGL] Monk"] = false,
 					["[GGL] SimTest"] = false,
+					["[GGL] Monk"] = false,
 				},
 				["Name"] = "[GGL] Basic features",
+				["GUID"] = "TMW:group:1RhKveUIDx_I",
+				["Point"] = {
+					["y"] = -8.27309977087656,
+					["x"] = 893.789245605469,
+					["point"] = "TOPLEFT",
+					["relativePoint"] = "TOPLEFT",
+				},
 			}, -- [4]
 			{
-				["GUID"] = "TMW:group:1S0n1HVc4sYp",
 				["Point"] = {
 					["y"] = -26.9633894540324,
 					["x"] = 775.356628417969,
@@ -8178,13 +8177,7 @@ TellMeWhenDB = {
 						},
 						["DurationMin"] = 28,
 						["Type"] = "cleu",
-						["UnitConditions"] = {
-							{
-								["Type"] = "CLASS2",
-								["BitFlags"] = 4,
-							}, -- [1]
-							["n"] = 1,
-						},
+						["SourceUnit"] = "arena1-3",
 						["CLEUDur"] = 30,
 						["Name"] = "187650: 30",
 						["Conditions"] = {
@@ -8216,7 +8209,13 @@ TellMeWhenDB = {
 						["FakeHidden"] = true,
 						["GUID"] = "TMW:icon:1S0oHilBdwVP",
 						["DurationMinEnabled"] = true,
-						["SourceUnit"] = "arena1-3",
+						["UnitConditions"] = {
+							{
+								["Type"] = "CLASS2",
+								["BitFlags"] = 4,
+							}, -- [1]
+							["n"] = 1,
+						},
 						["Enabled"] = true,
 					}, -- [3]
 					{
@@ -8368,6 +8367,10 @@ TellMeWhenDB = {
 						},
 						["DurationMin"] = 28,
 						["Type"] = "unitcooldown",
+						["SourceUnit"] = "arena1-3",
+						["CLEUDur"] = 2,
+						["Name"] = "107570: 30",
+						["FakeHidden"] = true,
 						["UnitConditions"] = {
 							{
 								["Type"] = "CLASS2",
@@ -8375,10 +8378,6 @@ TellMeWhenDB = {
 							}, -- [1]
 							["n"] = 1,
 						},
-						["CLEUDur"] = 2,
-						["Name"] = "107570: 30",
-						["DestUnit"] = "player",
-						["SourceUnit"] = "arena1-3",
 						["SettingsPerView"] = {
 							["icon"] = {
 								["TextLayout"] = "TMW:textlayout:1RFt2HZe_Cbk",
@@ -8400,7 +8399,7 @@ TellMeWhenDB = {
 							{
 							}, -- [4]
 						},
-						["FakeHidden"] = true,
+						["DestUnit"] = "player",
 						["Enabled"] = true,
 						["GUID"] = "TMW:icon:1S0n1gQMwApf",
 						["DurationMinEnabled"] = true,
@@ -12446,6 +12445,7 @@ TellMeWhenDB = {
 					}, -- [2]
 					["n"] = 2,
 				},
+				["GUID"] = "TMW:group:1S0n1HVc4sYp",
 			}, -- [5]
 			{
 				["Icons"] = {
@@ -15373,7 +15373,7 @@ TellMeWhenDB = {
 					["Name"] = "Shown Main",
 					["TimerBar_StartColor"] = "ff000000",
 					["Locked"] = true,
-					["TimerBar_MiddleColor"] = "ff000000",
+					["Columns"] = 8,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -16850,7 +16850,7 @@ TellMeWhenDB = {
 							},
 						}, -- [120]
 					},
-					["Columns"] = 8,
+					["TimerBar_MiddleColor"] = "ff000000",
 				}, -- [1]
 				{
 					["GUID"] = "TMW:group:1T0KXe2TsCkW",
@@ -16865,7 +16865,7 @@ TellMeWhenDB = {
 					["Name"] = "Hidden APL",
 					["TimerBar_StartColor"] = "ff000000",
 					["Locked"] = true,
-					["TimerBar_MiddleColor"] = "ff000000",
+					["Columns"] = 8,
 					["Icons"] = {
 						{
 							["GUID"] = "TMW:icon:1T0KeNg=IDQd",
@@ -18444,7 +18444,7 @@ TellMeWhenDB = {
 							},
 						}, -- [120]
 					},
-					["Columns"] = 8,
+					["TimerBar_MiddleColor"] = "ff000000",
 				}, -- [2]
 				{
 					["GUID"] = "TMW:group:1P3cu8AAtSYM",
@@ -22654,8 +22654,8 @@ TellMeWhenDB = {
 					["Name"] = "Visible APL",
 					["SettingsPerView"] = {
 						["icon"] = {
-							["BorderIcon"] = 1.5,
 							["BorderInset"] = true,
+							["BorderIcon"] = 1.5,
 						},
 					},
 					["Locked"] = true,
@@ -22672,6 +22672,8 @@ TellMeWhenDB = {
 					["GUID"] = "TMW:group:1TMvhh5X05mC",
 					["Name"] = "Visible APL Layout",
 					["Columns"] = 1,
+					["Level"] = 11,
+					["Scale"] = 2.5,
 					["Conditions"] = {
 						{
 							["Name"] = "return not GetToggle(1, \"DisableRotationDisplay\") and not GetToggle(1, \"DisableRotationModes\")",
@@ -22679,8 +22681,6 @@ TellMeWhenDB = {
 						}, -- [1]
 						["n"] = 1,
 					},
-					["Scale"] = 2.5,
-					["Level"] = 11,
 					["Icons"] = {
 						{
 							["Enabled"] = true,
@@ -24049,7 +24049,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[773] = {
+						[933] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24060,7 +24060,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1257] = {
+						[885] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24137,7 +24137,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[929] = {
+						[273] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24148,7 +24148,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[897] = {
+						[921] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24159,7 +24159,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[449] = {
+						[641] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24170,7 +24170,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[893] = {
+						[401] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24225,7 +24225,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[385] = {
+						[761] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24236,7 +24236,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1025] = {
+						[257] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24346,7 +24346,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[505] = {
+						[1009] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24357,7 +24357,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1249] = {
+						[441] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24368,7 +24368,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[753] = {
+						[377] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24401,7 +24401,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[625] = {
+						[313] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24412,7 +24412,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[889] = {
+						[25] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24423,7 +24423,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[825] = {
+						[317] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24434,7 +24434,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[793] = {
+						[957] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24489,7 +24489,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[461] = {
+						[465] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24522,7 +24522,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[329] = {
+						[881] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24533,7 +24533,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[29] = {
+						[817] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24544,7 +24544,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[949] = {
+						[1089] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24577,7 +24577,18 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[925] = {
+						[1505] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[705] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24599,18 +24610,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1409] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[1497] = {
+						[1005] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24654,7 +24654,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[481] = {
+						[1409] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24709,7 +24709,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1241] = {
+						[877] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24764,7 +24764,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1265] = {
+						[477] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24775,7 +24775,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[913] = {
+						[709] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24786,7 +24786,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[937] = {
+						[965] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24841,7 +24841,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[69] = {
+						[785] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24874,7 +24874,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[325] = {
+						[961] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24885,7 +24885,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[289] = {
+						[409] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24896,7 +24896,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[345] = {
+						[101] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24929,7 +24929,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[85] = {
+						[349] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24940,7 +24940,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[81] = {
+						[1129] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24951,7 +24951,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1169] = {
+						[281] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24962,7 +24962,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1489] = {
+						[1001] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -24995,7 +24995,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[841] = {
+						[1169] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25017,7 +25017,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[873] = {
+						[1233] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25028,7 +25028,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[745] = {
+						[373] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25039,7 +25039,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[617] = {
+						[309] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25050,7 +25050,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[969] = {
+						[909] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25061,7 +25061,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[905] = {
+						[941] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25072,7 +25072,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[973] = {
+						[1177] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25182,7 +25182,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1433] = {
+						[973] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25193,7 +25193,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[781] = {
+						[105] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25226,7 +25226,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[917] = {
+						[1017] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25237,7 +25237,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[713] = {
+						[501] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25248,7 +25248,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[681] = {
+						[997] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25281,18 +25281,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[593] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[849] = {
+						[721] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25314,7 +25303,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1481] = {
+						[869] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25325,7 +25314,18 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[297] = {
+						[125] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[593] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25347,7 +25347,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[425] = {
+						[849] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25413,7 +25413,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1225] = {
+						[109] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25424,7 +25424,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[741] = {
+						[93] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25457,7 +25457,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[613] = {
+						[77] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25468,7 +25468,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[673] = {
+						[437] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25479,7 +25479,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1193] = {
+						[405] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25490,7 +25490,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1449] = {
+						[97] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25523,7 +25523,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[853] = {
+						[1193] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25534,7 +25534,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[981] = {
+						[1449] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25545,7 +25545,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[473] = {
+						[569] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25578,7 +25578,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[429] = {
+						[493] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25589,7 +25589,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1473] = {
+						[601] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25600,7 +25600,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[365] = {
+						[729] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25633,72 +25633,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1201] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[985] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[1217] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[993] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[301] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[729] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
 						[857] = {
 							["States"] = {
 								{
@@ -25721,6 +25655,72 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
+						[1217] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[497] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[301] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[365] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[429] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[985] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
 						[433] = {
 							["States"] = {
 								{
@@ -25732,7 +25732,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[737] = {
+						[369] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25743,7 +25743,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[609] = {
+						[305] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25754,7 +25754,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[453] = {
+						[1161] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25765,7 +25765,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1097] = {
+						[1417] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25776,7 +25776,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1041] = {
+						[581] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25809,7 +25809,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1113] = {
+						[1145] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25842,7 +25842,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1209] = {
+						[1185] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25875,7 +25875,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[861] = {
+						[1209] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25897,29 +25897,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[989] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[1057] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[1361] = {
+						[421] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25941,7 +25919,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[421] = {
+						[1361] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25952,7 +25930,29 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1185] = {
+						[1057] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[989] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[861] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25985,7 +25985,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1145] = {
+						[1113] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -25996,7 +25996,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[581] = {
+						[1041] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26007,7 +26007,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1417] = {
+						[1097] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26018,7 +26018,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1161] = {
+						[453] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26029,7 +26029,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[305] = {
+						[609] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26040,7 +26040,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[369] = {
+						[737] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26062,7 +26062,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[497] = {
+						[1473] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26117,7 +26117,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[601] = {
+						[993] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26128,7 +26128,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[493] = {
+						[1201] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26161,7 +26161,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[569] = {
+						[473] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26172,7 +26172,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[97] = {
+						[981] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26183,7 +26183,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[405] = {
+						[853] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26194,7 +26194,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[437] = {
+						[673] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26205,7 +26205,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[77] = {
+						[613] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26216,7 +26216,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[93] = {
+						[741] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26227,7 +26227,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[109] = {
+						[1225] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26238,18 +26238,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[125] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[869] = {
+						[1481] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26271,7 +26260,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[721] = {
+						[425] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26282,7 +26271,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[997] = {
+						[297] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26293,7 +26282,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[501] = {
+						[681] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26304,7 +26293,18 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1017] = {
+						[713] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[917] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26337,7 +26337,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[105] = {
+						[781] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26348,7 +26348,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1177] = {
+						[1433] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26359,7 +26359,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[941] = {
+						[905] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26370,7 +26370,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[909] = {
+						[969] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26381,7 +26381,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[309] = {
+						[617] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26392,7 +26392,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[373] = {
+						[745] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26403,7 +26403,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1233] = {
+						[873] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26414,7 +26414,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1001] = {
+						[1489] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26425,7 +26425,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[281] = {
+						[841] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26436,7 +26436,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1129] = {
+						[81] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26447,7 +26447,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[349] = {
+						[85] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26458,7 +26458,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[101] = {
+						[345] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26469,7 +26469,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[409] = {
+						[289] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26480,7 +26480,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[961] = {
+						[325] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26513,7 +26513,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[785] = {
+						[69] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26524,7 +26524,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[965] = {
+						[937] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26535,7 +26535,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[709] = {
+						[913] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26546,7 +26546,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[477] = {
+						[1265] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26579,7 +26579,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[877] = {
+						[1241] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26590,7 +26590,18 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1005] = {
+						[1497] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[481] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26612,7 +26623,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[705] = {
+						[925] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26623,7 +26634,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1505] = {
+						[949] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26634,7 +26645,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1089] = {
+						[29] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26645,18 +26656,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[817] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[881] = {
+						[329] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26689,7 +26689,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[465] = {
+						[461] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26700,7 +26700,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[957] = {
+						[793] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26711,7 +26711,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[317] = {
+						[825] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26722,7 +26722,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[25] = {
+						[889] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26733,7 +26733,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[313] = {
+						[625] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26744,7 +26744,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[377] = {
+						[753] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26755,7 +26755,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[441] = {
+						[1249] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26766,7 +26766,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1009] = {
+						[505] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26821,7 +26821,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[257] = {
+						[1025] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26832,7 +26832,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[761] = {
+						[385] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26865,7 +26865,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[401] = {
+						[893] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26876,7 +26876,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[641] = {
+						[449] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26887,7 +26887,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[921] = {
+						[897] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26898,7 +26898,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[273] = {
+						[929] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26931,7 +26931,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[885] = {
+						[1257] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -26942,7 +26942,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[933] = {
+						[773] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -28284,7 +28284,6 @@ TellMeWhenDB = {
 			["TextureName"] = "Flat",
 		},
 		["[Jmr] Hunter"] = {
-			["Version"] = 90301,
 			["Groups"] = {
 				{
 					["Point"] = {
@@ -36970,7 +36969,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[773] = {
+						[933] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -36981,7 +36980,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1257] = {
+						[885] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37058,7 +37057,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[929] = {
+						[85] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37069,7 +37068,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[897] = {
+						[769] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37080,7 +37079,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[797] = {
+						[401] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37091,7 +37090,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[761] = {
+						[893] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37146,7 +37145,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1025] = {
+						[641] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37157,7 +37156,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[901] = {
+						[465] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37267,7 +37266,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[505] = {
+						[1505] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37278,7 +37277,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1249] = {
+						[881] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37289,7 +37288,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[753] = {
+						[377] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37322,7 +37321,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[625] = {
+						[313] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37333,7 +37332,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[29] = {
+						[509] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37344,7 +37343,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[537] = {
+						[333] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37355,7 +37354,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[957] = {
+						[1137] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37399,7 +37398,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1401] = {
+						[957] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37410,7 +37409,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1321] = {
+						[913] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37443,7 +37442,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1065] = {
+						[949] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37454,7 +37453,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1329] = {
+						[1129] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37465,7 +37464,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[417] = {
+						[101] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37498,7 +37497,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[705] = {
+						[1313] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37509,7 +37508,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[833] = {
+						[329] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37531,7 +37530,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1497] = {
+						[1005] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37553,7 +37552,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[353] = {
+						[705] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37564,7 +37563,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1153] = {
+						[833] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37630,7 +37629,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1241] = {
+						[877] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37685,6 +37684,50 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
+						[349] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[953] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[1105] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[73] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
 						[709] = {
 							["States"] = {
 								{
@@ -37718,51 +37761,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[73] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[89] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[105] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[121] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[1073] = {
+						[817] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37795,7 +37794,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[325] = {
+						[441] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37806,7 +37805,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[345] = {
+						[529] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37817,7 +37816,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[289] = {
+						[921] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37850,7 +37849,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[673] = {
+						[909] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37861,7 +37860,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[905] = {
+						[569] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37872,7 +37871,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[969] = {
+						[477] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37883,7 +37882,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1489] = {
+						[1001] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37927,7 +37926,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1425] = {
+						[969] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37938,7 +37937,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[873] = {
+						[1233] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37949,7 +37948,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[745] = {
+						[373] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37960,7 +37959,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[617] = {
+						[309] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37971,7 +37970,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[293] = {
+						[521] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37982,7 +37981,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[781] = {
+						[445] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -37993,7 +37992,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1433] = {
+						[1177] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38103,7 +38102,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[973] = {
+						[1433] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38114,7 +38113,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[925] = {
+						[97] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38147,7 +38146,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[357] = {
+						[281] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38158,7 +38157,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[469] = {
+						[889] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38169,7 +38168,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[297] = {
+						[841] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38202,18 +38201,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[361] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[425] = {
+						[997] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38235,7 +38223,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1481] = {
+						[869] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38246,7 +38234,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[593] = {
+						[125] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38257,7 +38245,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[721] = {
+						[297] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38268,7 +38256,18 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[849] = {
+						[361] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[425] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38334,7 +38333,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1225] = {
+						[109] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38345,7 +38344,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[741] = {
+						[93] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38378,7 +38377,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[613] = {
+						[77] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38389,7 +38388,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[81] = {
+						[809] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38400,7 +38399,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1193] = {
+						[501] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38411,7 +38410,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[981] = {
+						[437] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38444,7 +38443,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[853] = {
+						[1193] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38455,7 +38454,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1449] = {
+						[981] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38466,7 +38465,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[341] = {
+						[633] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38499,7 +38498,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[429] = {
+						[493] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38510,7 +38509,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1473] = {
+						[601] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38521,7 +38520,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[365] = {
+						[729] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38554,72 +38553,6 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1201] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[985] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[1217] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[993] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[301] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[729] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
 						[857] = {
 							["States"] = {
 								{
@@ -38642,6 +38575,72 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
+						[1217] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[497] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[301] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[365] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[429] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[985] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
 						[433] = {
 							["States"] = {
 								{
@@ -38653,7 +38652,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[737] = {
+						[369] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38664,7 +38663,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[609] = {
+						[305] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38675,7 +38674,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[453] = {
+						[1161] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38686,7 +38685,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1097] = {
+						[1417] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38697,7 +38696,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1041] = {
+						[581] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38730,7 +38729,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1113] = {
+						[1145] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38763,7 +38762,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1209] = {
+						[1185] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38796,7 +38795,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[861] = {
+						[1209] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38818,29 +38817,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[989] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[1057] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[1361] = {
+						[421] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38862,7 +38839,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[421] = {
+						[1361] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38873,7 +38850,29 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1185] = {
+						[1057] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[989] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[861] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38906,7 +38905,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1145] = {
+						[1113] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38917,7 +38916,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[581] = {
+						[1041] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38928,7 +38927,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1417] = {
+						[1097] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38939,7 +38938,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1161] = {
+						[453] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38950,7 +38949,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[305] = {
+						[609] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38961,7 +38960,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[369] = {
+						[737] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -38983,7 +38982,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[497] = {
+						[1473] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39038,7 +39037,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[601] = {
+						[993] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39049,7 +39048,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[493] = {
+						[1201] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39082,7 +39081,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[633] = {
+						[341] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39093,7 +39092,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[437] = {
+						[1449] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39104,7 +39103,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[501] = {
+						[853] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39115,7 +39114,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[809] = {
+						[81] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39126,7 +39125,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[77] = {
+						[613] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39137,7 +39136,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[93] = {
+						[741] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39148,7 +39147,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[109] = {
+						[1225] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39159,18 +39158,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[125] = {
-							["States"] = {
-								{
-								}, -- [1]
-								nil, -- [2]
-								{
-								}, -- [3]
-								{
-								}, -- [4]
-							},
-						},
-						[869] = {
+						[1481] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39192,7 +39180,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[997] = {
+						[849] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39203,7 +39191,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[841] = {
+						[721] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39214,7 +39202,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[889] = {
+						[593] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39225,7 +39213,18 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[281] = {
+						[469] = {
+							["States"] = {
+								{
+								}, -- [1]
+								nil, -- [2]
+								{
+								}, -- [3]
+								{
+								}, -- [4]
+							},
+						},
+						[357] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39258,7 +39257,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[97] = {
+						[925] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39269,7 +39268,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1177] = {
+						[973] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39280,7 +39279,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[445] = {
+						[781] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39291,7 +39290,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[521] = {
+						[293] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39302,7 +39301,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[309] = {
+						[617] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39313,7 +39312,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[373] = {
+						[745] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39324,7 +39323,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1233] = {
+						[873] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39335,7 +39334,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1001] = {
+						[1489] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39346,7 +39345,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[477] = {
+						[1425] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39357,7 +39356,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[569] = {
+						[905] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39368,7 +39367,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[909] = {
+						[673] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39379,7 +39378,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[921] = {
+						[289] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39390,7 +39389,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[529] = {
+						[345] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39401,7 +39400,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[441] = {
+						[325] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39434,7 +39433,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[817] = {
+						[1073] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39445,7 +39444,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1105] = {
+						[121] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39456,7 +39455,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[953] = {
+						[105] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39467,7 +39466,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[349] = {
+						[89] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39500,7 +39499,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[877] = {
+						[1241] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39511,7 +39510,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1005] = {
+						[1497] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39533,7 +39532,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[329] = {
+						[417] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39544,7 +39543,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1313] = {
+						[353] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39555,7 +39554,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[101] = {
+						[1153] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39566,7 +39565,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1129] = {
+						[1329] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39577,7 +39576,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[949] = {
+						[1065] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39610,7 +39609,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[913] = {
+						[1321] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39621,7 +39620,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1137] = {
+						[1401] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39632,7 +39631,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[333] = {
+						[537] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39643,7 +39642,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[509] = {
+						[29] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39654,7 +39653,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[313] = {
+						[625] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39665,7 +39664,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[377] = {
+						[753] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39676,7 +39675,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[881] = {
+						[1249] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39687,7 +39686,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[1505] = {
+						[505] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39742,7 +39741,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[465] = {
+						[901] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39753,7 +39752,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[641] = {
+						[1025] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39786,7 +39785,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[893] = {
+						[761] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39797,7 +39796,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[401] = {
+						[797] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39808,7 +39807,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[769] = {
+						[897] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39819,7 +39818,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[85] = {
+						[929] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39852,7 +39851,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[885] = {
+						[1257] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -39863,7 +39862,7 @@ TellMeWhenDB = {
 								}, -- [4]
 							},
 						},
-						[933] = {
+						[773] = {
 							["States"] = {
 								{
 								}, -- [1]
@@ -41205,6 +41204,7 @@ TellMeWhenDB = {
 					},
 				}, -- [12]
 			},
+			["Version"] = 90301,
 			["NumGroups"] = 4,
 			["TextureName"] = "Flat",
 			["CodeSnippets"] = {
@@ -41219,7 +41219,7 @@ TellMeWhenDB = {
 				}, -- [2]
 				{
 					["Name"] = "BM",
-					["Code"] = "local _G, setmetatable, pairs, type, math    = _G, setmetatable, pairs, type, math\nlocal huge                                     = math.huge\n\nlocal TMW                                     = _G.TMW \n\nlocal Action                                 = _G.Action\n\nlocal CONST                                 = Action.Const\nlocal Listener                                 = Action.Listener\nlocal Create                                 = Action.Create\nlocal GetToggle                                = Action.GetToggle\nlocal GetLatency                            = Action.GetLatency\nlocal GetGCD                                = Action.GetGCD\nlocal GetCurrentGCD                            = Action.GetCurrentGCD\nlocal ShouldStop                            = Action.ShouldStop\nlocal BurstIsON                                = Action.BurstIsON\nlocal AuraIsValid                            = Action.AuraIsValid\nlocal InterruptIsValid                        = Action.InterruptIsValid\nlocal DetermineUsableObject                    = Action.DetermineUsableObject\nlocal TimerSet                                = Action.TimerSet\n\nlocal Utils                                    = Action.Utils\nlocal BossMods                                = Action.BossMods\nlocal TeamCache                                = Action.TeamCache\nlocal EnemyTeam                                = Action.EnemyTeam\nlocal FriendlyTeam                            = Action.FriendlyTeam\nlocal LoC                                     = Action.LossOfControl\nlocal Player                                = Action.Player \nlocal MultiUnits                            = Action.MultiUnits\nlocal UnitCooldown                            = Action.UnitCooldown\nlocal Unit                                    = Action.Unit \nlocal IsUnitEnemy                            = Action.IsUnitEnemy\nlocal IsUnitFriendly                        = Action.IsUnitFriendly\n\nlocal Azerite                                 = LibStub(\"AzeriteTraits\")\nlocal Pet                                       = LibStub(\"PetLibrary\")\n\nlocal ACTION_CONST_HUNTER_BEASTMASTERY       = CONST.HUNTER_BEASTMASTERY\nlocal ACTION_CONST_AUTOTARGET                = CONST.AUTOTARGET\nlocal ACTION_CONST_SPELLID_FREEZING_TRAP    = CONST.SPELLID_FREEZING_TRAP\n\nlocal IsIndoors, UnitIsUnit                    = _G.IsIndoors, _G.UnitIsUnit\n\nAction[ACTION_CONST_HUNTER_BEASTMASTERY] = {\n    -- Racial\n    ArcaneTorrent                         = Create({ Type = \"Spell\", ID = 50613                                                                            }),\n    BloodFury                             = Create({ Type = \"Spell\", ID = 20572                                                                            }),\n    BagofTricks                           = Create({ Type = \"Spell\", ID = 312411                                                                            }),\n    Fireblood                             = Create({ Type = \"Spell\", ID = 265221                                                                            }),\n    AncestralCall                         = Create({ Type = \"Spell\", ID = 274738                                                                            }),\n    Berserking                            = Create({ Type = \"Spell\", ID = 26297                                                                            }),\n    ArcanePulse                           = Create({ Type = \"Spell\", ID = 260364                                                                            }),\n    QuakingPalm                           = Create({ Type = \"Spell\", ID = 107079                                                                            }),\n    Haymaker                              = Create({ Type = \"Spell\", ID = 287712                                                                            }),\n    WarStomp                              = Create({ Type = \"Spell\", ID = 20549                                                                            }),\n    BullRush                              = Create({ Type = \"Spell\", ID = 255654                                                                            }),\n    GiftofNaaru                           = Create({ Type = \"Spell\", ID = 59544                                                                            }),\n    Shadowmeld                            = Create({ Type = \"Spell\", ID = 58984                                                                            }), -- usable in Action Core\n    Stoneform                             = Create({ Type = \"Spell\", ID = 20594                                                                            }),\n    WilloftheForsaken                     = Create({ Type = \"Spell\", ID = 7744                                                                            }), -- not usable in APL but user can Queue it\n    EscapeArtist                          = Create({ Type = \"Spell\", ID = 20589                                                                            }), -- not usable in APL but user can Queue it\n    EveryManforHimself                    = Create({ Type = \"Spell\", ID = 59752                                                                            }), -- not usable in APL but user can Queue it\n    -- CrownControl\n    KickGreen                             = Create({ Type = \"SpellSingleColor\", ID = 147362, Color = \"GREEN\", Desc = \"[2] Kick\", QueueForbidden = true        }),\n    -- Suppotive\n    SummonPet                             = Create({ Type = \"Spell\", ID = 883}),\n    SummonPet2                            = Create({ Type = \"Spell\", ID = 83242}),\n    SummonPet3                            = Create({ Type = \"Spell\", ID = 83243}),\n    SummonPet4                            = Create({ Type = \"Spell\", ID = 83244}),\n    SummonPet5                            = Create({ Type = \"Spell\", ID = 83245}),\n    MendPet                               = Create({ Type = \"Spell\", ID = 136}),\n    RevivePet                             = Create({ Type = \"Spell\", ID = 982}),\n    FreezingTrap                             = Create({ Type = \"Spell\", ID = 187650}),\n    ConcussiveShot                         = Create({ Type = \"Spell\", ID = 5116 }),\n    BurstingShot                           = Create({ Type = \"Spell\", ID = 186387 }),\n    -- Self Defensives\n    Exhilaration                          = Create({ Type = \"Spell\", ID = 109304}),\n    AspectoftheTurtle                     = Create({ Type = \"Spell\", ID = 186265}),\n    -- Player Abilities\n    HuntersMark                           = Create({ Type = \"Spell\", ID = 257284}),\n    AnimalCompanion                       = Create({ Type = \"Spell\", ID = 267116}),\n    AspectoftheWild                       = Create({ Type = \"Spell\", ID = 193530}),\n    BestialWrath                          = Create({ Type = \"Spell\", ID = 19574}),\n    KillerInstinct                        = Create({ Type = \"Spell\", ID = 273887}),\n    BarbedShot                            = Create({ Type = \"Spell\", ID = 217200}),\n    Multishot                             = Create({ Type = \"Spell\", ID = 2643}),\n    Stampede                              = Create({ Type = \"Spell\", ID = 201430}),\n    ChimaeraShot                          = Create({ Type = \"Spell\", ID = 53209}),\n    AMurderofCrows                        = Create({ Type = \"Spell\", ID = 131894}),\n    Barrage                               = Create({ Type = \"Spell\", ID = 120360}),\n    KillCommand                           = Create({ Type = \"Spell\", ID = 34026}),\n    DireBeast                             = Create({ Type = \"Spell\", ID = 120679}),\n    CobraShot                             = Create({ Type = \"Spell\", ID = 193455}),\n    Intimidation                          = Create({ Type = \"Spell\", ID = 19577}),\n    CounterShot                           = Create({ Type = \"Spell\", ID = 147362}),\n    Exhilaration                          = Create({ Type = \"Spell\", ID = 109304}),\n    TarTrap                               = Create({ Type = \"Spell\", ID = 187698}),\n    Flare                                 = Create({ Type = \"Spell\", ID = 1543}),\n    KillShot                              = Create({ Type = \"Spell\", ID = 53351}),\n    ArcaneShot                            = Create({ Type = \"Spell\", ID = 185358}),\n    TranquilizingShot                     = Create({ Type = \"Spell\", ID = 19801}),\n    -- Talents\n    SpittingCobra                         = Create({ Type = \"Spell\", ID = 257891}),\n    OneWithThePack                        = Create({ Type = \"Spell\", ID = 199528}),\n    ScentOfBlood                          = Create({ Type = \"Spell\", ID = 193532}),\n    Bloodshed                             = Create({ Type = \"Spell\", ID = 321530}),\n    -- Covenants\n    WildSpirits                           = Create({ Type = \"Spell\", ID = 328231}),\n    DeathChakram                          = Create({ Type = \"Spell\", ID = 325028}),\n    ResonatingArrow                       = Create({ Type = \"Spell\", ID = 308491}),\n    FlayedShot                            = Create({ Type = \"Spell\", ID = 324149}),\n    -- Buffs\n    BestialWrathPetBuff                   = Create({ Type = \"Spell\", ID = 186254}),\n    BeastCleaveBuff                       = Create({ Type = \"Spell\", ID = 118455, \"pet\"}),\n    BeastCleavePlayerBuff                 = Create({ Type = \"Spell\", ID = 268877}),\n    FrenzyBuff                            = Create({ Type = \"Spell\", ID = 272790, \"pet\"}),\n    DanceofDeathBuff                      = Create({ Type = \"Spell\", ID = 274443}),\n    PrimalInstinctsBuff                   = Create({ Type = \"Spell\", ID = 279810}),\n    PrimalInstincts                       = Create({ Type = \"Spell\", ID = 279806}),    \n    -- PvP Talents\n    -- Items\n    RapidReload                            = Create({ Type = \"Spell\", ID = 278530 }),\n    -- PET\n    PetAttackTarget                                = Create({ Type = \"SpellSingleColor\", ID = 17253, Color = \"GREEN\", Desc = \"Pet Attack\", QueueForbidden = true        }),\n    Bite                       = Create({ Type = \"Spell\", ID = 17253}),\n    Smack                       = Create({ Type = \"Spell\", ID = 49966}), \n    Claw                       = Create({ Type = \"Spell\", ID = 16827}), \n    Growl                       = Create({ Type = \"Spell\", ID = 2649}), \n    BloodBolt                       = Create({ Type = \"Spell\", ID = 288962}), \n    SpiritMend                       = Create({ Type = \"Spell\", ID = 90361}), \n}\n\nAction:CreateEssencesFor(ACTION_CONST_HUNTER_BEASTMASTERY)\nlocal A = setmetatable(Action[ACTION_CONST_HUNTER_BEASTMASTERY], { __index = Action })\nPet:AddActionsSpells(ACTION_CONST_HUNTER_BEASTMASTERY, {A.Bite, A.Claw, A.Smack})\nlocal player                                    = \"player\"\nlocal target                                    = \"target\"\nlocal pet                                        = \"pet\"\nlocal Temp                                        = {\n    AttackTypes                                    = {\"TotalImun\", \"DamagePhysImun\"},    \n    AuraForStun                                    = {\"TotalImun\", \"DamagePhysImun\", \"CCTotalImun\", \"StunImun\"},    \n    AuraForCC                                    = {\"TotalImun\", \"DamagePhysImun\", \"CCTotalImun\"},\n    AuraForOnlyCCAndStun                        = {\"CCTotalImun\", \"StunImun\"},\n    AuraForInterrupt                            = {\"TotalImun\", \"DamagePhysImun\", \"KickImun\"},\n    AuraForSlow                                    = {\"TotalImun\", \"DamagePhysImun\", \"CCTotalImun\", \"Freedom\"},\n    FeignDeathDelay                                = 0,\n    PetFamily                                    = \"nil\",\n    IsSpiritBeast                                = {\n        enUS                                    = \"Spirit Beast\",\n    },\n    IsBat                                        = {\n        enUS                                    = \"Bat\",\n    },\n    GetPetMeleeSpells                            = { (A.Bite:Info()), (A.Claw:Info()), (A.Smack:Info()), (A.BloodBolt:Info()) },\n    GetPetRangedSpells                            = { (A.Growl:Info())},\n    IsSlotTrinketBlocked                         = {},\n}\n\nTMW:RegisterCallback(\"TMW_ACTION_IS_INITIALIZED\", function()\n        TimerSet(\"DISABLE_PET_ERRORS\", 60, function() Pet:DisableErrors(true)  end)\nend)\n\nfunction Temp.IsPetInMelee(unitID)\n    -- @return boolean \n    return Pet:IsInRange(Temp.GetPetMeleeSpells[1], unitID) or Pet:IsInRange(Temp.GetPetMeleeSpells[2], unitID) or Pet:IsInRange(Temp.GetPetMeleeSpells[3], unitID)\nend\n\nlocal max_search = 5\nlocal function GetEnemies()\n    -- @return number \n    local enemies = 1\n    local compare = 0\n    \n    -- #1 method is if petID \n    compareMelee    = Pet:GetInRange(Temp.GetPetMeleeSpells, max_search)\n    compareRanged    = Pet:GetInRange(Temp.GetPetRangedSpells, max_search)\n    \n    if compareRanged > 2 and compare > 0 then\n        enemies = compareRanged\n    elseif compareRanged < 3 and compareMelee > enemies then\n        enemies = compareMelee\n    end\n    \n    return enemies\nend \n\nlocal function GetByRange(count, range, isCheckEqual, isCheckCombat)\n    -- @return boolean \n    local c = 0 \n    for unitID in pairs(ActiveUnitPlates) do \n        if (not isCheckEqual or not UnitIsUnit(target, unitID)) and (not isCheckCombat or Unit(unitID):CombatTime() > 0) then \n            if range then \n                local r = Unit(unitID):GetRange()\n                if r > 0 and r <= range then \n                    c = c + 1\n                end \n            end \n            \n            if c >= count then \n                return true \n            end \n        end \n    end\nend \n\nlocal function GetByRangeTTD(self, count, range)\n    -- @return number\n    local total, total_ttd = 0, 0\n    \n    for unitID in pairs(ActiveUnitPlates) do \n        if not range or Unit(unitID):CanInterract(range) then \n            total = total + 1\n            total_ttd = total_ttd + Unit(unitID):TimeToDie()\n        end \n        \n        if count and total >= count then \n            break \n        end \n    end \n    \n    if total > 0 then \n        return total_ttd / total     \n    else  \n        return huge\n    end\nend \nGetByRangeTTD = A.MakeFunctionCachedDynamic(GetByRangeTTD)\n\nlocal function num(val)\n    if val then return 1 else return 0 end\nend\n\n-- [1] CC AntiFake Rotation\nlocal function AntiFakeStun(unitID) \n    return \n    IsUnitEnemy(unitID) and  \n    Unit(unitID):GetRange() <= 40 and \n    Unit(unitID):IsControlAble(\"stun\", 0) and \n    A.IntimidationGreen:AbsentImun(unitID, Temp.AuraForOnlyCCAndStun, true)          \nend \nA[1] = function(icon)    \n    if A.IntimidationGreen:IsReady(nil, nil, nil, true) and \n    (\n        AntiFakeStun(\"mouseover\") or \n        AntiFakeStun(\"target\")\n    )\n    then \n        return A.IntimidationGreen:Show(icon)         \n    end                                                                     \nend\n\nlocal function SelfDefensives()\n    if Unit(player):CombatTime() == 0 then \n        return \n    end\n    \n    local Exhilaration = A.GetToggle(2, \"ExhilarationHP\")\n    if Exhilaration >= 0 and A.Exhilaration:IsReady(player) and \n    (\n        (     -- Auto \n            Exhilaration >= 100 and \n            (\n                -- HP lose per sec >= 20\n                Unit(player):GetDMG() * 100 / Unit(player):HealthMax() >= 20 or \n                Unit(player):GetRealTimeDMG() >= Unit(player):HealthMax() * 0.20 or \n                -- TTD \n                Unit(player):TimeToDieX(25) < 5 or \n                (\n                    A.IsInPvP and \n                    (\n                        Unit(player):UseDeff() or \n                        (\n                            Unit(player, 5):HasFlags() and \n                            Unit(player):GetRealTimeDMG() > 0 and \n                            Unit(player):IsFocused() \n                        )\n                    )\n                )\n            ) and \n            Unit(player):HasBuffs(\"DeffBuffs\", true) == 0\n        ) or \n        (    -- Custom\n            Exhilaration < 100 and \n            Unit(player):HealthPercent() <= Exhilaration\n        )\n    ) \n    then \n        return A.Exhilaration\n    end\n    \n    local SpiritMend = A.GetToggle(2, \"SpiritMendHP\")\n    if SpiritMend >= 0 and A.SpiritMend:IsReady(player) and Temp.PetFamily == Temp.IsSpiritBeast[GameLocale] and \n    (\n        (     -- Auto \n            SpiritMend >= 100 and \n            (\n                -- HP lose per sec >= 10\n                Unit(player):GetDMG() * 100 / Unit(player):HealthMax() >= 10 or \n                Unit(player):GetRealTimeDMG() >= Unit(player):HealthMax() * 0.10 or \n                -- TTD \n                Unit(player):TimeToDieX(25) < 5 or \n                (\n                    A.IsInPvP and \n                    (\n                        Unit(player):UseDeff() or \n                        (\n                            Unit(player, 5):HasFlags() and \n                            Unit(player):GetRealTimeDMG() > 0 and \n                            Unit(player):IsFocused() \n                        )\n                    )\n                )\n            ) and \n            Unit(player):HasBuffs(\"DeffBuffs\", true) == 0\n        ) or \n        (    -- Custom\n            SpiritMend < 100 and \n            Unit(player):HealthPercent() <= SpiritMend\n        )\n    ) \n    then \n        return A.SpiritMend\n    end\n    \n    local AspectoftheTurtle = A.GetToggle(2, \"Turtle\")\n    if AspectoftheTurtle >= 0 and A.AspectoftheTurtle:IsReady(player) and \n    (\n        (     -- Auto \n            AspectoftheTurtle >= 100 and \n            (\n                -- HP lose per sec >= 30\n                Unit(player):GetDMG() * 100 / Unit(\"player\"):HealthMax() >= 30 or \n                Unit(player):GetRealTimeDMG() >= Unit(player):HealthMax() * 0.30 or \n                -- TTD \n                Unit(player):TimeToDieX(25) < 5 or \n                (\n                    A.IsInPvP and \n                    (\n                        Unit(player):UseDeff() or \n                        (\n                            Unit(player, 5):HasFlags() and \n                            Unit(player):GetRealTimeDMG() > 0 and \n                            Unit(player):IsFocused() \n                        )\n                    )\n                )\n            ) and \n            Unit(player):HasBuffs(\"DeffBuffs\", true) == 0\n        ) or \n        (    -- Custom\n            AspectoftheTurtle < 100 and \n            Unit(player):HealthPercent() <= AspectoftheTurtle\n        )\n    ) \n    then\n        return A.AspectoftheTurtle\n    end\n    \nend\nSelfDefensives = A.MakeFunctionCachedStatic(SelfDefensives)\n\n\n-----------------------------------------\n--                 ROTATION  \n-----------------------------------------\n\n-- [3] Single Rotation\nA[3] = function(icon)\n    local unitID                        = \"player\"\n    local inAoE                            = GetToggle(2, \"AoE\")\n    local inHoldAoE                        = GetToggle(2, \"holdAoE\")\n    local minHoldAoE                    = GetToggle(2, \"holdAoENum\") \n    local isStartAttack                    = GetToggle(2, \"startAttack\")\n    local forceAoE                        = GetToggle(2, \"forceAoE\")\n    local combatTime                    = Unit(player):CombatTime()\n    local inCombat                        = combatTime > 0\n    local enemies                        = GetEnemies()\n    local canCast                        = true\n    local SoulForgeEmbersEquipped         = GetToggle(2, \"SOULFORGE\")\n    local Pull                             = Action.BossMods_Pulling()\n    local CovCDs                      = GetToggle(2, \"CovCDs\") or BurstIsON(unitID)\n    local VolleyCDs                     = GetToggle(2, \"VolleyCDs\") or BurstIsON(unitID)\n    local DTCDs                         = GetToggle(2, \"DTCDs\") or BurstIsON(unitID)\n    local MOVRA                            = GetToggle(2, \"MOVRA\") or UnitIsUnit(target, \"mouseover\")\n    local WSmin                            = GetToggle(2, \"WSmin\")\n    local BSCS                            = GetToggle(2, \"BSCS\")\n    local forcecombat            = GetToggle(2, \"FCOMBAT\") or inCombat\n    \n    if (Player:IsCasting() or Player:IsChanneling()) then\n        canCast = false\n    else \n        canCast = true\n    end\n    \n    if Temp.FeignDeathDelay > 0 then\n        Temp.FeignDeathDelay = Temp.FeignDeathDelay - 1\n        return \n    end\n    \n    Temp.PetFamily = UnitCreatureFamily(Pet:GetMainPet() and Pet:GetMainPet().name or pet)\n    \n    local function EnemyRotation(unitID)    \n        local unit = \"target\" \n        local MendPet = GetToggle(2, \"MendPet\")\n        if A.MendPet:IsReady(player) and Pet:IsActive() and Unit(pet):HealthPercent() > 0 and ((MendPet >= 100 and (Unit(pet):GetDMG() * 100 / Unit(pet):HealthMax() >= 20 or Unit(pet):GetRealTimeDMG() >= Unit(pet):HealthMax() * 0.20 or Unit(pet):TimeToDieX(15) < 2)) or (MendPet < 100 and Unit(pet):HealthPercent() <= MendPet and Unit(pet):HasBuffs(A.MendPet.ID, true) == 0))    then\n            return A.MendPet:Show(icon)\n        end\n        \n        if not Pet:IsActive() and A.MendPet:IsReady(player) and not A.LastPlayerCastName == A.MendPet:Info() then\n            return A.MendPet:Show(icon)\n        end\n        \n        -- Out of combat or Pull\n        \n        if not isStartAttack and not inCombat then\n            return \n        end\n        \n        -- Purge\n        if A.ArcaneTorrent:AutoRacial(unitID) then \n            return A.ArcaneTorrent:Show(icon)\n        end             \n        \n        -- [[ INTERRUPTS ]] \n        local useKick, useCC, useRacial, notInterruptable, castRemainsTime, castDoneTime = InterruptIsValid(unitID, nil, nil, not A.CounterShot:IsReady(unitID)) -- A.CounterShot non GCD spell\n        \n        if castDoneTime > 0 then\n            if useKick and not notInterruptable and A.CounterShot:IsReady(unitID) then\n                return A.CounterShot:Show(icon)\n            end\n            \n            if useCC and A.Intimidation:IsReady(unitID) then\n                return A.Intimidation:Show(icon)\n            end\n            \n            if useRacial and A.QuakingPalm:AutoRacial(unitID) then \n                return A.QuakingPalm:Show(icon)\n            end \n            \n            if useRacial and A.Haymaker:AutoRacial(unitID) then \n                return A.Haymaker:Show(icon)\n            end \n            \n            if useRacial and A.WarStomp:AutoRacial(unitID) then \n                return A.WarStomp:Show(icon)\n            end \n            \n            if useRacial and A.BullRush:AutoRacial(unitID) then \n                return A.BullRush:Show(icon)\n            end   \n        end\n        \n        -- Explosives or Totems\n        if canCast and (Unit(unitID):IsExplosives() or Unit(unitID):IsTotem()) then\n            if A.KillCommand:IsReady(unitID) then\n                return A.KillCommand:Show(icon)\n            end\n            \n            if A.CobraShot:IsReady(unitID) then\n                return A.CobraShot:Show(icon)\n            end\n        end\n        \n        -- Dispell Enrage / Magic\n        if A.TranquilizingShot:IsReady(unitID) and (AuraIsValid(unitID, \"UseExpelEnrage\", \"Enrage\") or AuraIsValid(unitID, \"UseDispel\", \"Magic\")) then \n            return A.TranquilizingShot:Show(icon)\n        end \n        \n        local canBurst = false\n        if (Unit(unitID):TimeToDie() >= GetToggle(2, \"BurstTTDBoss\") or Unit(unitID):TimeToDie() >= GetToggle(2, \"BurstTTDMobs\")) then\n            canBurst = true\n        end\n        \n        \n        --PreCombat\n        local function PreCombat()\n            --actions.precombat+=/bestial_wrath,precast_time=1.5,if=!talent.scent_of_blood&!runeforge.soulforge_embers\n            if A.BestialWrath:IsReadyByPassCastGCD(unitID) and BurstIsON(unitID) and canCast and canBurst and Pull > .1 and Pull <= 1.5 and not A.ScentOfBlood:IsSpellLearned() then\n                return A.BestialWrath:Show(icon)\n            end\n            --# Adjusts the duration and cooldown of Aspect of the Wild and Primal Instincts by the duration of an unhasted GCD when they're used precombat. Because Aspect of the Wild reduces GCD by 200ms, this is 1.3 seconds.\n            --actions.precombat+=/aspect_of_the_wild,precast_time=1.3,if=!azerite.primal_instincts.enabled&!essence.essence_of_the_focusing_iris.major&(equipped.azsharas_font_of_power|!equipped.cyclotronic_blast)\n            if A.AspectoftheWild:IsReadyByPassCastGCD(unitID) and BurstIsON(unitID) and canCast and canBurst and Pull > .1 and Pull <= 1.3 then\n                return A.AspectoftheWild:Show(icon)\n            end\n        end\n        --CDs\n        local function CD()\n            --actions.cds=ancestral_call,if=cooldown.bestial_wrath.remains>30\n            if A.AncestralCall:IsRacialReady(unitID, true) and A.BestialWrath:GetCooldown() > 30 then\n                return A.AncestralCall:Show(icon)\n            end\n            --actions.cds+=/fireblood,if=cooldown.bestial_wrath.remains>30\n            if A.Fireblood:IsRacialReady(unitID, true) and A.BestialWrath:GetCooldown() > 30 then\n                return A.Fireblood:Show(icon)\n            end\n            --actions.cds+=/berserking,if=(buff.wild_spirits.up|!covenant.night_fae&buff.aspect_of_the_wild.up&buff.bestial_wrath.up)&(fight_remains>cooldown.berserking.duration+duration|(target.health.pct<35|!talent.killer_instinct))|fight_remains<13\n            if A.Berserking:IsRacialReady(unitID, true) and (A.WildSpirits:GetSpellTimeSinceLastCast() < 15 or not A.WildSpirits:IsSpellLearned() and Unit(player):HasBuffs(A.AspectoftheWild.ID, true) > 0 and Unit(player):HasBuffs(A.BestialWrath.ID, true) > 0) and canCast and canBurst then\n                return A.Berserking:Show(icon)\n            end\n            --actions.cds+=/blood_fury,if=(buff.wild_spirits.up|!covenant.night_fae&buff.aspect_of_the_wild.up&buff.bestial_wrath.up)&(fight_remains>cooldown.blood_fury.duration+duration|(target.health.pct<35|!talent.killer_instinct))|fight_remains<16\n            if A.BloodFury:IsRacialReady(unitID, true) and (A.WildSpirits:GetSpellTimeSinceLastCast() < 15 or not A.WildSpirits:IsSpellLearned() and Unit(player):HasBuffs(A.AspectoftheWild.ID, true) > 0 and Unit(player):HasBuffs(A.BestialWrath.ID, true) > 0) and canCast and canBurst then\n                return A.BloodFury:Show(icon)\n            end\n            \n            if A.Trinket1:IsReady(unitID) and A.Trinket1:GetItemCategory() ~= \"DEFF\" and A.Trinket1:AbsentImun(unitID, Temp.TotalAndMagPhys) and not Temp.IsSlotTrinketBlocked[A.Trinket1.ID] then\n                return A.Trinket1:Show(icon)    \n            end\n            \n            if A.Trinket2:IsReady(unitID) and A.Trinket2:GetItemCategory() ~= \"DEFF\" and A.Trinket2:AbsentImun(unitID, Temp.TotalAndMagPhys) and not Temp.IsSlotTrinketBlocked[A.Trinket2.ID] then\n                return A.Trinket2:Show(icon)\n            end\n            --actions.cds+=/lights_judgment\n            --actions.cds+=/potion,if=buff.aspect_of_the_wild.up|fight_remains<26\n        end\n        --Cleave\n        local function Cleave()\n            -- Force BW always on CD\n            if A.BestialWrath:IsCastable() and BurstIsON(unitID) and canCast and canBurst then\n                return A.BestialWrath:Show(icon)\n            end\n            --actions.cleave=aspect_of_the_wild\n            if A.AspectoftheWild:IsReadyByPassCastGCD(unitID) and BurstIsON(unitID) and Unit(player):HasBuffs(A.AspectoftheWild.ID, true) == 0 and canBurst then\n                return A.AspectoftheWild:Show(icon)\n            end\n            if A.KillShot:IsReady(unit) then\n                return A.KillShot:Show(icon)\n            end\n            if A.BarbedShot:IsCastable() and Unit(pet):HasBuffs(A.FrenzyBuff.ID, true) <= GetGCD() then\n                return A.BarbedShot:Show(icon)\n            end\n            --actions.cleave+=/multishot,if=gcd-pet.main.buff.beast_cleave.remains>0.25\n            if A.Multishot:IsReady(unitID) and Unit(pet):HasBuffs(A.BeastCleaveBuff.ID, true) < GetGCD() + .25 then\n                return A.Multishot:Show(icon)\n            end\n            if A.TarTrap:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and MOVRA and SoulForgeEmbersEquipped then\n                return A.TarTrap:Show(icon)\n            end\n            if A.Flare:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and MOVRA and SoulForgeEmbersEquipped then\n                return A.Flare:Show(icon)\n            end\n            --actions.cleave+=/death_chakram,if=focus+cast_regen<focus.max\n            if A.DeathChakram:IsReady(unitID) and CovCDs then\n                return A.DeathChakram:Show(icon)\n            end\n            --actions.cleave+=/wild_spirits\n            if A.WildSpirits:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and enemies >= WSmin and MOVRA and CovCDs then\n                return A.WildSpirits:Show(icon)\n            end\n            --actions.cleave+=/barbed_shot,target_if=min:dot.barbed_shot.remains,if=full_recharge_time<gcd&cooldown.bestial_wrath.remains|cooldown.bestial_wrath.remains<12+gcd&talent.scent_of_blood\n            if A.BarbedShot:IsCastable() and A.BarbedShot:GetSpellChargesFullRechargeTime() < GetGCD() then\n                return A.BarbedShot:Show(icon)\n            end\n            --actions.cleave+=/bestial_wrath\n            if A.BestialWrath:IsCastable() and BurstIsON(unitID) and canCast and canBurst then\n                return A.BestialWrath:Show(icon)\n            end\n            --actions.cleave+=/resonating_arrow\n            if A.ResonatingArrow:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and MOVRA and CovCDs then\n                return A.ResonatingArrow:Show(icon)\n            end\n            --actions.cleave+=/stampede,if=buff.aspect_of_the_wild.up|target.time_to_die<15\n            if A.Stampede:IsReady(unitID) and (Unit(player):HasBuffs(A.AspectoftheWild.ID, true) > 0 and Unit(player):HasBuffs(A.BestialWrath.ID, true) > 0 or Unit(unitID):TimeToDie() < 15) then\n                return A.Stampede:Show(icon)\n            end \n            --actions.cleave+=/flayed_shot\n            if A.FlayedShot:IsReady(unitID) and CovCDs then\n                return A.FlayedShot:Show(icon)\n            end\n            --actions.cleave+=/kill_shot\n            if A.KillShot:IsReady(unit) then\n                return A.KillShot:Show(icon)\n            end\n            --actions.cleave+=/chimaera_shot\n            if A.ChimaeraShot:IsReady(unitID) then\n                return A.ChimaeraShot:Show(icon)\n            end\n            --actions.cleave+=/bloodshed\n            if A.Bloodshed:IsReady(unitID) then\n                return A.Bloodshed:Show(icon)\n            end\n            --actions.cleave+=/a_murder_of_crows\n            if A.AMurderofCrows:IsReady(unitID) then\n                return A.AMurderofCrows:Show(icon)\n            end\n            --actions.cleave+=/barrage,if=pet.main.buff.frenzy.remains>execute_time\n            if A.Barrage:IsReady(unitID, true) and Unit(pet):HasBuffs(A.FrenzyBuff.ID, true) > A.Barrage:GetSpellCastTime() then\n                return A.Barrage:Show(icon)\n            end\n            --actions.cleave+=/kill_command,if=focus>cost+action.multishot.cost\n            if A.KillCommand:IsReady(unitID) and Player:Focus() > 45 then\n                return A.KillCommand:Show(icon)\n            end\n            --actions.cleave+=/bag_of_tricks,if=buff.bestial_wrath.down|target.time_to_die<5\n            if A.BagofTricks:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.BestialWrath.ID, true) == 0 then\n                return A.BagofTricks:Show(icon)\n            end\n            --actions.cleave+=/dire_beast\n            if A.DireBeast:IsReady(unitID) then\n                return A.DireBeast:Show(icon)\n            end\n            --actions.cleave+=/barbed_shot,target_if=min:dot.barbed_shot.remains,if=target.time_to_die<9\n            if A.BarbedShot:IsCastable() and Unit(target):TimeToDie() < 9 then\n                return A.BarbedShot:Show(icon)\n            end\n            --actions.cleave+=/cobra_shot,if=focus.time_to_max<gcd*2\n            if A.CobraShot:IsReady(unitID) and ((Player:Focus() - A.CobraShot:GetSpellPowerCost() + Player:FocusRegen() * (A.KillCommand:GetCooldown() - 1) > A.KillCommand:GetSpellPowerCost())\n                or (A.KillCommand:GetCooldown() > 1 + GetGCD()) and A.BestialWrath:GetCooldown() > Player:FocusTimeToMaxPredicted() and A.KillCommand:GetCooldown() > 1)\n            or Unit(unitID):TimeToDie() < 3 then\n                return A.CobraShot:Show(icon)\n            end\n            --actions.cleave+=/tar_trap,if=runeforge.soulforge_embers|runeforge.nessingwarys_trapping_apparatus\n            --actions.cleave+=/freezing_trap,if=runeforge.nessingwarys_trapping_apparatus\n        end\n        --ST\n        local function ST()\n            -- Force BW always on CD\n            if A.BestialWrath:IsCastable() and BurstIsON(unitID) and canCast and canBurst then\n                return A.BestialWrath:Show(icon)\n            end\n            --actions.st=aspect_of_the_wild\n            if A.AspectoftheWild:IsCastable() and BurstIsON(unitID) and Unit(player):HasBuffs(A.AspectoftheWild.ID, true) == 0 and canBurst then\n                return A.AspectoftheWild:Show(icon)\n            end\n            if A.KillShot:IsReady(unit) then\n                return A.KillShot:Show(icon)\n            end\n            \n            if A.BarbedShot:IsCastable() and Unit(pet):HasBuffs(A.FrenzyBuff.ID, true) <= GetGCD() then\n                return A.BarbedShot:Show(icon)\n            end\n            \n            if A.TarTrap:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and MOVRA and SoulForgeEmbersEquipped then\n                return A.TarTrap:Show(icon)\n            end\n            \n            if A.Flare:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and MOVRA and SoulForgeEmbersEquipped then\n                return A.Flare:Show(icon)\n            end\n            --actions.st+=/bloodshed\n            if A.Bloodshed:IsReady(unitID) then\n                return A.Bloodshed:Show(icon)\n            end\n            --actions.st+=/wild_spirits\n            if A.WildSpirits:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and enemies >= WSmin and MOVRA and CovCDs then\n                return A.WildSpirits:Show(icon)\n            end\n            --actions.st+=/flayed_shot\n            if A.FlayedShot:IsReady(unitID) and CovCDs then\n                return A.FlayedShot:Show(icon)\n            end\n            --actions.st+=/kill_shot,if=buff.flayers_mark.remains<5|target.health.pct<=20\n            if A.KillShot:IsReady(unit) then\n                return A.KillShot:Show(icon)\n            end\n            --actions.st+=/barbed_shot,if=cooldown.bestial_wrath.remains<12*charges_fractional+gcd&talent.scent_of_blood|full_recharge_time<gcd&cooldown.bestial_wrath.remains|target.time_to_die<9\n            if A.BarbedShot:IsCastable() and A.BarbedShot:GetSpellChargesFullRechargeTime() < GetGCD() then\n                return A.BarbedShot:Show(icon)\n            end\n            --actions.st+=/death_chakram,if=focus+cast_regen<focus.max\n            if A.DeathChakram:IsReady(unitID) and CovCDs then\n                return A.DeathChakram:Show(icon)\n            end\n            --actions.st+=/stampede,if=buff.aspect_of_the_wild.up|target.time_to_die<15\n            if A.Stampede:IsReady(unitID) and (Unit(player):HasBuffs(A.AspectoftheWild.ID, true) > 0 and Unit(player):HasBuffs(A.BestialWrath.ID, true) > 0 or Unit(unitID):TimeToDie() < 15) then\n                return A.Stampede:Show(icon)\n            end \n            --actions.st+=/a_murder_of_crows\n            if A.AMurderofCrows:IsReady(unitID) then\n                return A.AMurderofCrows:Show(icon)\n            end\n            --actions.st+=/resonating_arrow,if=buff.bestial_wrath.up|target.time_to_die<10\n            if A.ResonatingArrow:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and MOVRA and CovCDs then\n                return A.ResonatingArrow:Show(icon)\n            end\n            --actions.st+=/bestial_wrath,if=cooldown.wild_spirits.remains>15|!covenant.night_fae|target.time_to_die<15\n            if A.BestialWrath:IsReadyByPassCastGCD(unitID) and (A.WildSpirits:GetCooldown() > 15 or not A.WildSpirits:IsSpellLearned()) and BurstIsON(unitID) and canCast and canBurst then\n                return A.BestialWrath:Show(icon)\n            end\n            --actions.st+=/chimaera_shot\n            if A.ChimaeraShot:IsReady(unitID) then\n                return A.ChimaeraShot:Show(icon)\n            end\n            --actions.st+=/kill_command\n            if A.KillCommand:IsReady(unitID) then\n                return A.KillCommand:Show(icon)\n            end\n            --actions.st+=/bag_of_tricks,if=buff.bestial_wrath.down|target.time_to_die<5\n            if A.BagofTricks:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.BestialWrath.ID, true) == 0 then\n                return A.BagofTricks:Show(icon)\n            end\n            --actions.st+=/dire_beast\n            if A.DireBeast:IsReady(unitID) then\n                return A.DireBeast:Show(icon)\n            end\n            --actions.st+=/cobra_shot,if=(focus-cost+focus.regen*(cooldown.kill_command.remains-1)>action.kill_command.cost|cooldown.kill_command.remains>1+gcd)|(buff.bestial_wrath.up|buff.nesingwarys_trapping_apparatus.up)&!runeforge.qapla_eredun_war_order|target.time_to_die<3\n            if A.CobraShot:IsReady(unitID) and ((Player:Focus() - A.CobraShot:GetSpellPowerCost() + Player:FocusRegen() * (A.KillCommand:GetCooldown() - 1) > A.KillCommand:GetSpellPowerCost())\n                or (A.KillCommand:GetCooldown() > 1 + GetGCD()) and A.BestialWrath:GetCooldown() > Player:FocusTimeToMaxPredicted() and A.KillCommand:GetCooldown() > 1)\n            or Unit(unitID):TimeToDie() < 3 then\n                return A.CobraShot:Show(icon)\n            end\n            --actions.st+=/barbed_shot,if=buff.wild_spirits.up\n            --actions.st+=/arcane_pulse,if=buff.bestial_wrath.down|target.time_to_die<5\n            --actions.st+=/tar_trap,if=runeforge.soulforge_embers|runeforge.nessingwarys_trapping_apparatus\n            --actions.st+=/freezing_trap,if=runeforge.nessingwarys_trapping_apparatus\n        end\n        --Calls\n        --actions+=/call_action_list,name=cds\n        if canBurst and canCast and BurstIsON(unitID) and forcecombat and CD() then\n            return true\n        end\n        --actions+=/call_action_list,name=st,if=active_enemies<2\n        if (not inAoE or (enemies < 2)) and canCast and forcecombat and not forceAoE and ST() then\n            return true\n        end\n        --actions+=/call_action_list,name=cleave,if=active_enemies>1\n        if (enemies > 1 or forceAoE) and canCast and forcecombat and Cleave() then\n            return true\n        end\n        if not forcecombat and not profileStop and Unit(unit):IsExists() and unit ~= \"mouseover\" and not Player:IsMounted() and not Unit(unit):IsDead() and PreCombat() then\n            return true\n        end\n    end\n    \n    if A.BurstingShot:IsReady(unitID, true) and not Unit(unitID):IsDead() and MultiUnits:GetByRange(5, 1) >= 1 and Unit(player):IsTankingAoE(10) and BSCS then\n        return A.BurstingShot:Show(icon)\n    end\n    \n    ---- ConcussiveShot if:\n    -- PvE: Low hp while KillShot isn't ready AND player has aggro AND target not slowed AND (no pet active OR pet is dead)\n    -- PvP: target is moving AND target not slowed AND player camouflage isn't active AND MaxSpeed >= 100 AND trushot down\n    -- Both: target not phys imune AND target exists AND target is alive\n    if A.ConcussiveShot:IsReady(unitID) and not Unit(unitID):IsDead() and Unit(unitID):IsExists() and\n    (\n        (\n            BSCS and \n            not A.IsInPvP and\n            Unit(player):IsTankingAoE(10) and\n            Unit(unitID):HasDeBuffs(\"Slowed\") == 0 and\n            Unit(unitID):GetMaxSpeed() >= 100 and\n            (Unit(player):HealthPercent() < 20 and not A.KillShot:IsReady(unit)) and\n            (not Pet:IsActive() or Unit(pet):HealthPercent() <1)\n        ) or \n        (\n            BSCS and\n            A.IsInPvP and\n            isMovingOut and\n            Unit(player):HasBuffs(A.CamouflageBuff.ID, true) == 0 and\n            Unit(unitID):HasDeBuffs(\"Slowed\") == 0 and\n            Unit(unitID):GetMaxSpeed() >= 100 and\n            Unit(player):HasBuffs(A.DoubleTapBuff.ID) == 0 and\n            (A.Trueshot:IsReadyByPassCastGCD(unitID) or A.Trueshot:GetSpellTimeSinceLastCast() > 4) and\n            not A.KillShot:IsReady(unit) and\n            Unit(unitID):HealthPercent() > 15\n        ) and\n        A.ConcussiveShot:AbsentImun(unitID, Temp.TotalAndPhys)\n    ) then\n        return A.ConcussiveShot:Show(icon)\n    end\n    \n    -- Defensive\n    local SelfDefensive = SelfDefensives()\n    if SelfDefensive then \n        return SelfDefensive:Show(icon)\n    end \n    \n    \n    -- Mouseover \n    if A.IsUnitEnemy(\"mouseover\") then \n        unit = \"mouseover\"\n        if not Unit(unitID):IsDead() and EnemyRotation(unit) then \n            return true\n        end \n        \n    end    \n    \n    -- Target  \n    if A.IsUnitEnemy(\"target\") then \n        unit = \"target\"\n        if not Unit(unitID):IsDead() and EnemyRotation(unit) then \n            return true\n        end \n        \n    end\n    \nend\n\nA[6] = function(icon)\n    if IsUnitEnemy(target) and not Unit(player):IsMounted() and not UnitIsUnit(\"pettarget\", target) and Unit(player):CombatTime() > 0 and Unit(target):CombatTime() > 0 then\n        return A.PetAttackTarget:Show(icon)\n    end\nend\n\n-- Nil (nothing for profile here, just reset them)\nA[1] = nil\nA[2] = nil  \nA[4] = nil \nA[5] = nil \nA[7] = nil\nA[8] = nil \n\n",
+					["Code"] = "local _G, setmetatable, pairs, type, math    = _G, setmetatable, pairs, type, math\nlocal huge                                     = math.huge\n\nlocal TMW                                     = _G.TMW \n\nlocal Action                                 = _G.Action\n\nlocal CONST                                 = Action.Const\nlocal Listener                                 = Action.Listener\nlocal Create                                 = Action.Create\nlocal GetToggle                                = Action.GetToggle\nlocal GetLatency                            = Action.GetLatency\nlocal GetGCD                                = Action.GetGCD\nlocal GetCurrentGCD                            = Action.GetCurrentGCD\nlocal ShouldStop                            = Action.ShouldStop\nlocal BurstIsON                                = Action.BurstIsON\nlocal AuraIsValid                            = Action.AuraIsValid\nlocal InterruptIsValid                        = Action.InterruptIsValid\nlocal DetermineUsableObject                    = Action.DetermineUsableObject\nlocal TimerSet                                = Action.TimerSet\n\nlocal Utils                                    = Action.Utils\nlocal BossMods                                = Action.BossMods\nlocal TeamCache                                = Action.TeamCache\nlocal EnemyTeam                                = Action.EnemyTeam\nlocal FriendlyTeam                            = Action.FriendlyTeam\nlocal LoC                                     = Action.LossOfControl\nlocal Player                                = Action.Player \nlocal MultiUnits                            = Action.MultiUnits\nlocal UnitCooldown                            = Action.UnitCooldown\nlocal Unit                                    = Action.Unit \nlocal IsUnitEnemy                            = Action.IsUnitEnemy\nlocal IsUnitFriendly                        = Action.IsUnitFriendly\n\nlocal Azerite                                 = LibStub(\"AzeriteTraits\")\nlocal Pet                                       = LibStub(\"PetLibrary\")\n\nlocal ACTION_CONST_HUNTER_BEASTMASTERY       = CONST.HUNTER_BEASTMASTERY\nlocal ACTION_CONST_AUTOTARGET                = CONST.AUTOTARGET\nlocal ACTION_CONST_SPELLID_FREEZING_TRAP    = CONST.SPELLID_FREEZING_TRAP\n\nlocal IsIndoors, UnitIsUnit                    = _G.IsIndoors, _G.UnitIsUnit\n\nAction[ACTION_CONST_HUNTER_BEASTMASTERY] = {\n    -- Racial\n    ArcaneTorrent                         = Create({ Type = \"Spell\", ID = 50613                                                                            }),\n    BloodFury                             = Create({ Type = \"Spell\", ID = 20572                                                                            }),\n    BagofTricks                           = Create({ Type = \"Spell\", ID = 312411                                                                            }),\n    Fireblood                             = Create({ Type = \"Spell\", ID = 265221                                                                            }),\n    AncestralCall                         = Create({ Type = \"Spell\", ID = 274738                                                                            }),\n    Berserking                            = Create({ Type = \"Spell\", ID = 26297                                                                            }),\n    ArcanePulse                           = Create({ Type = \"Spell\", ID = 260364                                                                            }),\n    QuakingPalm                           = Create({ Type = \"Spell\", ID = 107079                                                                            }),\n    Haymaker                              = Create({ Type = \"Spell\", ID = 287712                                                                            }),\n    WarStomp                              = Create({ Type = \"Spell\", ID = 20549                                                                            }),\n    BullRush                              = Create({ Type = \"Spell\", ID = 255654                                                                            }),\n    GiftofNaaru                           = Create({ Type = \"Spell\", ID = 59544                                                                            }),\n    Shadowmeld                            = Create({ Type = \"Spell\", ID = 58984                                                                            }), -- usable in Action Core\n    Stoneform                             = Create({ Type = \"Spell\", ID = 20594                                                                            }),\n    WilloftheForsaken                     = Create({ Type = \"Spell\", ID = 7744                                                                            }), -- not usable in APL but user can Queue it\n    EscapeArtist                          = Create({ Type = \"Spell\", ID = 20589                                                                            }), -- not usable in APL but user can Queue it\n    EveryManforHimself                    = Create({ Type = \"Spell\", ID = 59752                                                                            }), -- not usable in APL but user can Queue it\n    -- CrownControl\n    KickGreen                             = Create({ Type = \"SpellSingleColor\", ID = 147362, Color = \"GREEN\", Desc = \"[2] Kick\", QueueForbidden = true        }),\n    -- Suppotive\n    SummonPet                             = Create({ Type = \"Spell\", ID = 883}),\n    SummonPet2                            = Create({ Type = \"Spell\", ID = 83242}),\n    SummonPet3                            = Create({ Type = \"Spell\", ID = 83243}),\n    SummonPet4                            = Create({ Type = \"Spell\", ID = 83244}),\n    SummonPet5                            = Create({ Type = \"Spell\", ID = 83245}),\n    MendPet                               = Create({ Type = \"Spell\", ID = 136}),\n    RevivePet                             = Create({ Type = \"Spell\", ID = 982}),\n    FreezingTrap                             = Create({ Type = \"Spell\", ID = 187650}),\n    ConcussiveShot                         = Create({ Type = \"Spell\", ID = 5116 }),\n    BurstingShot                           = Create({ Type = \"Spell\", ID = 186387 }),\n    -- Self Defensives\n    Exhilaration                          = Create({ Type = \"Spell\", ID = 109304}),\n    AspectoftheTurtle                     = Create({ Type = \"Spell\", ID = 186265}),\n    -- Player Abilities\n    HuntersMark                           = Create({ Type = \"Spell\", ID = 257284}),\n    AnimalCompanion                       = Create({ Type = \"Spell\", ID = 267116}),\n    AspectoftheWild                       = Create({ Type = \"Spell\", ID = 193530}),\n    BestialWrath                          = Create({ Type = \"Spell\", ID = 19574}),\n    KillerInstinct                        = Create({ Type = \"Spell\", ID = 273887}),\n    BarbedShot                            = Create({ Type = \"Spell\", ID = 217200}),\n    Multishot                             = Create({ Type = \"Spell\", ID = 2643}),\n    Stampede                              = Create({ Type = \"Spell\", ID = 201430}),\n    ChimaeraShot                          = Create({ Type = \"Spell\", ID = 53209}),\n    AMurderofCrows                        = Create({ Type = \"Spell\", ID = 131894}),\n    Barrage                               = Create({ Type = \"Spell\", ID = 120360}),\n    KillCommand                           = Create({ Type = \"Spell\", ID = 34026}),\n    DireBeast                             = Create({ Type = \"Spell\", ID = 120679}),\n    CobraShot                             = Create({ Type = \"Spell\", ID = 193455}),\n    Intimidation                          = Create({ Type = \"Spell\", ID = 19577}),\n    CounterShot                           = Create({ Type = \"Spell\", ID = 147362}),\n    Exhilaration                          = Create({ Type = \"Spell\", ID = 109304}),\n    TarTrap                               = Create({ Type = \"Spell\", ID = 187698}),\n    Flare                                 = Create({ Type = \"Spell\", ID = 1543}),\n    KillShot                              = Create({ Type = \"Spell\", ID = 53351}),\n    ArcaneShot                            = Create({ Type = \"Spell\", ID = 185358}),\n    TranquilizingShot                     = Create({ Type = \"Spell\", ID = 19801}),\n    -- Talents\n    SpittingCobra                         = Create({ Type = \"Spell\", ID = 257891}),\n    OneWithThePack                        = Create({ Type = \"Spell\", ID = 199528}),\n    ScentOfBlood                          = Create({ Type = \"Spell\", ID = 193532}),\n    Bloodshed                             = Create({ Type = \"Spell\", ID = 321530}),\n    -- Covenants\n    WildSpirits                           = Create({ Type = \"Spell\", ID = 328231}),\n    DeathChakram                          = Create({ Type = \"Spell\", ID = 325028}),\n    ResonatingArrow                       = Create({ Type = \"Spell\", ID = 308491}),\n    FlayedShot                            = Create({ Type = \"Spell\", ID = 324149}),\n    -- Buffs\n    BestialWrathPetBuff                   = Create({ Type = \"Spell\", ID = 186254}),\n    BeastCleaveBuff                       = Create({ Type = \"Spell\", ID = 118455, \"pet\"}),\n    BeastCleavePlayerBuff                 = Create({ Type = \"Spell\", ID = 268877}),\n    FrenzyBuff                            = Create({ Type = \"Spell\", ID = 272790, \"pet\"}),\n    DanceofDeathBuff                      = Create({ Type = \"Spell\", ID = 274443}),\n    PrimalInstinctsBuff                   = Create({ Type = \"Spell\", ID = 279810}),\n    PrimalInstincts                       = Create({ Type = \"Spell\", ID = 279806}),\n    CamouflageBuff                         = Create({ Type = \"Spell\", ID = 199483    }),    \n    -- PvP Talents\n    -- Items\n    RapidReload                            = Create({ Type = \"Spell\", ID = 278530 }),\n    -- PET\n    PetAttackTarget                                = Create({ Type = \"SpellSingleColor\", ID = 17253, Color = \"GREEN\", Desc = \"Pet Attack\", QueueForbidden = true        }),\n    Bite                       = Create({ Type = \"Spell\", ID = 17253}),\n    Smack                       = Create({ Type = \"Spell\", ID = 49966}), \n    Claw                       = Create({ Type = \"Spell\", ID = 16827}), \n    Growl                       = Create({ Type = \"Spell\", ID = 2649}), \n    BloodBolt                       = Create({ Type = \"Spell\", ID = 288962}), \n    SpiritMend                       = Create({ Type = \"Spell\", ID = 90361}), \n}\n\nAction:CreateEssencesFor(ACTION_CONST_HUNTER_BEASTMASTERY)\nlocal A = setmetatable(Action[ACTION_CONST_HUNTER_BEASTMASTERY], { __index = Action })\nPet:AddActionsSpells(ACTION_CONST_HUNTER_BEASTMASTERY, {A.Bite, A.Claw, A.Smack})\nlocal player                                    = \"player\"\nlocal target                                    = \"target\"\nlocal pet                                        = \"pet\"\nlocal Temp                                        = {\n    AttackTypes                                    = {\"TotalImun\", \"DamagePhysImun\"},    \n    AuraForStun                                    = {\"TotalImun\", \"DamagePhysImun\", \"CCTotalImun\", \"StunImun\"},    \n    AuraForCC                                    = {\"TotalImun\", \"DamagePhysImun\", \"CCTotalImun\"},\n    AuraForOnlyCCAndStun                        = {\"CCTotalImun\", \"StunImun\"},\n    AuraForInterrupt                            = {\"TotalImun\", \"DamagePhysImun\", \"KickImun\"},\n    AuraForSlow                                    = {\"TotalImun\", \"DamagePhysImun\", \"CCTotalImun\", \"Freedom\"},\n    FeignDeathDelay                                = 0,\n    PetFamily                                    = \"nil\",\n    IsSpiritBeast                                = {\n        enUS                                    = \"Spirit Beast\",\n    },\n    IsBat                                        = {\n        enUS                                    = \"Bat\",\n    },\n    GetPetMeleeSpells                            = { (A.Bite:Info()), (A.Claw:Info()), (A.Smack:Info()), (A.BloodBolt:Info()) },\n    GetPetRangedSpells                            = { (A.Growl:Info())},\n    IsSlotTrinketBlocked                         = {},\n}\n\nTMW:RegisterCallback(\"TMW_ACTION_IS_INITIALIZED\", function()\n        TimerSet(\"DISABLE_PET_ERRORS\", 60, function() Pet:DisableErrors(true)  end)\nend)\n\nfunction Temp.IsPetInMelee(unitID)\n    -- @return boolean \n    return Pet:IsInRange(Temp.GetPetMeleeSpells[1], unitID) or Pet:IsInRange(Temp.GetPetMeleeSpells[2], unitID) or Pet:IsInRange(Temp.GetPetMeleeSpells[3], unitID)\nend\n\nlocal max_search = 5\nlocal function GetEnemies()\n    -- @return number \n    local enemies = 1\n    local compare = 0\n    \n    -- #1 method is if petID \n    compareMelee    = Pet:GetInRange(Temp.GetPetMeleeSpells, max_search)\n    compareRanged    = Pet:GetInRange(Temp.GetPetRangedSpells, max_search)\n    \n    if compareRanged > 2 and compare > 0 then\n        enemies = compareRanged\n    elseif compareRanged < 3 and compareMelee > enemies then\n        enemies = compareMelee\n    end\n    \n    return enemies\nend \n\nlocal function GetByRange(count, range, isCheckEqual, isCheckCombat)\n    -- @return boolean \n    local c = 0 \n    for unitID in pairs(ActiveUnitPlates) do \n        if (not isCheckEqual or not UnitIsUnit(target, unitID)) and (not isCheckCombat or Unit(unitID):CombatTime() > 0) then \n            if range then \n                local r = Unit(unitID):GetRange()\n                if r > 0 and r <= range then \n                    c = c + 1\n                end \n            end \n            \n            if c >= count then \n                return true \n            end \n        end \n    end\nend \n\nlocal function GetByRangeTTD(self, count, range)\n    -- @return number\n    local total, total_ttd = 0, 0\n    \n    for unitID in pairs(ActiveUnitPlates) do \n        if not range or Unit(unitID):CanInterract(range) then \n            total = total + 1\n            total_ttd = total_ttd + Unit(unitID):TimeToDie()\n        end \n        \n        if count and total >= count then \n            break \n        end \n    end \n    \n    if total > 0 then \n        return total_ttd / total     \n    else  \n        return huge\n    end\nend \nGetByRangeTTD = A.MakeFunctionCachedDynamic(GetByRangeTTD)\n\nlocal function num(val)\n    if val then return 1 else return 0 end\nend\n\n-- [1] CC AntiFake Rotation\nlocal function AntiFakeStun(unitID) \n    return \n    IsUnitEnemy(unitID) and  \n    Unit(unitID):GetRange() <= 40 and \n    Unit(unitID):IsControlAble(\"stun\", 0) and \n    A.IntimidationGreen:AbsentImun(unitID, Temp.AuraForOnlyCCAndStun, true)          \nend \nA[1] = function(icon)    \n    if A.IntimidationGreen:IsReady(nil, nil, nil, true) and \n    (\n        AntiFakeStun(\"mouseover\") or \n        AntiFakeStun(\"target\")\n    )\n    then \n        return A.IntimidationGreen:Show(icon)         \n    end                                                                     \nend\n\nlocal function SelfDefensives()\n    if Unit(player):CombatTime() == 0 then \n        return \n    end\n    \n    local Exhilaration = A.GetToggle(2, \"ExhilarationHP\")\n    if Exhilaration >= 0 and A.Exhilaration:IsReady(player) and \n    (\n        (     -- Auto \n            Exhilaration >= 100 and \n            (\n                -- HP lose per sec >= 20\n                Unit(player):GetDMG() * 100 / Unit(player):HealthMax() >= 20 or \n                Unit(player):GetRealTimeDMG() >= Unit(player):HealthMax() * 0.20 or \n                -- TTD \n                Unit(player):TimeToDieX(25) < 5 or \n                (\n                    A.IsInPvP and \n                    (\n                        Unit(player):UseDeff() or \n                        (\n                            Unit(player, 5):HasFlags() and \n                            Unit(player):GetRealTimeDMG() > 0 and \n                            Unit(player):IsFocused() \n                        )\n                    )\n                )\n            ) and \n            Unit(player):HasBuffs(\"DeffBuffs\", true) == 0\n        ) or \n        (    -- Custom\n            Exhilaration < 100 and \n            Unit(player):HealthPercent() <= Exhilaration\n        )\n    ) \n    then \n        return A.Exhilaration\n    end\n    \n    local SpiritMend = A.GetToggle(2, \"SpiritMendHP\")\n    if SpiritMend >= 0 and A.SpiritMend:IsReady(player) and Temp.PetFamily == Temp.IsSpiritBeast[GameLocale] and \n    (\n        (     -- Auto \n            SpiritMend >= 100 and \n            (\n                -- HP lose per sec >= 10\n                Unit(player):GetDMG() * 100 / Unit(player):HealthMax() >= 10 or \n                Unit(player):GetRealTimeDMG() >= Unit(player):HealthMax() * 0.10 or \n                -- TTD \n                Unit(player):TimeToDieX(25) < 5 or \n                (\n                    A.IsInPvP and \n                    (\n                        Unit(player):UseDeff() or \n                        (\n                            Unit(player, 5):HasFlags() and \n                            Unit(player):GetRealTimeDMG() > 0 and \n                            Unit(player):IsFocused() \n                        )\n                    )\n                )\n            ) and \n            Unit(player):HasBuffs(\"DeffBuffs\", true) == 0\n        ) or \n        (    -- Custom\n            SpiritMend < 100 and \n            Unit(player):HealthPercent() <= SpiritMend\n        )\n    ) \n    then \n        return A.SpiritMend\n    end\n    \n    local AspectoftheTurtle = A.GetToggle(2, \"Turtle\")\n    if AspectoftheTurtle >= 0 and A.AspectoftheTurtle:IsReady(player) and \n    (\n        (     -- Auto \n            AspectoftheTurtle >= 100 and \n            (\n                -- HP lose per sec >= 30\n                Unit(player):GetDMG() * 100 / Unit(\"player\"):HealthMax() >= 30 or \n                Unit(player):GetRealTimeDMG() >= Unit(player):HealthMax() * 0.30 or \n                -- TTD \n                Unit(player):TimeToDieX(25) < 5 or \n                (\n                    A.IsInPvP and \n                    (\n                        Unit(player):UseDeff() or \n                        (\n                            Unit(player, 5):HasFlags() and \n                            Unit(player):GetRealTimeDMG() > 0 and \n                            Unit(player):IsFocused() \n                        )\n                    )\n                )\n            ) and \n            Unit(player):HasBuffs(\"DeffBuffs\", true) == 0\n        ) or \n        (    -- Custom\n            AspectoftheTurtle < 100 and \n            Unit(player):HealthPercent() <= AspectoftheTurtle\n        )\n    ) \n    then\n        return A.AspectoftheTurtle\n    end\n    \nend\nSelfDefensives = A.MakeFunctionCachedStatic(SelfDefensives)\n\n\n-----------------------------------------\n--                 ROTATION  \n-----------------------------------------\n\n-- [3] Single Rotation\nA[3] = function(icon)\n    local isMoving                         = A.Player:IsMoving()\n    local unitID                        = \"player\"\n    local targetID                   = \"target\"\n    local isMovingOut                = Unit(targetID):IsMoving()\n    local inAoE                            = GetToggle(2, \"AoE\")\n    local inHoldAoE                        = GetToggle(2, \"holdAoE\")\n    local minHoldAoE                    = GetToggle(2, \"holdAoENum\") \n    local isStartAttack                    = GetToggle(2, \"startAttack\")\n    local forceAoE                        = GetToggle(2, \"forceAoE\")\n    local combatTime                    = Unit(player):CombatTime()\n    local inCombat                        = combatTime > 0\n    local enemies                        = GetEnemies()\n    local canCast                        = true\n    local SoulForgeEmbersEquipped         = GetToggle(2, \"SOULFORGE\")\n    local Pull                             = Action.BossMods_Pulling()\n    local CovCDs                      = GetToggle(2, \"CovCDs\") or BurstIsON(unitID)\n    local VolleyCDs                     = GetToggle(2, \"VolleyCDs\") or BurstIsON(unitID)\n    local DTCDs                         = GetToggle(2, \"DTCDs\") or BurstIsON(unitID)\n    local MOVRA                            = GetToggle(2, \"MOVRA\") or UnitIsUnit(target, \"mouseover\")\n    local WSmin                            = GetToggle(2, \"WSmin\")\n    local BSCS                            = GetToggle(2, \"BSCS\")\n    local forcecombat            = GetToggle(2, \"FCOMBAT\") or inCombat\n    \n    if (Player:IsCasting() or Player:IsChanneling()) then\n        canCast = false\n    else \n        canCast = true\n    end\n    \n    if Temp.FeignDeathDelay > 0 then\n        Temp.FeignDeathDelay = Temp.FeignDeathDelay - 1\n        return \n    end\n    \n    Temp.PetFamily = UnitCreatureFamily(Pet:GetMainPet() and Pet:GetMainPet().name or pet)\n    \n    local function EnemyRotation(unitID)    \n        local unit = \"target\" \n        local MendPet = GetToggle(2, \"MendPet\")\n        if A.MendPet:IsReady(player) and Pet:IsActive() and Unit(pet):HealthPercent() > 0 and ((MendPet >= 100 and (Unit(pet):GetDMG() * 100 / Unit(pet):HealthMax() >= 20 or Unit(pet):GetRealTimeDMG() >= Unit(pet):HealthMax() * 0.20 or Unit(pet):TimeToDieX(15) < 2)) or (MendPet < 100 and Unit(pet):HealthPercent() <= MendPet and Unit(pet):HasBuffs(A.MendPet.ID, true) == 0))    then\n            return A.MendPet:Show(icon)\n        end\n        \n        if not Pet:IsActive() and A.MendPet:IsReady(player) and not A.LastPlayerCastName == A.MendPet:Info() then\n            return A.MendPet:Show(icon)\n        end\n        \n        -- Out of combat or Pull\n        \n        if not isStartAttack and not inCombat then\n            return \n        end\n        \n        -- Purge\n        if A.ArcaneTorrent:AutoRacial(unitID) then \n            return A.ArcaneTorrent:Show(icon)\n        end             \n        \n        -- [[ INTERRUPTS ]] \n        local useKick, useCC, useRacial, notInterruptable, castRemainsTime, castDoneTime = InterruptIsValid(unitID, nil, nil, not A.CounterShot:IsReady(unitID)) -- A.CounterShot non GCD spell\n        \n        if castDoneTime > 0 then\n            if useKick and not notInterruptable and A.CounterShot:IsReady(unitID) then\n                return A.CounterShot:Show(icon)\n            end\n            \n            if useCC and A.Intimidation:IsReady(unitID) then\n                return A.Intimidation:Show(icon)\n            end\n            \n            if useRacial and A.QuakingPalm:AutoRacial(unitID) then \n                return A.QuakingPalm:Show(icon)\n            end \n            \n            if useRacial and A.Haymaker:AutoRacial(unitID) then \n                return A.Haymaker:Show(icon)\n            end \n            \n            if useRacial and A.WarStomp:AutoRacial(unitID) then \n                return A.WarStomp:Show(icon)\n            end \n            \n            if useRacial and A.BullRush:AutoRacial(unitID) then \n                return A.BullRush:Show(icon)\n            end   \n        end\n        \n        -- Explosives or Totems\n        if canCast and (Unit(unitID):IsExplosives() or Unit(unitID):IsTotem()) then\n            if A.KillCommand:IsReady(unitID) then\n                return A.KillCommand:Show(icon)\n            end\n            \n            if A.CobraShot:IsReady(unitID) then\n                return A.CobraShot:Show(icon)\n            end\n        end\n        \n        -- Dispell Enrage / Magic\n        if A.TranquilizingShot:IsReady(unitID) and (AuraIsValid(unitID, \"UseExpelEnrage\", \"Enrage\") or AuraIsValid(unitID, \"UseDispel\", \"Magic\")) then \n            return A.TranquilizingShot:Show(icon)\n        end \n        \n        local canBurst = false\n        if (Unit(unitID):TimeToDie() >= GetToggle(2, \"BurstTTDBoss\") or Unit(unitID):TimeToDie() >= GetToggle(2, \"BurstTTDMobs\")) then\n            canBurst = true\n        end\n        \n        \n        --PreCombat\n        local function PreCombat()\n            --actions.precombat+=/bestial_wrath,precast_time=1.5,if=!talent.scent_of_blood&!runeforge.soulforge_embers\n            if A.BestialWrath:IsReadyByPassCastGCD(unitID) and BurstIsON(unitID) and canCast and canBurst and Pull > .1 and Pull <= 1.5 and not A.ScentOfBlood:IsSpellLearned() then\n                return A.BestialWrath:Show(icon)\n            end\n            --# Adjusts the duration and cooldown of Aspect of the Wild and Primal Instincts by the duration of an unhasted GCD when they're used precombat. Because Aspect of the Wild reduces GCD by 200ms, this is 1.3 seconds.\n            --actions.precombat+=/aspect_of_the_wild,precast_time=1.3,if=!azerite.primal_instincts.enabled&!essence.essence_of_the_focusing_iris.major&(equipped.azsharas_font_of_power|!equipped.cyclotronic_blast)\n            if A.AspectoftheWild:IsReadyByPassCastGCD(unitID) and BurstIsON(unitID) and canCast and canBurst and Pull > .1 and Pull <= 1.3 then\n                return A.AspectoftheWild:Show(icon)\n            end\n        end\n        --CDs\n        local function CD()\n            --actions.cds=ancestral_call,if=cooldown.bestial_wrath.remains>30\n            if A.AncestralCall:IsRacialReady(unitID, true) and A.BestialWrath:GetCooldown() > 30 then\n                return A.AncestralCall:Show(icon)\n            end\n            --actions.cds+=/fireblood,if=cooldown.bestial_wrath.remains>30\n            if A.Fireblood:IsRacialReady(unitID, true) and A.BestialWrath:GetCooldown() > 30 then\n                return A.Fireblood:Show(icon)\n            end\n            --actions.cds+=/berserking,if=(buff.wild_spirits.up|!covenant.night_fae&buff.aspect_of_the_wild.up&buff.bestial_wrath.up)&(fight_remains>cooldown.berserking.duration+duration|(target.health.pct<35|!talent.killer_instinct))|fight_remains<13\n            if A.Berserking:IsRacialReady(unitID, true) and (A.WildSpirits:GetSpellTimeSinceLastCast() < 15 or not A.WildSpirits:IsSpellLearned() and Unit(player):HasBuffs(A.AspectoftheWild.ID, true) > 0 and Unit(player):HasBuffs(A.BestialWrath.ID, true) > 0) and canCast and canBurst then\n                return A.Berserking:Show(icon)\n            end\n            --actions.cds+=/blood_fury,if=(buff.wild_spirits.up|!covenant.night_fae&buff.aspect_of_the_wild.up&buff.bestial_wrath.up)&(fight_remains>cooldown.blood_fury.duration+duration|(target.health.pct<35|!talent.killer_instinct))|fight_remains<16\n            if A.BloodFury:IsRacialReady(unitID, true) and (A.WildSpirits:GetSpellTimeSinceLastCast() < 15 or not A.WildSpirits:IsSpellLearned() and Unit(player):HasBuffs(A.AspectoftheWild.ID, true) > 0 and Unit(player):HasBuffs(A.BestialWrath.ID, true) > 0) and canCast and canBurst then\n                return A.BloodFury:Show(icon)\n            end\n            \n            if A.Trinket1:IsReady(unitID) and A.Trinket1:GetItemCategory() ~= \"DEFF\" and A.Trinket1:AbsentImun(unitID, Temp.TotalAndMagPhys) and not Temp.IsSlotTrinketBlocked[A.Trinket1.ID] then\n                return A.Trinket1:Show(icon)    \n            end\n            \n            if A.Trinket2:IsReady(unitID) and A.Trinket2:GetItemCategory() ~= \"DEFF\" and A.Trinket2:AbsentImun(unitID, Temp.TotalAndMagPhys) and not Temp.IsSlotTrinketBlocked[A.Trinket2.ID] then\n                return A.Trinket2:Show(icon)\n            end\n            --actions.cds+=/lights_judgment\n            --actions.cds+=/potion,if=buff.aspect_of_the_wild.up|fight_remains<26\n        end\n        --Cleave\n        local function Cleave()\n            -- Force BW always on CD\n            if A.BestialWrath:IsCastable() and BurstIsON(unitID) and canCast and canBurst then\n                return A.BestialWrath:Show(icon)\n            end\n            --actions.cleave=aspect_of_the_wild\n            if A.AspectoftheWild:IsReadyByPassCastGCD(unitID) and BurstIsON(unitID) and Unit(player):HasBuffs(A.AspectoftheWild.ID, true) == 0 and canBurst then\n                return A.AspectoftheWild:Show(icon)\n            end\n            if A.KillShot:IsReady(unit) then\n                return A.KillShot:Show(icon)\n            end\n            if A.BarbedShot:IsCastable() and Unit(pet):HasBuffs(A.FrenzyBuff.ID, true) <= GetGCD() then\n                return A.BarbedShot:Show(icon)\n            end\n            --actions.cleave+=/multishot,if=gcd-pet.main.buff.beast_cleave.remains>0.25\n            if A.Multishot:IsReady(unitID) and Unit(pet):HasBuffs(A.BeastCleaveBuff.ID, true) < GetGCD() + .25 then\n                return A.Multishot:Show(icon)\n            end\n            if A.TarTrap:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and MOVRA and SoulForgeEmbersEquipped then\n                return A.TarTrap:Show(icon)\n            end\n            if A.Flare:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and MOVRA and SoulForgeEmbersEquipped then\n                return A.Flare:Show(icon)\n            end\n            --actions.cleave+=/death_chakram,if=focus+cast_regen<focus.max\n            if A.DeathChakram:IsReady(unitID) and CovCDs then\n                return A.DeathChakram:Show(icon)\n            end\n            --actions.cleave+=/wild_spirits\n            if A.WildSpirits:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and enemies >= WSmin and MOVRA and CovCDs then\n                return A.WildSpirits:Show(icon)\n            end\n            --actions.cleave+=/barbed_shot,target_if=min:dot.barbed_shot.remains,if=full_recharge_time<gcd&cooldown.bestial_wrath.remains|cooldown.bestial_wrath.remains<12+gcd&talent.scent_of_blood\n            if A.BarbedShot:IsCastable() and A.BarbedShot:GetSpellChargesFullRechargeTime() < GetGCD() then\n                return A.BarbedShot:Show(icon)\n            end\n            --actions.cleave+=/bestial_wrath\n            if A.BestialWrath:IsCastable() and BurstIsON(unitID) and canCast and canBurst then\n                return A.BestialWrath:Show(icon)\n            end\n            --actions.cleave+=/resonating_arrow\n            if A.ResonatingArrow:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and MOVRA and CovCDs then\n                return A.ResonatingArrow:Show(icon)\n            end\n            --actions.cleave+=/stampede,if=buff.aspect_of_the_wild.up|target.time_to_die<15\n            if A.Stampede:IsReady(unitID) and (Unit(player):HasBuffs(A.AspectoftheWild.ID, true) > 0 and Unit(player):HasBuffs(A.BestialWrath.ID, true) > 0 or Unit(unitID):TimeToDie() < 15) then\n                return A.Stampede:Show(icon)\n            end \n            --actions.cleave+=/flayed_shot\n            if A.FlayedShot:IsReady(unitID) and CovCDs then\n                return A.FlayedShot:Show(icon)\n            end\n            --actions.cleave+=/kill_shot\n            if A.KillShot:IsReady(unit) then\n                return A.KillShot:Show(icon)\n            end\n            --actions.cleave+=/chimaera_shot\n            if A.ChimaeraShot:IsReady(unitID) then\n                return A.ChimaeraShot:Show(icon)\n            end\n            --actions.cleave+=/bloodshed\n            if A.Bloodshed:IsReady(unitID) then\n                return A.Bloodshed:Show(icon)\n            end\n            --actions.cleave+=/a_murder_of_crows\n            if A.AMurderofCrows:IsReady(unitID) then\n                return A.AMurderofCrows:Show(icon)\n            end\n            --actions.cleave+=/barrage,if=pet.main.buff.frenzy.remains>execute_time\n            if A.Barrage:IsReady(unitID, true) and Unit(pet):HasBuffs(A.FrenzyBuff.ID, true) > A.Barrage:GetSpellCastTime() then\n                return A.Barrage:Show(icon)\n            end\n            --actions.cleave+=/kill_command,if=focus>cost+action.multishot.cost\n            if A.KillCommand:IsReady(unitID) and Player:Focus() > 45 then\n                return A.KillCommand:Show(icon)\n            end\n            --actions.cleave+=/bag_of_tricks,if=buff.bestial_wrath.down|target.time_to_die<5\n            if A.BagofTricks:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.BestialWrath.ID, true) == 0 then\n                return A.BagofTricks:Show(icon)\n            end\n            --actions.cleave+=/dire_beast\n            if A.DireBeast:IsReady(unitID) then\n                return A.DireBeast:Show(icon)\n            end\n            --actions.cleave+=/barbed_shot,target_if=min:dot.barbed_shot.remains,if=target.time_to_die<9\n            if A.BarbedShot:IsCastable() and Unit(target):TimeToDie() < 9 then\n                return A.BarbedShot:Show(icon)\n            end\n            --actions.cleave+=/cobra_shot,if=focus.time_to_max<gcd*2\n            if A.CobraShot:IsReady(unitID) and ((Player:Focus() - A.CobraShot:GetSpellPowerCost() + Player:FocusRegen() * (A.KillCommand:GetCooldown() - 1) > A.KillCommand:GetSpellPowerCost())\n                or (A.KillCommand:GetCooldown() > 1 + GetGCD()) and A.BestialWrath:GetCooldown() > Player:FocusTimeToMaxPredicted() and A.KillCommand:GetCooldown() > 1)\n            or Unit(unitID):TimeToDie() < 3 then\n                return A.CobraShot:Show(icon)\n            end\n            --actions.cleave+=/tar_trap,if=runeforge.soulforge_embers|runeforge.nessingwarys_trapping_apparatus\n            --actions.cleave+=/freezing_trap,if=runeforge.nessingwarys_trapping_apparatus\n        end\n        --ST\n        local function ST()\n            -- Force BW always on CD\n            if A.BestialWrath:IsCastable() and BurstIsON(unitID) and canCast and canBurst then\n                return A.BestialWrath:Show(icon)\n            end\n            --actions.st=aspect_of_the_wild\n            if A.AspectoftheWild:IsCastable() and BurstIsON(unitID) and Unit(player):HasBuffs(A.AspectoftheWild.ID, true) == 0 and canBurst then\n                return A.AspectoftheWild:Show(icon)\n            end\n            if A.KillShot:IsReady(unit) then\n                return A.KillShot:Show(icon)\n            end\n            \n            if A.BarbedShot:IsCastable() and Unit(pet):HasBuffs(A.FrenzyBuff.ID, true) <= GetGCD() then\n                return A.BarbedShot:Show(icon)\n            end\n            \n            if A.TarTrap:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and MOVRA and SoulForgeEmbersEquipped then\n                return A.TarTrap:Show(icon)\n            end\n            \n            if A.Flare:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and MOVRA and SoulForgeEmbersEquipped then\n                return A.Flare:Show(icon)\n            end\n            --actions.st+=/bloodshed\n            if A.Bloodshed:IsReady(unitID) then\n                return A.Bloodshed:Show(icon)\n            end\n            --actions.st+=/wild_spirits\n            if A.WildSpirits:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and enemies >= WSmin and MOVRA and CovCDs then\n                return A.WildSpirits:Show(icon)\n            end\n            --actions.st+=/flayed_shot\n            if A.FlayedShot:IsReady(unitID) and CovCDs then\n                return A.FlayedShot:Show(icon)\n            end\n            --actions.st+=/kill_shot,if=buff.flayers_mark.remains<5|target.health.pct<=20\n            if A.KillShot:IsReady(unit) then\n                return A.KillShot:Show(icon)\n            end\n            --actions.st+=/barbed_shot,if=cooldown.bestial_wrath.remains<12*charges_fractional+gcd&talent.scent_of_blood|full_recharge_time<gcd&cooldown.bestial_wrath.remains|target.time_to_die<9\n            if A.BarbedShot:IsCastable() and A.BarbedShot:GetSpellChargesFullRechargeTime() < GetGCD() then\n                return A.BarbedShot:Show(icon)\n            end\n            --actions.st+=/death_chakram,if=focus+cast_regen<focus.max\n            if A.DeathChakram:IsReady(unitID) and CovCDs then\n                return A.DeathChakram:Show(icon)\n            end\n            --actions.st+=/stampede,if=buff.aspect_of_the_wild.up|target.time_to_die<15\n            if A.Stampede:IsReady(unitID) and (Unit(player):HasBuffs(A.AspectoftheWild.ID, true) > 0 and Unit(player):HasBuffs(A.BestialWrath.ID, true) > 0 or Unit(unitID):TimeToDie() < 15) then\n                return A.Stampede:Show(icon)\n            end \n            --actions.st+=/a_murder_of_crows\n            if A.AMurderofCrows:IsReady(unitID) then\n                return A.AMurderofCrows:Show(icon)\n            end\n            --actions.st+=/resonating_arrow,if=buff.bestial_wrath.up|target.time_to_die<10\n            if A.ResonatingArrow:IsReady(unitID, true) and (Unit(unitID):GetRange() <= 40 and canBurst) and MOVRA and CovCDs then\n                return A.ResonatingArrow:Show(icon)\n            end\n            --actions.st+=/bestial_wrath,if=cooldown.wild_spirits.remains>15|!covenant.night_fae|target.time_to_die<15\n            if A.BestialWrath:IsReadyByPassCastGCD(unitID) and (A.WildSpirits:GetCooldown() > 15 or not A.WildSpirits:IsSpellLearned()) and BurstIsON(unitID) and canCast and canBurst then\n                return A.BestialWrath:Show(icon)\n            end\n            --actions.st+=/chimaera_shot\n            if A.ChimaeraShot:IsReady(unitID) then\n                return A.ChimaeraShot:Show(icon)\n            end\n            --actions.st+=/kill_command\n            if A.KillCommand:IsReady(unitID) then\n                return A.KillCommand:Show(icon)\n            end\n            --actions.st+=/bag_of_tricks,if=buff.bestial_wrath.down|target.time_to_die<5\n            if A.BagofTricks:IsRacialReady(unitID, true) and Unit(player):HasBuffs(A.BestialWrath.ID, true) == 0 then\n                return A.BagofTricks:Show(icon)\n            end\n            --actions.st+=/dire_beast\n            if A.DireBeast:IsReady(unitID) then\n                return A.DireBeast:Show(icon)\n            end\n            --actions.st+=/cobra_shot,if=(focus-cost+focus.regen*(cooldown.kill_command.remains-1)>action.kill_command.cost|cooldown.kill_command.remains>1+gcd)|(buff.bestial_wrath.up|buff.nesingwarys_trapping_apparatus.up)&!runeforge.qapla_eredun_war_order|target.time_to_die<3\n            if A.CobraShot:IsReady(unitID) and ((Player:Focus() - A.CobraShot:GetSpellPowerCost() + Player:FocusRegen() * (A.KillCommand:GetCooldown() - 1) > A.KillCommand:GetSpellPowerCost())\n                or (A.KillCommand:GetCooldown() > 1 + GetGCD()) and A.BestialWrath:GetCooldown() > Player:FocusTimeToMaxPredicted() and A.KillCommand:GetCooldown() > 1)\n            or Unit(unitID):TimeToDie() < 3 then\n                return A.CobraShot:Show(icon)\n            end\n            --actions.st+=/barbed_shot,if=buff.wild_spirits.up\n            --actions.st+=/arcane_pulse,if=buff.bestial_wrath.down|target.time_to_die<5\n            --actions.st+=/tar_trap,if=runeforge.soulforge_embers|runeforge.nessingwarys_trapping_apparatus\n            --actions.st+=/freezing_trap,if=runeforge.nessingwarys_trapping_apparatus\n        end\n        --Calls\n        --actions+=/call_action_list,name=cds\n        if canBurst and canCast and BurstIsON(unitID) and forcecombat and CD() then\n            return true\n        end\n        --actions+=/call_action_list,name=st,if=active_enemies<2\n        if (not inAoE or (enemies < 2)) and canCast and forcecombat and not forceAoE and ST() then\n            return true\n        end\n        --actions+=/call_action_list,name=cleave,if=active_enemies>1\n        if (enemies > 1 or forceAoE) and canCast and forcecombat and Cleave() then\n            return true\n        end\n        if not forcecombat and not profileStop and Unit(unit):IsExists() and unit ~= \"mouseover\" and not Player:IsMounted() and not Unit(unit):IsDead() and PreCombat() then\n            return true\n        end\n    end\n    \n    if A.BurstingShot:IsReady(unitID, true) and not Unit(unitID):IsDead() and MultiUnits:GetByRange(5, 1) >= 1 and Unit(player):IsTankingAoE(10) and BSCS then\n        return A.BurstingShot:Show(icon)\n    end\n    \n    ---- ConcussiveShot if:\n    -- PvE: Low hp while KillShot isn't ready AND player has aggro AND target not slowed AND (no pet active OR pet is dead)\n    -- PvP: target is moving AND target not slowed AND player camouflage isn't active AND MaxSpeed >= 100 AND trushot down\n    -- Both: target not phys imune AND target exists AND target is alive\n    if A.ConcussiveShot:IsReady(unitID) and not Unit(unitID):IsDead() and Unit(unitID):IsExists() and\n    (\n        (\n            BSCS and \n            not A.IsInPvP and\n            Unit(player):IsTankingAoE(10) and\n            Unit(unitID):HasDeBuffs(\"Slowed\") == 0 and\n            Unit(unitID):GetMaxSpeed() >= 100 and\n            (Unit(player):HealthPercent() < 20 and not A.KillShot:IsReady(unit)) and\n            (not Pet:IsActive() or Unit(pet):HealthPercent() <1)\n        ) or \n        (\n            BSCS and\n            A.IsInPvP and\n            isMovingOut and\n            Unit(player):HasBuffs(A.CamouflageBuff.ID, true) == 0 and\n            Unit(unitID):HasDeBuffs(\"Slowed\") == 0 and\n            Unit(unitID):GetMaxSpeed() >= 100 and\n            not A.KillShot:IsReady(unit) and\n            Unit(unitID):HealthPercent() > 15\n        ) and\n        A.ConcussiveShot:AbsentImun(unitID, Temp.TotalAndPhys)\n    ) then\n        return A.ConcussiveShot:Show(icon)\n    end\n    \n    -- Defensive\n    local SelfDefensive = SelfDefensives()\n    if SelfDefensive then \n        return SelfDefensive:Show(icon)\n    end \n    \n    \n    -- Mouseover \n    if A.IsUnitEnemy(\"mouseover\") then \n        unit = \"mouseover\"\n        if not Unit(unitID):IsDead() and EnemyRotation(unit) then \n            return true\n        end \n        \n    end    \n    \n    -- Target  \n    if A.IsUnitEnemy(\"target\") then \n        unit = \"target\"\n        if not Unit(unitID):IsDead() and EnemyRotation(unit) then \n            return true\n        end \n        \n    end\n    \nend\n\nA[6] = function(icon)\n    if IsUnitEnemy(target) and not Unit(player):IsMounted() and not UnitIsUnit(\"pettarget\", target) and Unit(player):CombatTime() > 0 and Unit(target):CombatTime() > 0 then\n        return A.PetAttackTarget:Show(icon)\n    end\nend\n\n-- Nil (nothing for profile here, just reset them)\nA[1] = nil\nA[2] = nil  \nA[4] = nil \nA[5] = nil \nA[7] = nil\nA[8] = nil \n\n",
 				}, -- [3]
 				{
 					["Name"] = "Ryan Support",
